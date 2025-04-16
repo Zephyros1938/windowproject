@@ -1,25 +1,38 @@
-use gl::{ARRAY_BUFFER, STATIC_DRAW};
+use gl::{ARRAY_BUFFER, ELEMENT_ARRAY_BUFFER, STATIC_DRAW};
 use glfw::ffi::*;
+use shader::Shader;
 use std::ffi::{CStr, CString};
-use std::ptr;
+use std::ptr::{self};
 mod util;
 use log::{debug, error};
 use util::*;
+mod asset_management;
 mod macros;
-use macros::*;
+mod shader;
+mod texture;
 // https://learnopengl.com/Getting-started/Hello-Triangle
 
 // **constant shader test values**
-const VERTICES: [f32; 9] = [-0.5, -0.5, 0.0, 0.5, -0.5, 0.0, 0.0, 0.5, 0.0];
+const VERTICES: [f32; 32] = [
+    // positions          // colors           // texture coords
+    0.5, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, // top right
+    0.5, -0.5, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, // bottom right
+    -0.5, -0.5, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, // bottom left
+    -0.5, 0.5, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, // top left
+];
+const INDICES: [u32; 6] = [
+    0, 1, 3, // first triangle
+    1, 2, 3, // second triangle
+];
 
 #[allow(non_camel_case_types, non_snake_case)]
 fn main() -> LinuxExitCode {
     unsafe {
+        util::init_log4rs();
         if glfw::ffi::glfwInit() == 0 {
+            error!("GLFW failed to initialize!");
             panic!("GLFW failed to initialize!");
         }
-        log4rs::init_file("log4rs.yml", Default::default()).unwrap();
-        debug!("log4rs configured!");
 
         glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
         glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
@@ -38,23 +51,20 @@ fn main() -> LinuxExitCode {
         );
         if window.is_null() {
             glfwTerminate();
-            eprintln!("Failed to create GLFW window!");
+            error!("Failed to create GLFW window!");
             return LinuxExitCode::ERR(1);
         }
 
         glfwMakeContextCurrent(window);
 
-        gl::load_with(|name| {
-            let cname = CString::new(name).unwrap();
-            glfwGetProcAddress(cname.as_ptr()) as *const _
-        });
+        gl::load_with(|name| glfwGetProcAddress(cstr_ptr!(name)) as *const _);
         gl::Viewport(0, 0, 800, 600);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
 
         let version = CStr::from_ptr(gl::GetString(gl::VERSION) as *const _)
             .to_str()
-            .unwrap();
+            .expect("Unknown Version");
         debug!("Using OpenGL version: {}", version);
         let window_title = CString::new(format!("{:#?} - {}", title, version)).unwrap();
         glfw::ffi::glfwSetWindowTitle(window, window_title.as_ptr());
@@ -65,10 +75,17 @@ fn main() -> LinuxExitCode {
             }
         }
 
-        // SHADER CREATION
+        let ourShader: Shader = shader::ShaderConstructor("shaders/test.vert", "shaders/test.frag");
+        ourShader.useshader();
 
+        let mut vao: u32 = 0;
+        gl::GenVertexArrays(1, &mut vao);
         let mut vbo: u32 = 0;
         gl::GenBuffers(1, &mut vbo);
+        let mut ebo: u32 = 0;
+        gl::GenBuffers(1, &mut ebo);
+
+        gl::BindVertexArray(vao);
         gl::BindBuffer(ARRAY_BUFFER, vbo);
         gl::BufferData(
             ARRAY_BUFFER,
@@ -76,75 +93,47 @@ fn main() -> LinuxExitCode {
             as_c_void!(VERTICES),
             STATIC_DRAW,
         );
-
-        // Vertex Shader Creation
-
-        let vertexShaderSource = cstr!(
-            "
-            #version 330 core
-            layout (location = 0) in vec3 aPos;
-
-            void main()
-            {
-                gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
-            }"
+        gl::BindBuffer(ELEMENT_ARRAY_BUFFER, ebo);
+        gl::BufferData(
+            ELEMENT_ARRAY_BUFFER,
+            sizeof_val!(INDICES).try_into().unwrap(),
+            as_c_void!(INDICES),
+            STATIC_DRAW,
         );
-        let vertexShader: u32 = gl::CreateShader(gl::VERTEX_SHADER);
-        gl::ShaderSource(
-            vertexShader,
-            1,
-            cstr_to_ptr_array!(vertexShaderSource),
-            std::ptr::null(),
-        );
-        gl::CompileShader(vertexShader);
-        check_shader_compile!(vertexShader);
 
-        // Fragment Shader Creation
-
-        let fragmentShaderSource = cstr!(
-            "#version 330 core
-        out vec4 FragColor;
-
-        void main()
-        {
-            FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);
-        } "
-        );
-        let fragmentShader: u32 = gl::CreateShader(gl::FRAGMENT_SHADER);
-        gl::ShaderSource(
-            fragmentShader,
-            1,
-            cstr_to_ptr_array!(fragmentShaderSource),
-            std::ptr::null(),
-        );
-        gl::CompileShader(fragmentShader);
-        check_shader_compile!(fragmentShader);
-
-        // Shader Program Creation
-
-        let shaderProgram: u32 = gl::CreateProgram();
-        gl::AttachShader(shaderProgram, vertexShader);
-        gl::AttachShader(shaderProgram, fragmentShader);
-        gl::LinkProgram(shaderProgram);
-        check_program_link!(shaderProgram);
-        gl::UseProgram(shaderProgram);
-        gl::DeleteShader(vertexShader);
-        gl::DeleteShader(fragmentShader);
-
-        // Vertex Array Object Creation
-
-        let mut vao: u32 = 0;
-        gl::GenVertexArrays(1, &mut vao);
-        gl::BindVertexArray(vao);
         gl::VertexAttribPointer(
             0,
             3,
             gl::FLOAT,
             gl::FALSE,
-            3 * sizeof!(f32) as i32,
+            8 * sizeof!(f32),
             std::ptr::null(),
         );
         gl::EnableVertexAttribArray(0);
+        debug!("Enabled vaa 0");
+        gl::VertexAttribPointer(
+            1,
+            3,
+            gl::FLOAT,
+            gl::FALSE,
+            8 * sizeof!(f32),
+            (3 * sizeof!(f32)) as *const _,
+        );
+        gl::EnableVertexAttribArray(1);
+        debug!("Enabled vaa 1");
+        gl::VertexAttribPointer(
+            2,
+            2,
+            gl::FLOAT,
+            gl::FALSE,
+            8 * sizeof!(f32),
+            (6 * sizeof!(f32)) as *const _,
+        );
+        gl::EnableVertexAttribArray(2);
+        debug!("Enabled vaa 2");
+
+        let tex: texture::Texture = texture::TextureConstructor("textures/container.jpg");
+        gl::BindVertexArray(0);
 
         while glfwWindowShouldClose(window) == 0 {
             process_input(window);
@@ -152,30 +141,21 @@ fn main() -> LinuxExitCode {
             gl::ClearColor(0.2, 0.3, 0.3, 1.0);
             gl::Clear(gl::COLOR_BUFFER_BIT);
 
-            gl::UseProgram(shaderProgram);
+            ourShader.useshader();
+            gl::BindTexture(gl::TEXTURE_2D, tex.get_texture());
             gl::BindVertexArray(vao);
-            gl::DrawArrays(gl::TRIANGLES, 0, 3);
+            gl::DrawElements(gl::TRIANGLES, 6, gl::UNSIGNED_INT, std::ptr::null());
 
             glfwPollEvents();
             glfwSwapBuffers(window);
         }
 
+        gl::DeleteVertexArrays(1, &mut vao);
+        gl::DeleteBuffers(1, &mut vbo);
+        gl::DeleteProgram(ourShader.getId());
+
         glfwDestroyWindow(window);
         glfwTerminate();
     }
     LinuxExitCode::OK
-}
-
-pub enum LinuxExitCode {
-    OK,
-    ERR(u8),
-}
-
-impl std::process::Termination for LinuxExitCode {
-    fn report(self) -> std::process::ExitCode {
-        match self {
-            LinuxExitCode::OK => std::process::ExitCode::SUCCESS,
-            LinuxExitCode::ERR(v) => std::process::ExitCode::from(v),
-        }
-    }
 }
