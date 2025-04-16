@@ -34,10 +34,6 @@ fn main() -> LinuxExitCode {
             panic!("GLFW failed to initialize!");
         }
 
-        glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
-        glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
-        glfwWindowHint(OPENGL_PROFILE as i32, OPENGL_CORE_PROFILE as i32);
-
         let width: i32 = 800;
         let height: i32 = 600;
         let title = CString::new("My GLFW Window").unwrap();
@@ -49,6 +45,10 @@ fn main() -> LinuxExitCode {
             ptr::null_mut(),
             ptr::null_mut(),
         );
+
+        glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
+        glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
+        glfwWindowHint(OPENGL_PROFILE as i32, OPENGL_CORE_PROFILE as i32);
         if window.is_null() {
             glfwTerminate();
             error!("Failed to create GLFW window!");
@@ -57,7 +57,10 @@ fn main() -> LinuxExitCode {
 
         glfwMakeContextCurrent(window);
 
-        gl::load_with(|name| glfwGetProcAddress(cstr_ptr!(name)) as *const _);
+        gl::load_with(|name| {
+            let cstr = CString::new(name).unwrap();
+            glfwGetProcAddress(cstr.as_ptr()) as *const _
+        });
         gl::Viewport(0, 0, 800, 600);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));

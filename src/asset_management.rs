@@ -1,5 +1,6 @@
+use std::ffi::CString;
 use std::{env, ffi::OsString};
-use std::{ffi::CStr, fs::File, io::Read};
+use std::{fs::File, io::Read};
 
 use crate::cstr;
 
@@ -25,6 +26,35 @@ pub fn get_asset(path: &str) -> Result<std::fs::File, String> {
     let asset_path = assets_dir.join(path);
     if asset_path.is_file() {
         Ok(File::open(&asset_path).unwrap())
+    } else {
+        Err(format!("Asset not found: {}", asset_path.display()))
+    }
+}
+#[allow(dead_code)]
+pub fn get_asset_path(path: &str) -> Result<String, String> {
+    let assets_dir = get_assets_dir();
+    let asset_path = assets_dir.join(path);
+    if asset_path.is_file() {
+        Ok(asset_path
+            .as_path()
+            .to_str()
+            .expect("Could not convert asset path to string.")
+            .to_string())
+    } else {
+        Err(format!("Asset not found: {}", asset_path.display()))
+    }
+}
+
+#[allow(dead_code)]
+pub fn get_asset_path_cstr(path: &str) -> Result<CString, String> {
+    let assets_dir = get_assets_dir();
+    let asset_path = assets_dir.join(path);
+    if asset_path.is_file() {
+        let asset_str = asset_path
+            .as_path()
+            .to_str()
+            .expect("Could not convert asset path to string.");
+        Ok(CString::new(asset_str).unwrap())
     } else {
         Err(format!("Asset not found: {}", asset_path.display()))
     }

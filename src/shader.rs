@@ -56,7 +56,7 @@ impl Shader {
     pub unsafe fn setBool(&self, name: &str, value: bool) {
         unsafe {
             gl::Uniform1i(
-                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name)),
+                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 value as i32,
             );
         }
@@ -64,7 +64,7 @@ impl Shader {
     pub unsafe fn setInt(&self, name: &str, value: i32) {
         unsafe {
             gl::Uniform1i(
-                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name)),
+                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 value,
             );
         }
@@ -72,7 +72,7 @@ impl Shader {
     pub unsafe fn setFloat(&self, name: &str, value: f32) {
         unsafe {
             gl::Uniform1f(
-                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name)),
+                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 value,
             );
         }
@@ -87,7 +87,7 @@ impl Shader {
     ) {
         unsafe {
             gl::Uniform4f(
-                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name)),
+                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 v0,
                 v1,
                 v2,

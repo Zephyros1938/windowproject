@@ -41,7 +41,7 @@ macro_rules! cstr_ptr {
     ($s:expr) => {{
         let c_string = crate::cstr!($s);
         let ptr = c_string.as_ptr();
-        ptr
+        (c_string, ptr)
     }};
 }
 #[macro_export]
