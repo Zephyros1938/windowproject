@@ -1,4 +1,5 @@
-use gl;
+use gl::{self, types::GLenum};
+use glfw::ffi::TRUE;
 use log::{debug, error};
 use stb_image;
 
@@ -12,13 +13,30 @@ impl Texture {
     }
 }
 
-pub unsafe fn TextureConstructor(location: &str) -> Texture {
+pub unsafe fn TextureConstructor(
+    location: &str,
+    format: GLenum,
+    flip: bool,
+    wrap_s: Option<GLenum>,
+    wrap_t: Option<GLenum>,
+    min_filter: Option<GLenum>,
+    mag_filter: Option<GLenum>,
+) -> Texture {
     unsafe {
         debug!("Loading Texture");
         let mut texture = 0;
+
         gl::GenTextures(1, &mut texture);
         gl::BindTexture(gl::TEXTURE_2D, texture);
-        gl::TexParameteri(gl::TEXTURE_2D, gl::TEXTURE_WRAP_S, gl::REPEAT as i32);
+        gl::TexParameteri(
+            gl::TEXTURE_2D,
+            gl::TEXTURE_WRAP_S,
+            match wrap_s {
+                Some(gl::REPEAT) => gl::REPEAT,
+                None => gl::REPEAT,
+                Some(_) => gl::REPEAT,
+            } as i32,
+        );
         gl::TexParameteri(gl::TEXTURE_2D, gl::TEXTURE_WRAP_T, gl::REPEAT as i32);
         gl::TexParameteri(
             gl::TEXTURE_2D,
@@ -31,7 +49,9 @@ pub unsafe fn TextureConstructor(location: &str) -> Texture {
         let mut nrChannels: i32 = 0;
         let loc = crate::asset_management::get_asset_path_cstr(location)
             .expect("Could not get asset path");
-
+        if flip {
+            stb_image::stb_image::stbi_set_flip_vertically_on_load(TRUE);
+        }
         let data: *mut std::ffi::c_void = stb_image::stb_image::stbi_load(
             loc.as_ptr(),
             &mut width,
@@ -48,7 +68,7 @@ pub unsafe fn TextureConstructor(location: &str) -> Texture {
                 width,
                 height,
                 0,
-                gl::RGB,
+                format,
                 gl::UNSIGNED_BYTE,
                 data,
             );

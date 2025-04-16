@@ -113,7 +113,7 @@ fn main() -> LinuxExitCode {
             std::ptr::null(),
         );
         gl::EnableVertexAttribArray(0);
-        debug!("Enabled vaa 0");
+        debug!("Enabled Vertex Attrib Array 0");
         gl::VertexAttribPointer(
             1,
             3,
@@ -123,7 +123,7 @@ fn main() -> LinuxExitCode {
             (3 * sizeof!(f32)) as *const _,
         );
         gl::EnableVertexAttribArray(1);
-        debug!("Enabled vaa 1");
+        debug!("Enabled Vertex Attrib Array 1");
         gl::VertexAttribPointer(
             2,
             2,
@@ -133,9 +133,14 @@ fn main() -> LinuxExitCode {
             (6 * sizeof!(f32)) as *const _,
         );
         gl::EnableVertexAttribArray(2);
-        debug!("Enabled vaa 2");
+        debug!("Enabled Vertex Attrib Array 2");
 
-        let tex: texture::Texture = texture::TextureConstructor("textures/container.jpg");
+        let tex_crate: texture::Texture =
+            texture::TextureConstructor("textures/container.jpg", gl::RGB, false);
+        let tex_awesome: texture::Texture =
+            texture::TextureConstructor("textures/awesomeface.png", gl::RGBA, true);
+        ourShader.setInt("texture1", 0);
+        ourShader.setInt("texture2", 1);
         gl::BindVertexArray(0);
 
         while glfwWindowShouldClose(window) == 0 {
@@ -145,7 +150,10 @@ fn main() -> LinuxExitCode {
             gl::Clear(gl::COLOR_BUFFER_BIT);
 
             ourShader.useshader();
-            gl::BindTexture(gl::TEXTURE_2D, tex.get_texture());
+            gl::ActiveTexture(gl::TEXTURE0);
+            gl::BindTexture(gl::TEXTURE_2D, tex_crate.get_texture());
+            gl::ActiveTexture(gl::TEXTURE1);
+            gl::BindTexture(gl::TEXTURE_2D, tex_awesome.get_texture());
             gl::BindVertexArray(vao);
             gl::DrawElements(gl::TRIANGLES, 6, gl::UNSIGNED_INT, std::ptr::null());
 
