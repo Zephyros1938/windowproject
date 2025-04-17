@@ -1,13 +1,12 @@
 #![allow(non_snake_case, non_camel_case_types)]
 
-use gl::FALSE;
 use glfw::ffi::*;
 use log::{debug, error};
 use nalgebra_glm as glm;
 use shader::Shader;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
-use util::{LinuxExitCode, framebuffer_size_callback};
+use util::LinuxExitCode;
 mod asset_management;
 mod macros;
 mod shader;
@@ -77,12 +76,6 @@ fn main() -> LinuxExitCode {
         let window_title = CString::new(format!("{:#?} - {}", title, version)).unwrap();
         glfw::ffi::glfwSetWindowTitle(window, window_title.as_ptr());
 
-        fn process_input(window: *mut GLFWwindow) {
-            if unsafe { glfwGetKey(window, KEY_ESCAPE) } == PRESS {
-                unsafe { glfwSetWindowShouldClose(window, TRUE) };
-            }
-        }
-
         let ourShader: Shader = shader::ShaderConstructor("shaders/test.vert", "shaders/test.frag");
         ourShader.useshader();
 
@@ -90,8 +83,6 @@ fn main() -> LinuxExitCode {
         gl::GenVertexArrays(1, &mut vao);
         let mut vbo: u32 = 0;
         gl::GenBuffers(1, &mut vbo);
-        // let mut ebo: u32 = 0;
-        // gl::GenBuffers(1, &mut ebo);
 
         gl::BindVertexArray(vao);
         gl::BindBuffer(gl::ARRAY_BUFFER, vbo);
@@ -144,8 +135,6 @@ fn main() -> LinuxExitCode {
         ourShader.setInt("texture1", 0);
         ourShader.setInt("texture2", 1);
 
-        // https://learnopengl.com/Getting-started/Coordinate-Systems
-
         let CUBE_POSITIONS = [
             glm::vec3(0.0, 0.0, 0.0),
             glm::vec3(2.0, 5.0, -15.0),
@@ -164,9 +153,10 @@ fn main() -> LinuxExitCode {
         let mut model = util::glmaddon::mat4(1.032);
         model = glm::rotate(&model, -55f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
-        ourShader.setMat4f("view", view, FALSE);
-        ourShader.setMat4f("projection", projection, FALSE);
-        ourShader.setMat4f("model", model, FALSE);
+        ourShader.setMat4f("view", view, gl::FALSE);
+        ourShader.setMat4f("projection", projection, gl::FALSE);
+        ourShader.setMat4f("model", model, gl::FALSE);
+        ourShader.setFloat("depthFactor", 2.0);
         gl::BindVertexArray(0);
 
         while glfwWindowShouldClose(window) == 0 {
@@ -186,7 +176,7 @@ fn main() -> LinuxExitCode {
                 model = glm::translate(&model, &CUBE_POSITIONS[i]);
                 let angle = 20f32 * (i as f32);
                 model = glm::rotate(&model, angle.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
-                ourShader.setMat4f("model", model, FALSE);
+                ourShader.setMat4f("model", model, gl::FALSE);
                 gl::DrawArrays(gl::TRIANGLES, 0, 36);
             }
 
@@ -202,4 +192,15 @@ fn main() -> LinuxExitCode {
         glfwTerminate();
     }
     LinuxExitCode::OK
+}
+
+extern "C" fn framebuffer_size_callback(_window: *mut GLFWwindow, width: i32, height: i32) {
+    unsafe {
+        gl::Viewport(0, 0, width, height);
+    }
+}
+extern "C" fn process_input(window: *mut GLFWwindow) {
+    if unsafe { glfwGetKey(window, KEY_ESCAPE) } == PRESS {
+        unsafe { glfwSetWindowShouldClose(window, TRUE) };
+    }
 }

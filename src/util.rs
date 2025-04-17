@@ -1,11 +1,4 @@
-use glfw::ffi::*;
 pub mod glmaddon;
-
-pub extern "C" fn framebuffer_size_callback(_window: *mut GLFWwindow, width: i32, height: i32) {
-    unsafe {
-        gl::Viewport(0, 0, width, height);
-    }
-}
 
 pub fn init_log4rs() {
     log4rs::init_file("log4rs.yml", Default::default()).unwrap();
