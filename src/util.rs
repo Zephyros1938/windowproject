@@ -1,4 +1,5 @@
 use glfw::ffi::*;
+pub mod glmaddon;
 
 pub extern "C" fn framebuffer_size_callback(_window: *mut GLFWwindow, width: i32, height: i32) {
     unsafe {

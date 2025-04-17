@@ -1,10 +1,13 @@
 #![allow(non_snake_case, non_camel_case_types)]
+
+use gl::FALSE;
 use glfw::ffi::*;
 use log::{debug, error};
+use nalgebra_glm as glm;
 use shader::Shader;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
-use util::*;
+use util::{LinuxExitCode, framebuffer_size_callback};
 mod asset_management;
 mod macros;
 mod shader;
@@ -13,16 +16,18 @@ mod util;
 // https://learnopengl.com/Getting-started/Hello-Triangle
 
 // **constant shader test values**
-const VERTICES: [f32; 32] = [
-    // positions          // colors           // texture coords
-    0.5, 0.5, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, // top right
-    0.5, -0.5, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, // bottom right
-    -0.5, -0.5, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, // bottom left
-    -0.5, 0.5, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, // top left
-];
-const INDICES: [u32; 6] = [
-    0, 1, 3, // first triangle
-    1, 2, 3, // second triangle
+const VERTICES: [f32; 180] = [
+    -0.5, -0.5, -0.5, 0.0, 0.0, 0.5, -0.5, -0.5, 1.0, 0.0, 0.5, 0.5, -0.5, 1.0, 1.0, 0.5, 0.5,
+    -0.5, 1.0, 1.0, -0.5, 0.5, -0.5, 0.0, 1.0, -0.5, -0.5, -0.5, 0.0, 0.0, -0.5, -0.5, 0.5, 0.0,
+    0.0, 0.5, -0.5, 0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 1.0, -0.5, 0.5,
+    0.5, 0.0, 1.0, -0.5, -0.5, 0.5, 0.0, 0.0, -0.5, 0.5, 0.5, 1.0, 0.0, -0.5, 0.5, -0.5, 1.0, 1.0,
+    -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, -0.5, 0.5, 0.0, 0.0, -0.5, 0.5,
+    0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, 0.5, 0.5, -0.5, 1.0, 1.0, 0.5, -0.5, -0.5, 0.0, 1.0,
+    0.5, -0.5, -0.5, 0.0, 1.0, 0.5, -0.5, 0.5, 0.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, -0.5, -0.5, -0.5,
+    0.0, 1.0, 0.5, -0.5, -0.5, 1.0, 1.0, 0.5, -0.5, 0.5, 1.0, 0.0, 0.5, -0.5, 0.5, 1.0, 0.0, -0.5,
+    -0.5, 0.5, 0.0, 0.0, -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, 0.5, -0.5, 0.0, 1.0, 0.5, 0.5, -0.5,
+    1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, -0.5, 0.5, 0.5, 0.0, 0.0, -0.5,
+    0.5, -0.5, 0.0, 1.0,
 ];
 
 fn main() -> LinuxExitCode {
@@ -61,6 +66,7 @@ fn main() -> LinuxExitCode {
             glfwGetProcAddress(cstr.as_ptr()) as *const _
         });
         gl::Viewport(0, 0, 800, 600);
+        gl::Enable(gl::DEPTH_TEST);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
 
@@ -84,8 +90,8 @@ fn main() -> LinuxExitCode {
         gl::GenVertexArrays(1, &mut vao);
         let mut vbo: u32 = 0;
         gl::GenBuffers(1, &mut vbo);
-        let mut ebo: u32 = 0;
-        gl::GenBuffers(1, &mut ebo);
+        // let mut ebo: u32 = 0;
+        // gl::GenBuffers(1, &mut ebo);
 
         gl::BindVertexArray(vao);
         gl::BindBuffer(gl::ARRAY_BUFFER, vbo);
@@ -95,44 +101,44 @@ fn main() -> LinuxExitCode {
             as_c_void!(VERTICES),
             gl::STATIC_DRAW,
         );
-        gl::BindBuffer(gl::ELEMENT_ARRAY_BUFFER, ebo);
-        gl::BufferData(
-            gl::ELEMENT_ARRAY_BUFFER,
-            sizeof_val!(INDICES).try_into().unwrap(),
-            as_c_void!(INDICES),
-            gl::STATIC_DRAW,
-        );
+        // gl::BindBuffer(gl::ELEMENT_ARRAY_BUFFER, ebo);
+        // gl::BufferData(
+        //     gl::ELEMENT_ARRAY_BUFFER,
+        //     sizeof_val!(INDICES).try_into().unwrap(),
+        //     as_c_void!(INDICES),
+        //     gl::STATIC_DRAW,
+        // );
 
         gl::VertexAttribPointer(
             0,
             3,
             gl::FLOAT,
             gl::FALSE,
-            8 * sizeof!(f32),
+            5 * sizeof!(f32),
             std::ptr::null(),
         );
         gl::EnableVertexAttribArray(0);
         debug!("Enabled Vertex Attrib Array 0");
         gl::VertexAttribPointer(
             1,
-            3,
+            2,
             gl::FLOAT,
             gl::FALSE,
-            8 * sizeof!(f32),
+            5 * sizeof!(f32),
             (3 * sizeof!(f32)) as *const _,
         );
         gl::EnableVertexAttribArray(1);
         debug!("Enabled Vertex Attrib Array 1");
-        gl::VertexAttribPointer(
-            2,
-            2,
-            gl::FLOAT,
-            gl::FALSE,
-            8 * sizeof!(f32),
-            (6 * sizeof!(f32)) as *const _,
-        );
-        gl::EnableVertexAttribArray(2);
-        debug!("Enabled Vertex Attrib Array 2");
+        // gl::VertexAttribPointer(
+        //     2,
+        //     2,
+        //     gl::FLOAT,
+        //     gl::FALSE,
+        //     8 * sizeof!(f32),
+        //     (6 * sizeof!(f32)) as *const _,
+        // );
+        // gl::EnableVertexAttribArray(2);
+        // debug!("Enabled Vertex Attrib Array 2");
 
         let tex_crate: texture::Texture = texture::TextureConstructor(
             "textures/container.jpg",
@@ -154,6 +160,30 @@ fn main() -> LinuxExitCode {
         );
         ourShader.setInt("texture1", 0);
         ourShader.setInt("texture2", 1);
+
+        // https://learnopengl.com/Getting-started/Coordinate-Systems
+
+        let CUBE_POSITIONS = [
+            glm::vec3(0.0, 0.0, 0.0),
+            glm::vec3(2.0, 5.0, -15.0),
+            glm::vec3(-1.5, -2.2, -2.5),
+            glm::vec3(-3.8, -2.0, -12.3),
+            glm::vec3(2.4, -0.4, -3.5),
+            glm::vec3(-1.7, 3.0, -7.5),
+            glm::vec3(1.3, -2.0, -2.5),
+            glm::vec3(1.5, 2.0, -2.5),
+            glm::vec3(1.5, 0.2, -1.5),
+            glm::vec3(-1.3, 1.0, -1.5),
+        ];
+
+        let mut view = crate::util::glmaddon::mat4(1.032);
+        view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
+        let projection = glm::perspective(800f32 / 600f32, 45f32.to_radians(), 0.1f32, 100f32);
+        let mut model = util::glmaddon::mat4(1.032);
+        model = glm::rotate(&model, -55f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
+        ourShader.setMat4f("view", view, FALSE);
+        ourShader.setMat4f("projection", projection, FALSE);
+        ourShader.setMat4f("model", model, FALSE);
         gl::BindVertexArray(0);
 
         while glfwWindowShouldClose(window) == 0 {
@@ -168,7 +198,8 @@ fn main() -> LinuxExitCode {
             gl::ActiveTexture(gl::TEXTURE1);
             gl::BindTexture(gl::TEXTURE_2D, tex_awesome.get_texture());
             gl::BindVertexArray(vao);
-            gl::DrawElements(gl::TRIANGLES, 6, gl::UNSIGNED_INT, std::ptr::null());
+            for 
+            gl::DrawArrays(gl::TRIANGLES, 0, 36);
 
             glfwPollEvents();
             glfwSwapBuffers(window);

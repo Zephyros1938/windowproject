@@ -1,5 +1,6 @@
 #![allow(non_snake_case, non_camel_case_types, dead_code)]
-use gl::types::{self, GLuint};
+use gl::types::{self, GLboolean, GLuint};
+use nalgebra_glm as glm;
 
 use crate::asset_management::read_asset_to_cstr;
 mod buffer;
@@ -72,6 +73,16 @@ impl Shader {
             gl::Uniform1f(
                 gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 value,
+            );
+        }
+    }
+    pub unsafe fn setMat4f(&self, name: &str, value: glm::TMat4<f32>, transpose: GLboolean) {
+        unsafe {
+            gl::UniformMatrix4fv(
+                gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
+                1,
+                transpose,
+                value.as_ptr(),
             );
         }
     }
