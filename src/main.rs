@@ -1,15 +1,15 @@
-use gl::{ARRAY_BUFFER, ELEMENT_ARRAY_BUFFER, STATIC_DRAW};
+#![allow(non_snake_case, non_camel_case_types)]
 use glfw::ffi::*;
+use log::{debug, error};
 use shader::Shader;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
-mod util;
-use log::{debug, error};
 use util::*;
 mod asset_management;
 mod macros;
 mod shader;
 mod texture;
+mod util;
 // https://learnopengl.com/Getting-started/Hello-Triangle
 
 // **constant shader test values**
@@ -25,7 +25,6 @@ const INDICES: [u32; 6] = [
     1, 2, 3, // second triangle
 ];
 
-#[allow(non_camel_case_types, non_snake_case)]
 fn main() -> LinuxExitCode {
     unsafe {
         util::init_log4rs();
@@ -89,19 +88,19 @@ fn main() -> LinuxExitCode {
         gl::GenBuffers(1, &mut ebo);
 
         gl::BindVertexArray(vao);
-        gl::BindBuffer(ARRAY_BUFFER, vbo);
+        gl::BindBuffer(gl::ARRAY_BUFFER, vbo);
         gl::BufferData(
-            ARRAY_BUFFER,
+            gl::ARRAY_BUFFER,
             sizeof_val!(VERTICES).try_into().unwrap(),
             as_c_void!(VERTICES),
-            STATIC_DRAW,
+            gl::STATIC_DRAW,
         );
-        gl::BindBuffer(ELEMENT_ARRAY_BUFFER, ebo);
+        gl::BindBuffer(gl::ELEMENT_ARRAY_BUFFER, ebo);
         gl::BufferData(
-            ELEMENT_ARRAY_BUFFER,
+            gl::ELEMENT_ARRAY_BUFFER,
             sizeof_val!(INDICES).try_into().unwrap(),
             as_c_void!(INDICES),
-            STATIC_DRAW,
+            gl::STATIC_DRAW,
         );
 
         gl::VertexAttribPointer(
@@ -135,10 +134,24 @@ fn main() -> LinuxExitCode {
         gl::EnableVertexAttribArray(2);
         debug!("Enabled Vertex Attrib Array 2");
 
-        let tex_crate: texture::Texture =
-            texture::TextureConstructor("textures/container.jpg", gl::RGB, false);
-        let tex_awesome: texture::Texture =
-            texture::TextureConstructor("textures/awesomeface.png", gl::RGBA, true);
+        let tex_crate: texture::Texture = texture::TextureConstructor(
+            "textures/container.jpg",
+            gl::RGB,
+            false,
+            None,
+            None,
+            None,
+            None,
+        );
+        let tex_awesome: texture::Texture = texture::TextureConstructor(
+            "textures/awesomeface.png",
+            gl::RGBA,
+            true,
+            None,
+            None,
+            None,
+            None,
+        );
         ourShader.setInt("texture1", 0);
         ourShader.setInt("texture2", 1);
         gl::BindVertexArray(0);
@@ -147,7 +160,7 @@ fn main() -> LinuxExitCode {
             process_input(window);
 
             gl::ClearColor(0.2, 0.3, 0.3, 1.0);
-            gl::Clear(gl::COLOR_BUFFER_BIT);
+            gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT | gl::STENCIL_BUFFER_BIT);
 
             ourShader.useshader();
             gl::ActiveTexture(gl::TEXTURE0);

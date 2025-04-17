@@ -1,3 +1,4 @@
+#![allow(non_snake_case, non_camel_case_types, dead_code)]
 use gl::{self, types::GLenum};
 use glfw::ffi::TRUE;
 use log::{debug, error};
@@ -32,18 +33,44 @@ pub unsafe fn TextureConstructor(
             gl::TEXTURE_2D,
             gl::TEXTURE_WRAP_S,
             match wrap_s {
-                Some(gl::REPEAT) => gl::REPEAT,
-                None => gl::REPEAT,
-                Some(_) => gl::REPEAT,
+                Some(gl::MIRRORED_REPEAT) => gl::MIRRORED_REPEAT,
+                Some(gl::CLAMP_TO_EDGE) => gl::CLAMP_TO_EDGE,
+                None | Some(_) => gl::REPEAT,
             } as i32,
         );
-        gl::TexParameteri(gl::TEXTURE_2D, gl::TEXTURE_WRAP_T, gl::REPEAT as i32);
+        gl::TexParameteri(
+            gl::TEXTURE_2D,
+            gl::TEXTURE_WRAP_T,
+            match wrap_t {
+                Some(gl::MIRRORED_REPEAT) => gl::MIRRORED_REPEAT,
+                Some(gl::CLAMP_TO_EDGE) => gl::CLAMP_TO_EDGE,
+                None | Some(_) => gl::REPEAT,
+            } as i32,
+        );
         gl::TexParameteri(
             gl::TEXTURE_2D,
             gl::TEXTURE_MIN_FILTER,
-            gl::LINEAR_MIPMAP_LINEAR as i32,
+            match min_filter {
+                Some(gl::LINEAR) => gl::LINEAR,
+                Some(gl::NEAREST_MIPMAP_NEAREST) => gl::NEAREST_MIPMAP_NEAREST,
+                Some(gl::LINEAR_MIPMAP_NEAREST) => gl::LINEAR_MIPMAP_NEAREST,
+                Some(gl::NEAREST_MIPMAP_LINEAR) => gl::NEAREST_MIPMAP_LINEAR,
+                Some(gl::NEAREST) => gl::NEAREST,
+                None | Some(_) => gl::LINEAR_MIPMAP_LINEAR,
+            } as i32,
         );
-        gl::TexParameteri(gl::TEXTURE_2D, gl::TEXTURE_MAG_FILTER, gl::LINEAR as i32);
+        gl::TexParameteri(
+            gl::TEXTURE_2D,
+            gl::TEXTURE_MAG_FILTER,
+            match mag_filter {
+                Some(gl::NEAREST) => gl::NEAREST,
+                Some(gl::NEAREST_MIPMAP_NEAREST) => gl::NEAREST_MIPMAP_NEAREST,
+                Some(gl::LINEAR_MIPMAP_NEAREST) => gl::LINEAR_MIPMAP_NEAREST,
+                Some(gl::NEAREST_MIPMAP_LINEAR) => gl::NEAREST_MIPMAP_LINEAR,
+                Some(gl::LINEAR_MIPMAP_LINEAR) => gl::LINEAR_MIPMAP_LINEAR,
+                None | Some(_) => gl::LINEAR,
+            } as i32,
+        );
         let mut width: i32 = 0;
         let mut height: i32 = 0;
         let mut nrChannels: i32 = 0;

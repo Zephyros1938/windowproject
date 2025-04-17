@@ -1,10 +1,8 @@
+#![allow(non_snake_case, non_camel_case_types, dead_code)]
 use gl::types::{self, GLuint};
-use log::debug;
 
 use crate::asset_management::read_asset_to_cstr;
-use crate::macros::*;
 mod buffer;
-#[allow(non_snake_case, non_camel_case_types)]
 pub struct Shader {
     ID: GLuint,
 }
