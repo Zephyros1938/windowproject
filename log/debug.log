@@ -611,3 +611,28 @@ error: linking with uncompiled/unspecialized shader
 2025-04-17 16:39:44 - DEBUG - Loaded Texture
 2025-04-17 16:39:44 - DEBUG - Loading Texture
 2025-04-17 16:39:44 - DEBUG - Loaded Texture
+2025-04-17 16:52:10 - DEBUG - log4rs configured!
+2025-04-17 16:52:10 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-17 16:52:10 - ERROR - Shader compilation failed:
+0:15(2): error: value of type vec4 cannot be assigned to variable of type vec3
+
+2025-04-17 16:52:10 - DEBUG - Shader compiled successfully
+2025-04-17 16:52:10 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shader
+2025-04-17 16:52:10 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-17 16:52:10 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-17 16:52:10 - DEBUG - Loading Texture
+2025-04-17 16:52:10 - DEBUG - Loaded Texture
+2025-04-17 16:52:10 - DEBUG - Loading Texture
+2025-04-17 16:52:10 - DEBUG - Loaded Texture
+2025-04-17 16:53:56 - DEBUG - log4rs configured!
+2025-04-17 16:53:57 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-17 16:53:57 - DEBUG - Shader compiled successfully
+2025-04-17 16:53:57 - DEBUG - Shader compiled successfully
+2025-04-17 16:53:57 - DEBUG - Program linked successfully
+2025-04-17 16:53:57 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-17 16:53:57 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-17 16:53:57 - DEBUG - Loading Texture
+2025-04-17 16:53:57 - DEBUG - Loaded Texture
+2025-04-17 16:53:57 - DEBUG - Loading Texture
+2025-04-17 16:53:57 - DEBUG - Loaded Texture

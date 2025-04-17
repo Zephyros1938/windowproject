@@ -101,13 +101,6 @@ fn main() -> LinuxExitCode {
             as_c_void!(VERTICES),
             gl::STATIC_DRAW,
         );
-        // gl::BindBuffer(gl::ELEMENT_ARRAY_BUFFER, ebo);
-        // gl::BufferData(
-        //     gl::ELEMENT_ARRAY_BUFFER,
-        //     sizeof_val!(INDICES).try_into().unwrap(),
-        //     as_c_void!(INDICES),
-        //     gl::STATIC_DRAW,
-        // );
 
         gl::VertexAttribPointer(
             0,
@@ -129,16 +122,6 @@ fn main() -> LinuxExitCode {
         );
         gl::EnableVertexAttribArray(1);
         debug!("Enabled Vertex Attrib Array 1");
-        // gl::VertexAttribPointer(
-        //     2,
-        //     2,
-        //     gl::FLOAT,
-        //     gl::FALSE,
-        //     8 * sizeof!(f32),
-        //     (6 * sizeof!(f32)) as *const _,
-        // );
-        // gl::EnableVertexAttribArray(2);
-        // debug!("Enabled Vertex Attrib Array 2");
 
         let tex_crate: texture::Texture = texture::TextureConstructor(
             "textures/container.jpg",
@@ -177,10 +160,10 @@ fn main() -> LinuxExitCode {
         ];
 
         let mut view = crate::util::glmaddon::mat4(1.032);
-        view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
         let projection = glm::perspective(800f32 / 600f32, 45f32.to_radians(), 0.1f32, 100f32);
         let mut model = util::glmaddon::mat4(1.032);
         model = glm::rotate(&model, -55f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
+        view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
         ourShader.setMat4f("view", view, FALSE);
         ourShader.setMat4f("projection", projection, FALSE);
         ourShader.setMat4f("model", model, FALSE);
@@ -198,8 +181,14 @@ fn main() -> LinuxExitCode {
             gl::ActiveTexture(gl::TEXTURE1);
             gl::BindTexture(gl::TEXTURE_2D, tex_awesome.get_texture());
             gl::BindVertexArray(vao);
-            for 
-            gl::DrawArrays(gl::TRIANGLES, 0, 36);
+            for i in 0..10 {
+                let mut model = util::glmaddon::mat4(1.032);
+                model = glm::translate(&model, &CUBE_POSITIONS[i]);
+                let angle = 20f32 * (i as f32);
+                model = glm::rotate(&model, angle.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
+                ourShader.setMat4f("model", model, FALSE);
+                gl::DrawArrays(gl::TRIANGLES, 0, 36);
+            }
 
             glfwPollEvents();
             glfwSwapBuffers(window);
