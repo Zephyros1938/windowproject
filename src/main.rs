@@ -1,18 +1,34 @@
 #![allow(non_snake_case, non_camel_case_types)]
 
+use camera::{Camera, CameraConstructor};
 use glfw::ffi::*;
+use lazy_static::lazy_static;
 use log::{debug, error};
-use nalgebra_glm as glm;
+use nalgebra_glm::{self as glm};
 use shader::Shader;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
+use std::sync::Mutex;
 use util::LinuxExitCode;
 mod asset_management;
+mod camera;
 mod macros;
 mod shader;
 mod texture;
 mod util;
-// https://learnopengl.com/Getting-started/Hello-Triangle
+
+static mut SCREEN_WIDTH: i32 = 800;
+static mut SCREEN_HEIGHT: i32 = 600;
+
+static mut LASTFRAME: f64 = 0f64;
+static mut DELTATIME: f64 = 0f64;
+static mut FIRST_MOUSE: bool = true;
+static mut LAST_X: f32 = 0f32;
+static mut LAST_Y: f32 = 0f32;
+lazy_static! {
+    static ref CAMERA: Mutex<Camera> =
+        Mutex::new(CameraConstructor(None, None, None, None, None, None, None));
+}
 
 // **constant shader test values**
 const VERTICES: [f32; 180] = [
@@ -68,6 +84,9 @@ fn main() -> LinuxExitCode {
         gl::Enable(gl::DEPTH_TEST);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
+        glfwSetCursorPosCallback(window, Some(mouse_callback));
+        glfwSetScrollCallback(window, Some(scroll_callback));
+        glfwSetInputMode(window, CURSOR, CURSOR_DISABLED);
 
         let version = CStr::from_ptr(gl::GetString(gl::VERSION) as *const _)
             .to_str()
@@ -149,7 +168,8 @@ fn main() -> LinuxExitCode {
         ];
 
         let mut view = crate::util::glmaddon::mat4(1.032);
-        let projection = glm::perspective(800f32 / 600f32, 45f32.to_radians(), 0.1f32, 100f32);
+        let projection =
+            glm::perspective(800f32 / 600f32, CAMERA.lock().unwrap().zoom, 0.1f32, 100f32);
         let mut model = util::glmaddon::mat4(1.032);
         model = glm::rotate(&model, -55f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
@@ -160,6 +180,7 @@ fn main() -> LinuxExitCode {
         gl::BindVertexArray(0);
 
         while glfwWindowShouldClose(window) == 0 {
+            UPDATE_DELTATIME();
             process_input(window);
 
             gl::ClearColor(0.2, 0.3, 0.3, 1.0);
@@ -171,6 +192,17 @@ fn main() -> LinuxExitCode {
             gl::ActiveTexture(gl::TEXTURE1);
             gl::BindTexture(gl::TEXTURE_2D, tex_awesome.get_texture());
             gl::BindVertexArray(vao);
+            ourShader.setMat4f("view", CAMERA.lock().unwrap().get_view_matrix(), gl::FALSE);
+            ourShader.setMat4f(
+                "projection",
+                glm::perspective(
+                    (SCREEN_WIDTH as f32) / (SCREEN_HEIGHT as f32),
+                    CAMERA.lock().unwrap().zoom.to_radians(),
+                    0.1f32,
+                    100f32,
+                ),
+                gl::FALSE,
+            );
             for i in 0..10 {
                 let mut model = util::glmaddon::mat4(1.032);
                 model = glm::translate(&model, &CUBE_POSITIONS[i]);
@@ -196,11 +228,77 @@ fn main() -> LinuxExitCode {
 
 extern "C" fn framebuffer_size_callback(_window: *mut GLFWwindow, width: i32, height: i32) {
     unsafe {
-        gl::Viewport(0, 0, width, height);
+        SCREEN_WIDTH = width;
+        SCREEN_HEIGHT = height;
+        gl::Viewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     }
 }
 extern "C" fn process_input(window: *mut GLFWwindow) {
     if unsafe { glfwGetKey(window, KEY_ESCAPE) } == PRESS {
         unsafe { glfwSetWindowShouldClose(window, TRUE) };
+    }
+    if unsafe { glfwGetKey(window, KEY_W) } == PRESS {
+        unsafe {
+            CAMERA
+                .lock()
+                .unwrap()
+                .process_keyboard(camera::CameraMovement::FORWARD, DELTATIME);
+        };
+    }
+    if unsafe { glfwGetKey(window, KEY_S) } == PRESS {
+        unsafe {
+            CAMERA
+                .lock()
+                .unwrap()
+                .process_keyboard(camera::CameraMovement::BACKWARD, DELTATIME);
+        };
+    }
+    if unsafe { glfwGetKey(window, KEY_A) } == PRESS {
+        unsafe {
+            CAMERA
+                .lock()
+                .unwrap()
+                .process_keyboard(camera::CameraMovement::LEFT, DELTATIME);
+        };
+    }
+    if unsafe { glfwGetKey(window, KEY_D) } == PRESS {
+        unsafe {
+            CAMERA
+                .lock()
+                .unwrap()
+                .process_keyboard(camera::CameraMovement::RIGHT, DELTATIME);
+        };
+    }
+}
+
+extern "C" fn mouse_callback(_window: *mut GLFWwindow, xposIn: f64, yposIn: f64) {
+    let xpos = xposIn as f32;
+    let ypos = yposIn as f32;
+    unsafe {
+        if FIRST_MOUSE {
+            LAST_X = xpos;
+            LAST_Y = ypos;
+            FIRST_MOUSE = false;
+        }
+
+        let xoffset = xpos - LAST_X;
+        let yoffset = LAST_Y - ypos;
+
+        LAST_X = xpos;
+        LAST_Y = ypos;
+
+        CAMERA.lock().unwrap().process_mouse(xoffset, yoffset, true);
+    }
+}
+
+extern "C" fn scroll_callback(_window: *mut GLFWwindow, _: f64, yoffset: f64) {
+    CAMERA.lock().unwrap().process_scroll(yoffset as f32);
+}
+
+fn UPDATE_DELTATIME() {
+    unsafe {
+        let currentframe = glfwGetTime();
+        DELTATIME = currentframe - LASTFRAME;
+        LASTFRAME = currentframe;
     }
 }

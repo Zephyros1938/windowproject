@@ -1112,3 +1112,234 @@ error: linking with uncompiled/unspecialized shader
 2025-04-17 17:13:32 - DEBUG - Loaded Texture
 2025-04-17 17:13:32 - DEBUG - Loading Texture
 2025-04-17 17:13:32 - DEBUG - Loaded Texture
+2025-04-21 10:05:07 - DEBUG - log4rs configured!
+2025-04-21 10:05:07 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 10:05:07 - DEBUG - Shader compiled successfully
+2025-04-21 10:05:07 - DEBUG - Shader compiled successfully
+2025-04-21 10:05:07 - DEBUG - Program linked successfully
+2025-04-21 10:05:07 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 10:05:07 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 10:05:07 - DEBUG - Loading Texture
+2025-04-21 10:05:07 - DEBUG - Loaded Texture
+2025-04-21 10:05:07 - DEBUG - Loading Texture
+2025-04-21 10:05:07 - DEBUG - Loaded Texture
+2025-04-21 10:34:26 - DEBUG - log4rs configured!
+2025-04-21 10:34:26 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 10:34:26 - DEBUG - Shader compiled successfully
+2025-04-21 10:34:26 - DEBUG - Shader compiled successfully
+2025-04-21 10:34:26 - DEBUG - Program linked successfully
+2025-04-21 10:34:26 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 10:34:26 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 10:34:26 - DEBUG - Loading Texture
+2025-04-21 10:34:26 - DEBUG - Loaded Texture
+2025-04-21 10:34:26 - DEBUG - Loading Texture
+2025-04-21 10:34:26 - DEBUG - Loaded Texture
+2025-04-21 10:36:36 - DEBUG - log4rs configured!
+2025-04-21 10:36:36 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 10:36:36 - DEBUG - Shader compiled successfully
+2025-04-21 10:36:36 - DEBUG - Shader compiled successfully
+2025-04-21 10:36:36 - DEBUG - Program linked successfully
+2025-04-21 10:36:36 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 10:36:36 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 10:36:36 - DEBUG - Loading Texture
+2025-04-21 10:36:36 - DEBUG - Loaded Texture
+2025-04-21 10:36:36 - DEBUG - Loading Texture
+2025-04-21 10:36:36 - DEBUG - Loaded Texture
+2025-04-21 13:40:16 - DEBUG - log4rs configured!
+2025-04-21 13:40:16 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:40:16 - DEBUG - Shader compiled successfully
+2025-04-21 13:40:16 - DEBUG - Shader compiled successfully
+2025-04-21 13:40:16 - DEBUG - Program linked successfully
+2025-04-21 13:40:16 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:40:16 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:40:16 - DEBUG - Loading Texture
+2025-04-21 13:40:16 - DEBUG - Loaded Texture
+2025-04-21 13:40:16 - DEBUG - Loading Texture
+2025-04-21 13:40:16 - DEBUG - Loaded Texture
+2025-04-21 13:41:06 - DEBUG - log4rs configured!
+2025-04-21 13:41:06 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:41:06 - DEBUG - Shader compiled successfully
+2025-04-21 13:41:06 - DEBUG - Shader compiled successfully
+2025-04-21 13:41:06 - DEBUG - Program linked successfully
+2025-04-21 13:41:06 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:41:06 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:41:06 - DEBUG - Loading Texture
+2025-04-21 13:41:06 - DEBUG - Loaded Texture
+2025-04-21 13:41:06 - DEBUG - Loading Texture
+2025-04-21 13:41:06 - DEBUG - Loaded Texture
+2025-04-21 13:43:31 - DEBUG - log4rs configured!
+2025-04-21 13:43:31 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:43:31 - DEBUG - Shader compiled successfully
+2025-04-21 13:43:31 - DEBUG - Shader compiled successfully
+2025-04-21 13:43:31 - DEBUG - Program linked successfully
+2025-04-21 13:43:31 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:43:31 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:43:31 - DEBUG - Loading Texture
+2025-04-21 13:43:31 - DEBUG - Loaded Texture
+2025-04-21 13:43:31 - DEBUG - Loading Texture
+2025-04-21 13:43:31 - DEBUG - Loaded Texture
+2025-04-21 13:45:20 - DEBUG - log4rs configured!
+2025-04-21 13:45:20 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:45:20 - DEBUG - Shader compiled successfully
+2025-04-21 13:45:20 - DEBUG - Shader compiled successfully
+2025-04-21 13:45:20 - DEBUG - Program linked successfully
+2025-04-21 13:45:20 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:45:20 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:45:20 - DEBUG - Loading Texture
+2025-04-21 13:45:20 - DEBUG - Loaded Texture
+2025-04-21 13:45:20 - DEBUG - Loading Texture
+2025-04-21 13:45:20 - DEBUG - Loaded Texture
+2025-04-21 13:46:44 - DEBUG - log4rs configured!
+2025-04-21 13:46:45 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:46:45 - DEBUG - Shader compiled successfully
+2025-04-21 13:46:45 - DEBUG - Shader compiled successfully
+2025-04-21 13:46:45 - DEBUG - Program linked successfully
+2025-04-21 13:46:45 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:46:45 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:46:45 - DEBUG - Loading Texture
+2025-04-21 13:46:45 - DEBUG - Loaded Texture
+2025-04-21 13:46:45 - DEBUG - Loading Texture
+2025-04-21 13:46:45 - DEBUG - Loaded Texture
+2025-04-21 13:48:32 - DEBUG - log4rs configured!
+2025-04-21 13:48:32 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:48:32 - DEBUG - Shader compiled successfully
+2025-04-21 13:48:32 - DEBUG - Shader compiled successfully
+2025-04-21 13:48:32 - DEBUG - Program linked successfully
+2025-04-21 13:48:32 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:48:32 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:48:32 - DEBUG - Loading Texture
+2025-04-21 13:48:32 - DEBUG - Loaded Texture
+2025-04-21 13:48:32 - DEBUG - Loading Texture
+2025-04-21 13:48:32 - DEBUG - Loaded Texture
+2025-04-21 13:50:03 - DEBUG - log4rs configured!
+2025-04-21 13:50:03 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:50:03 - DEBUG - Shader compiled successfully
+2025-04-21 13:50:03 - DEBUG - Shader compiled successfully
+2025-04-21 13:50:03 - DEBUG - Program linked successfully
+2025-04-21 13:50:03 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:50:03 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:50:03 - DEBUG - Loading Texture
+2025-04-21 13:50:03 - DEBUG - Loaded Texture
+2025-04-21 13:50:03 - DEBUG - Loading Texture
+2025-04-21 13:50:03 - DEBUG - Loaded Texture
+2025-04-21 13:50:57 - DEBUG - log4rs configured!
+2025-04-21 13:50:57 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:50:57 - DEBUG - Shader compiled successfully
+2025-04-21 13:50:57 - DEBUG - Shader compiled successfully
+2025-04-21 13:50:57 - DEBUG - Program linked successfully
+2025-04-21 13:50:57 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:50:57 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:50:57 - DEBUG - Loading Texture
+2025-04-21 13:50:57 - DEBUG - Loaded Texture
+2025-04-21 13:50:57 - DEBUG - Loading Texture
+2025-04-21 13:50:57 - DEBUG - Loaded Texture
+2025-04-21 13:52:40 - DEBUG - log4rs configured!
+2025-04-21 13:52:40 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:52:41 - DEBUG - Shader compiled successfully
+2025-04-21 13:52:41 - DEBUG - Shader compiled successfully
+2025-04-21 13:52:41 - DEBUG - Program linked successfully
+2025-04-21 13:52:41 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:52:41 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:52:41 - DEBUG - Loading Texture
+2025-04-21 13:52:41 - DEBUG - Loaded Texture
+2025-04-21 13:52:41 - DEBUG - Loading Texture
+2025-04-21 13:52:41 - DEBUG - Loaded Texture
+2025-04-21 13:53:45 - DEBUG - log4rs configured!
+2025-04-21 13:53:45 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:53:45 - DEBUG - Shader compiled successfully
+2025-04-21 13:53:45 - DEBUG - Shader compiled successfully
+2025-04-21 13:53:45 - DEBUG - Program linked successfully
+2025-04-21 13:53:45 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:53:45 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:53:45 - DEBUG - Loading Texture
+2025-04-21 13:53:45 - DEBUG - Loaded Texture
+2025-04-21 13:53:45 - DEBUG - Loading Texture
+2025-04-21 13:53:45 - DEBUG - Loaded Texture
+2025-04-21 13:55:52 - DEBUG - log4rs configured!
+2025-04-21 13:55:52 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:55:52 - DEBUG - Shader compiled successfully
+2025-04-21 13:55:52 - DEBUG - Shader compiled successfully
+2025-04-21 13:55:52 - DEBUG - Program linked successfully
+2025-04-21 13:55:52 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:55:52 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:55:52 - DEBUG - Loading Texture
+2025-04-21 13:55:52 - DEBUG - Loaded Texture
+2025-04-21 13:55:52 - DEBUG - Loading Texture
+2025-04-21 13:55:52 - DEBUG - Loaded Texture
+2025-04-21 13:56:27 - DEBUG - log4rs configured!
+2025-04-21 13:56:27 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:56:27 - DEBUG - Shader compiled successfully
+2025-04-21 13:56:27 - DEBUG - Shader compiled successfully
+2025-04-21 13:56:27 - DEBUG - Program linked successfully
+2025-04-21 13:56:27 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:56:27 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:56:27 - DEBUG - Loading Texture
+2025-04-21 13:56:27 - DEBUG - Loaded Texture
+2025-04-21 13:56:27 - DEBUG - Loading Texture
+2025-04-21 13:56:27 - DEBUG - Loaded Texture
+2025-04-21 13:57:22 - DEBUG - log4rs configured!
+2025-04-21 13:57:22 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:57:22 - DEBUG - Shader compiled successfully
+2025-04-21 13:57:22 - DEBUG - Shader compiled successfully
+2025-04-21 13:57:22 - DEBUG - Program linked successfully
+2025-04-21 13:57:22 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:57:22 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:57:22 - DEBUG - Loading Texture
+2025-04-21 13:57:22 - DEBUG - Loaded Texture
+2025-04-21 13:57:22 - DEBUG - Loading Texture
+2025-04-21 13:57:22 - DEBUG - Loaded Texture
+2025-04-21 13:58:10 - DEBUG - log4rs configured!
+2025-04-21 13:58:10 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:58:10 - DEBUG - Shader compiled successfully
+2025-04-21 13:58:10 - DEBUG - Shader compiled successfully
+2025-04-21 13:58:10 - DEBUG - Program linked successfully
+2025-04-21 13:58:10 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:58:10 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:58:10 - DEBUG - Loading Texture
+2025-04-21 13:58:10 - DEBUG - Loaded Texture
+2025-04-21 13:58:10 - DEBUG - Loading Texture
+2025-04-21 13:58:10 - DEBUG - Loaded Texture
+2025-04-21 13:58:24 - DEBUG - log4rs configured!
+2025-04-21 13:58:24 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:58:24 - DEBUG - Shader compiled successfully
+2025-04-21 13:58:24 - DEBUG - Shader compiled successfully
+2025-04-21 13:58:24 - DEBUG - Program linked successfully
+2025-04-21 13:58:24 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:58:24 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:58:24 - DEBUG - Loading Texture
+2025-04-21 13:58:24 - DEBUG - Loaded Texture
+2025-04-21 13:58:24 - DEBUG - Loading Texture
+2025-04-21 13:58:24 - DEBUG - Loaded Texture
+2025-04-21 13:59:09 - DEBUG - log4rs configured!
+2025-04-21 13:59:10 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 13:59:10 - DEBUG - Shader compiled successfully
+2025-04-21 13:59:10 - DEBUG - Shader compiled successfully
+2025-04-21 13:59:10 - DEBUG - Program linked successfully
+2025-04-21 13:59:10 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 13:59:10 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 13:59:10 - DEBUG - Loading Texture
+2025-04-21 13:59:10 - DEBUG - Loaded Texture
+2025-04-21 13:59:10 - DEBUG - Loading Texture
+2025-04-21 13:59:10 - DEBUG - Loaded Texture
+2025-04-21 14:00:58 - DEBUG - log4rs configured!
+2025-04-21 14:00:58 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 14:00:58 - DEBUG - Shader compiled successfully
+2025-04-21 14:00:58 - DEBUG - Shader compiled successfully
+2025-04-21 14:00:58 - DEBUG - Program linked successfully
+2025-04-21 14:00:58 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 14:00:58 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 14:00:58 - DEBUG - Loading Texture
+2025-04-21 14:00:58 - DEBUG - Loaded Texture
+2025-04-21 14:00:58 - DEBUG - Loading Texture
+2025-04-21 14:00:58 - DEBUG - Loaded Texture
+2025-04-21 14:03:23 - DEBUG - log4rs configured!
+2025-04-21 14:03:24 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 14:03:24 - DEBUG - Shader compiled successfully
+2025-04-21 14:03:24 - DEBUG - Shader compiled successfully
+2025-04-21 14:03:24 - DEBUG - Program linked successfully
+2025-04-21 14:03:24 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 14:03:24 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 14:03:24 - DEBUG - Loading Texture
+2025-04-21 14:03:24 - DEBUG - Loaded Texture
+2025-04-21 14:03:24 - DEBUG - Loading Texture
+2025-04-21 14:03:24 - DEBUG - Loaded Texture
