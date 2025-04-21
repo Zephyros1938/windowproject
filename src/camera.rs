@@ -1,5 +1,8 @@
 use nalgebra_glm as glm;
 
+const MAX_ZOOM: f32 = 75f32;
+const MIN_ZOOM: f32 = 1f32;
+
 const YAW: f32 = -90f32;
 const PITCH: f32 = 0f32;
 const SPEED: f32 = 2.5f32;
@@ -34,6 +37,7 @@ pub struct Camera {
     mouse_sensitivity: f32,
     move_speed: f32,
     pub zoom: f32,
+    constrain_pitch: bool,
 }
 
 impl Camera {
@@ -57,13 +61,13 @@ impl Camera {
         }
     }
 
-    pub fn process_mouse(&mut self, mut xoffset: f32, mut yoffset: f32, constrain_pitch: bool) {
+    pub fn process_mouse(&mut self, mut xoffset: f32, mut yoffset: f32) {
         xoffset *= self.mouse_sensitivity;
         yoffset *= self.mouse_sensitivity;
 
         self.yaw += xoffset;
         self.pitch += yoffset;
-        if constrain_pitch {
+        if self.constrain_pitch {
             if self.pitch > 89f32 {
                 self.pitch = 89f32;
             }
@@ -75,14 +79,13 @@ impl Camera {
     }
 
     pub fn process_scroll(&mut self, yoffset: f32) {
-        self.zoom -= yoffset / 32f32;
-        if self.zoom < 1f32 {
-            self.zoom = 1f32;
+        self.zoom -= yoffset;
+        if self.zoom < MIN_ZOOM {
+            self.zoom = MIN_ZOOM;
         }
-        if self.zoom > 45f32 {
-            self.zoom = 45f32;
+        if self.zoom > MAX_ZOOM {
+            self.zoom = MAX_ZOOM;
         }
-        println!("{}", self.zoom);
     }
 
     fn update_vectors(&mut self) {
@@ -105,6 +108,7 @@ pub fn CameraConstructor(
     mouse_sensitivity: Option<f32>,
     move_speed: Option<f32>,
     zoom: Option<f32>,
+    constrain_pitch: Option<bool>,
 ) -> Camera {
     let yaw = match yaw {
         Some(n) => n,
@@ -147,6 +151,10 @@ pub fn CameraConstructor(
         zoom: match zoom {
             Some(n) => n,
             None => ZOOM,
+        },
+        constrain_pitch: match constrain_pitch {
+            Some(n) => n,
+            None => true,
         },
     }
 }

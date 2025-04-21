@@ -1387,3 +1387,25 @@ error: linking with uncompiled/unspecialized shader
 2025-04-21 15:33:21 - DEBUG - Loaded Texture
 2025-04-21 15:33:21 - DEBUG - Loading Texture
 2025-04-21 15:33:21 - DEBUG - Loaded Texture
+2025-04-21 15:46:48 - DEBUG - log4rs configured!
+2025-04-21 15:46:48 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 15:46:48 - DEBUG - Shader compiled successfully
+2025-04-21 15:46:48 - DEBUG - Shader compiled successfully
+2025-04-21 15:46:48 - DEBUG - Program linked successfully
+2025-04-21 15:46:48 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 15:46:48 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 15:46:48 - DEBUG - Loading Texture
+2025-04-21 15:46:48 - DEBUG - Loaded Texture
+2025-04-21 15:46:48 - DEBUG - Loading Texture
+2025-04-21 15:46:48 - DEBUG - Loaded Texture
+2025-04-21 15:47:10 - DEBUG - log4rs configured!
+2025-04-21 15:47:10 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-21 15:47:10 - DEBUG - Shader compiled successfully
+2025-04-21 15:47:10 - DEBUG - Shader compiled successfully
+2025-04-21 15:47:10 - DEBUG - Program linked successfully
+2025-04-21 15:47:10 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 15:47:10 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 15:47:10 - DEBUG - Loading Texture
+2025-04-21 15:47:10 - DEBUG - Loaded Texture
+2025-04-21 15:47:10 - DEBUG - Loading Texture
+2025-04-21 15:47:10 - DEBUG - Loaded Texture

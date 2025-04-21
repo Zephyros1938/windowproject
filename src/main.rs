@@ -26,8 +26,9 @@ static mut FIRST_MOUSE: bool = true;
 static mut LAST_X: f32 = 0f32;
 static mut LAST_Y: f32 = 0f32;
 lazy_static! {
-    static ref CAMERA: Mutex<Camera> =
-        Mutex::new(CameraConstructor(None, None, None, None, None, None, None));
+    static ref CAMERA: Mutex<Camera> = Mutex::new(CameraConstructor(
+        None, None, None, None, None, None, None, None
+    ));
 }
 
 // **constant shader test values**
@@ -287,7 +288,7 @@ extern "C" fn mouse_callback(_window: *mut GLFWwindow, xposIn: f64, yposIn: f64)
         LAST_X = xpos;
         LAST_Y = ypos;
 
-        CAMERA.lock().unwrap().process_mouse(xoffset, yoffset, true);
+        CAMERA.lock().unwrap().process_mouse(xoffset, yoffset);
     }
 }
 
