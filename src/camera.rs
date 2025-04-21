@@ -57,12 +57,12 @@ impl Camera {
         }
     }
 
-    pub fn process_mouse(&mut self, xoffset: f32, yoffset: f32, constrain_pitch: bool) {
-        let xo = xoffset * self.mouse_sensitivity;
-        let yo = yoffset * self.mouse_sensitivity;
+    pub fn process_mouse(&mut self, mut xoffset: f32, mut yoffset: f32, constrain_pitch: bool) {
+        xoffset *= self.mouse_sensitivity;
+        yoffset *= self.mouse_sensitivity;
 
-        self.yaw += xo;
-        self.pitch += yo;
+        self.yaw += xoffset;
+        self.pitch += yoffset;
         if constrain_pitch {
             if self.pitch > 89f32 {
                 self.pitch = 89f32;
@@ -86,10 +86,12 @@ impl Camera {
     }
 
     fn update_vectors(&mut self) {
-        self.front.x = (self.yaw.to_radians() * self.pitch.to_radians().cos()).cos();
-        self.front.y = self.pitch.to_radians().sin();
-        self.front.z = (self.yaw.to_radians() * self.pitch.to_radians().cos()).sin();
-        self.front = self.front.normalize();
+        let front = glm::vec3(
+            self.yaw.to_radians().cos() * self.pitch.to_radians().cos(),
+            self.pitch.to_radians().sin(),
+            self.yaw.to_radians().sin() * self.pitch.to_radians().cos(),
+        );
+        self.front = front.normalize();
         self.right = glm::cross(&self.front, &self.world_up).normalize();
         self.up = glm::cross(&self.right, &self.front).normalize();
     }
