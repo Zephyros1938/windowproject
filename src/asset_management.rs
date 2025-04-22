@@ -2,6 +2,7 @@ use std::ffi::CString;
 use std::{env, ffi::OsString};
 use std::{fs::File, io::Read};
 pub mod cube;
+pub mod object;
 
 use crate::cstr;
 

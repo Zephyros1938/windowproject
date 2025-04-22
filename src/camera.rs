@@ -7,7 +7,7 @@ const YAW: f32 = -90f32;
 const PITCH: f32 = 0f32;
 const SPEED: f32 = 2.5f32;
 const SENSITIVITY: f32 = 0.1f32;
-const ZOOM: f32 = 45.0f32;
+const ZOOM: f32 = 45f32;
 
 pub enum CameraMovement {
     FORWARD,

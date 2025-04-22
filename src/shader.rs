@@ -6,6 +6,7 @@ use crate::asset_management::read_asset_to_cstr;
 mod buffer;
 pub mod light;
 pub mod material;
+pub mod vertexattrib;
 pub struct Shader {
     ID: GLuint,
 }

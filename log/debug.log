@@ -1596,3 +1596,406 @@ Fragment info
 2025-04-21 19:16:47 - DEBUG - Shader compiled successfully
 2025-04-21 19:16:47 - DEBUG - Shader compiled successfully
 2025-04-21 19:16:47 - DEBUG - Program linked successfully
+2025-04-21 19:34:32 - DEBUG - log4rs configured!
+2025-04-21 19:34:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:34:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:34:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:34:32 - DEBUG - Program linked successfully
+2025-04-21 19:34:57 - DEBUG - log4rs configured!
+2025-04-21 19:34:57 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:34:57 - DEBUG - Shader compiled successfully
+2025-04-21 19:34:57 - DEBUG - Shader compiled successfully
+2025-04-21 19:34:57 - DEBUG - Program linked successfully
+2025-04-21 19:36:32 - DEBUG - log4rs configured!
+2025-04-21 19:36:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:36:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:36:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:36:32 - DEBUG - Program linked successfully
+2025-04-21 19:38:22 - DEBUG - log4rs configured!
+2025-04-21 19:38:22 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:38:22 - DEBUG - Shader compiled successfully
+2025-04-21 19:38:22 - DEBUG - Shader compiled successfully
+2025-04-21 19:38:22 - DEBUG - Program linked successfully
+2025-04-21 19:39:01 - DEBUG - log4rs configured!
+2025-04-21 19:39:01 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:39:01 - DEBUG - Shader compiled successfully
+2025-04-21 19:39:01 - DEBUG - Shader compiled successfully
+2025-04-21 19:39:01 - DEBUG - Program linked successfully
+2025-04-21 19:42:32 - DEBUG - log4rs configured!
+2025-04-21 19:42:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:42:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:42:32 - DEBUG - Shader compiled successfully
+2025-04-21 19:42:32 - DEBUG - Program linked successfully
+2025-04-21 20:07:04 - DEBUG - log4rs configured!
+2025-04-21 20:07:04 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:07:04 - DEBUG - Shader compiled successfully
+2025-04-21 20:07:04 - DEBUG - Shader compiled successfully
+2025-04-21 20:07:04 - DEBUG - Program linked successfully
+2025-04-21 20:08:59 - DEBUG - log4rs configured!
+2025-04-21 20:08:59 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:08:59 - DEBUG - Shader compiled successfully
+2025-04-21 20:08:59 - DEBUG - Shader compiled successfully
+2025-04-21 20:08:59 - DEBUG - Program linked successfully
+2025-04-21 20:09:08 - DEBUG - log4rs configured!
+2025-04-21 20:09:09 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:09:09 - DEBUG - Shader compiled successfully
+2025-04-21 20:09:09 - DEBUG - Shader compiled successfully
+2025-04-21 20:09:09 - DEBUG - Program linked successfully
+2025-04-21 20:10:15 - DEBUG - log4rs configured!
+2025-04-21 20:10:16 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:10:16 - DEBUG - Shader compiled successfully
+2025-04-21 20:10:16 - DEBUG - Shader compiled successfully
+2025-04-21 20:10:16 - DEBUG - Program linked successfully
+2025-04-21 20:10:16 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:10:16 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:11:31 - DEBUG - log4rs configured!
+2025-04-21 20:11:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:11:32 - DEBUG - Shader compiled successfully
+2025-04-21 20:11:32 - DEBUG - Shader compiled successfully
+2025-04-21 20:11:32 - DEBUG - Program linked successfully
+2025-04-21 20:11:32 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:11:32 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:11:37 - DEBUG - log4rs configured!
+2025-04-21 20:11:38 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:11:38 - DEBUG - Shader compiled successfully
+2025-04-21 20:11:38 - DEBUG - Shader compiled successfully
+2025-04-21 20:11:38 - DEBUG - Program linked successfully
+2025-04-21 20:12:41 - DEBUG - log4rs configured!
+2025-04-21 20:12:41 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:12:41 - DEBUG - Shader compiled successfully
+2025-04-21 20:12:41 - DEBUG - Shader compiled successfully
+2025-04-21 20:12:41 - DEBUG - Program linked successfully
+2025-04-21 20:12:53 - DEBUG - log4rs configured!
+2025-04-21 20:12:53 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:12:53 - DEBUG - Shader compiled successfully
+2025-04-21 20:12:53 - DEBUG - Shader compiled successfully
+2025-04-21 20:12:53 - DEBUG - Program linked successfully
+2025-04-21 20:12:53 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:12:53 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:18:39 - DEBUG - log4rs configured!
+2025-04-21 20:18:39 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:18:39 - DEBUG - Shader compiled successfully
+2025-04-21 20:18:39 - DEBUG - Shader compiled successfully
+2025-04-21 20:18:39 - DEBUG - Program linked successfully
+2025-04-21 20:18:39 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:18:39 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:19:11 - DEBUG - log4rs configured!
+2025-04-21 20:19:11 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:19:11 - DEBUG - Shader compiled successfully
+2025-04-21 20:19:11 - DEBUG - Shader compiled successfully
+2025-04-21 20:19:11 - DEBUG - Program linked successfully
+2025-04-21 20:19:11 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:19:11 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:23:29 - DEBUG - log4rs configured!
+2025-04-21 20:23:29 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:23:29 - DEBUG - Shader compiled successfully
+2025-04-21 20:23:29 - DEBUG - Shader compiled successfully
+2025-04-21 20:23:29 - DEBUG - Program linked successfully
+2025-04-21 20:23:29 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:23:29 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:24:47 - DEBUG - log4rs configured!
+2025-04-21 20:24:48 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:24:48 - DEBUG - Shader compiled successfully
+2025-04-21 20:24:48 - DEBUG - Shader compiled successfully
+2025-04-21 20:24:48 - DEBUG - Program linked successfully
+2025-04-21 20:24:48 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:24:48 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:26:02 - DEBUG - log4rs configured!
+2025-04-21 20:26:02 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:26:02 - DEBUG - Shader compiled successfully
+2025-04-21 20:26:02 - DEBUG - Shader compiled successfully
+2025-04-21 20:26:02 - DEBUG - Program linked successfully
+2025-04-21 20:26:02 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:26:02 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:26:21 - DEBUG - log4rs configured!
+2025-04-21 20:26:22 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:26:22 - DEBUG - Shader compiled successfully
+2025-04-21 20:26:22 - DEBUG - Shader compiled successfully
+2025-04-21 20:26:22 - DEBUG - Program linked successfully
+2025-04-21 20:26:22 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:26:22 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:27:36 - DEBUG - log4rs configured!
+2025-04-21 20:27:36 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:27:36 - DEBUG - Shader compiled successfully
+2025-04-21 20:27:36 - DEBUG - Shader compiled successfully
+2025-04-21 20:27:36 - DEBUG - Program linked successfully
+2025-04-21 20:27:36 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:27:36 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:28:31 - DEBUG - log4rs configured!
+2025-04-21 20:28:31 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:28:31 - DEBUG - Shader compiled successfully
+2025-04-21 20:28:31 - DEBUG - Shader compiled successfully
+2025-04-21 20:28:31 - DEBUG - Program linked successfully
+2025-04-21 20:28:31 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:28:31 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:29:27 - DEBUG - log4rs configured!
+2025-04-21 20:29:27 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:29:27 - DEBUG - Shader compiled successfully
+2025-04-21 20:29:27 - DEBUG - Shader compiled successfully
+2025-04-21 20:29:27 - DEBUG - Program linked successfully
+2025-04-21 20:29:27 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:29:27 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:31:00 - DEBUG - log4rs configured!
+2025-04-21 20:31:00 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:31:00 - DEBUG - Shader compiled successfully
+2025-04-21 20:31:00 - DEBUG - Shader compiled successfully
+2025-04-21 20:31:00 - DEBUG - Program linked successfully
+2025-04-21 20:31:00 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:31:00 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:32:07 - DEBUG - log4rs configured!
+2025-04-21 20:32:07 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:32:07 - DEBUG - Shader compiled successfully
+2025-04-21 20:32:07 - DEBUG - Shader compiled successfully
+2025-04-21 20:32:07 - DEBUG - Program linked successfully
+2025-04-21 20:50:24 - DEBUG - log4rs configured!
+2025-04-21 20:50:24 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:50:24 - DEBUG - Shader compiled successfully
+2025-04-21 20:50:24 - DEBUG - Shader compiled successfully
+2025-04-21 20:50:24 - DEBUG - Program linked successfully
+2025-04-21 20:54:52 - DEBUG - log4rs configured!
+2025-04-21 20:54:52 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:54:52 - DEBUG - Shader compiled successfully
+2025-04-21 20:54:52 - DEBUG - Shader compiled successfully
+2025-04-21 20:54:52 - DEBUG - Program linked successfully
+2025-04-21 20:54:52 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:54:52 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:55:12 - DEBUG - log4rs configured!
+2025-04-21 20:55:13 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:55:13 - DEBUG - Shader compiled successfully
+2025-04-21 20:55:13 - DEBUG - Shader compiled successfully
+2025-04-21 20:55:13 - DEBUG - Program linked successfully
+2025-04-21 20:55:13 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 96
+	OFFSET: 0
+2025-04-21 20:55:13 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 96
+	OFFSET: 3
+2025-04-21 20:56:14 - DEBUG - log4rs configured!
+2025-04-21 20:56:14 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:56:14 - DEBUG - Shader compiled successfully
+2025-04-21 20:56:14 - DEBUG - Shader compiled successfully
+2025-04-21 20:56:14 - DEBUG - Program linked successfully
+2025-04-21 20:56:14 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 0
+2025-04-21 20:56:14 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 24
+	OFFSET: 3
+2025-04-21 20:56:44 - DEBUG - log4rs configured!
+2025-04-21 20:56:44 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:56:44 - DEBUG - Shader compiled successfully
+2025-04-21 20:56:44 - DEBUG - Shader compiled successfully
+2025-04-21 20:56:44 - DEBUG - Program linked successfully
+2025-04-21 20:56:44 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 0
+2025-04-21 20:56:44 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 3
+2025-04-21 20:57:01 - DEBUG - log4rs configured!
+2025-04-21 20:57:01 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:57:01 - DEBUG - Shader compiled successfully
+2025-04-21 20:57:01 - DEBUG - Shader compiled successfully
+2025-04-21 20:57:01 - DEBUG - Program linked successfully
+2025-04-21 20:57:01 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 0
+2025-04-21 20:57:01 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 3
+2025-04-21 20:57:21 - DEBUG - log4rs configured!
+2025-04-21 20:57:21 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 20:57:21 - DEBUG - Shader compiled successfully
+2025-04-21 20:57:21 - DEBUG - Shader compiled successfully
+2025-04-21 20:57:21 - DEBUG - Program linked successfully
+2025-04-21 20:57:21 - DEBUG - Enabled Vertex Attrib 0:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 0
+2025-04-21 20:57:21 - DEBUG - Enabled Vertex Attrib 1:
+	SIZE: 3
+	TYPE: 5126
+	NORMALIZED: false
+	STRIDE: 6
+	OFFSET: 3
+2025-04-22 07:34:24 - DEBUG - log4rs configured!
+2025-04-22 07:34:24 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-22 07:34:24 - DEBUG - Shader compiled successfully
+2025-04-22 07:34:24 - DEBUG - Shader compiled successfully
+2025-04-22 07:34:24 - DEBUG - Program linked successfully
+2025-04-22 07:34:46 - DEBUG - log4rs configured!
+2025-04-22 07:34:47 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-22 07:34:47 - DEBUG - Shader compiled successfully
+2025-04-22 07:34:47 - DEBUG - Shader compiled successfully
+2025-04-22 07:34:47 - DEBUG - Program linked successfully
+2025-04-22 07:35:38 - DEBUG - log4rs configured!
+2025-04-22 07:35:39 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-22 07:35:39 - DEBUG - Shader compiled successfully
+2025-04-22 07:35:39 - DEBUG - Shader compiled successfully
+2025-04-22 07:35:39 - DEBUG - Program linked successfully

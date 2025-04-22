@@ -1,11 +1,16 @@
 #![allow(non_snake_case, non_camel_case_types)]
+/*
+    Please ignore the shitty code, im new to this :plead:
+*/
 
+use asset_management::object::ObjectBuilder;
 use camera::{Camera, CameraConstructor};
 use glfw::ffi::*;
 use lazy_static::lazy_static;
 use log::{debug, error};
 use nalgebra_glm::{self as glm};
 use shader::Shader;
+use shader::vertexattrib::VertexAttrib;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
 use std::sync::Mutex;
@@ -17,8 +22,8 @@ mod shader;
 mod texture;
 mod util;
 
-static mut SCREEN_WIDTH: i32 = 800;
-static mut SCREEN_HEIGHT: i32 = 600;
+static mut SCREEN_WIDTH: i32 = 1920;
+static mut SCREEN_HEIGHT: i32 = 1080;
 
 static mut LASTFRAME: f64 = 0f64;
 static mut DELTATIME: f64 = 0f64;
@@ -41,13 +46,11 @@ fn main() -> LinuxExitCode {
             panic!("GLFW failed to initialize!");
         }
 
-        let width: i32 = 800;
-        let height: i32 = 600;
         let title = CString::new("My GLFW Window").unwrap();
 
         let window: *mut GLFWwindow = glfwCreateWindow(
-            width,
-            height,
+            SCREEN_WIDTH,
+            SCREEN_HEIGHT,
             title.as_ptr(),
             ptr::null_mut(),
             ptr::null_mut(),
@@ -68,7 +71,7 @@ fn main() -> LinuxExitCode {
             let cstr = CString::new(name).unwrap();
             glfwGetProcAddress(cstr.as_ptr()) as *const _
         });
-        gl::Viewport(0, 0, 800, 600);
+        gl::Viewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         gl::Enable(gl::DEPTH_TEST);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
@@ -120,8 +123,12 @@ fn main() -> LinuxExitCode {
         gl::EnableVertexAttribArray(1);
 
         let mut view = crate::util::glmaddon::mat4(1.032);
-        let projection =
-            glm::perspective(800f32 / 600f32, CAMERA.lock().unwrap().zoom, 0.1f32, 100f32);
+        let projection = glm::perspective(
+            SCREEN_WIDTH as f32 / SCREEN_HEIGHT as f32,
+            CAMERA.lock().unwrap().zoom,
+            0.1f32,
+            100f32,
+        );
         let mut model = util::glmaddon::mat4(1.032);
 
         model = glm::rotate(&model, -0f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
@@ -137,7 +144,7 @@ fn main() -> LinuxExitCode {
             ambient: glm::vec3(1f32, 0.5f32, 0.31f32),
             diffuse: glm::vec3(1f32, 0.5f32, 0.31f32),
             specular: glm::vec3(0.5f32, 0.5f32, 0.5f32),
-            shininess: 32f32,
+            shininess: 256f32,
         };
 
         shader.setMat4("view", view, gl::FALSE);
@@ -217,60 +224,54 @@ extern "C" fn framebuffer_size_callback(_window: *mut GLFWwindow, width: i32, he
     }
 }
 extern "C" fn process_input(window: *mut GLFWwindow) {
-    if unsafe { glfwGetKey(window, KEY_ESCAPE) } == PRESS {
-        unsafe { glfwSetWindowShouldClose(window, TRUE) };
-    }
-    if unsafe { glfwGetKey(window, KEY_W) } == PRESS {
-        unsafe {
-            CAMERA
-                .lock()
-                .unwrap()
-                .process_keyboard(camera::CameraMovement::FORWARD, DELTATIME);
-        };
-    }
-    if unsafe { glfwGetKey(window, KEY_S) } == PRESS {
-        unsafe {
-            CAMERA
-                .lock()
-                .unwrap()
-                .process_keyboard(camera::CameraMovement::BACKWARD, DELTATIME);
-        };
-    }
-    if unsafe { glfwGetKey(window, KEY_A) } == PRESS {
-        unsafe {
-            CAMERA
-                .lock()
-                .unwrap()
-                .process_keyboard(camera::CameraMovement::LEFT, DELTATIME);
-        };
-    }
-    if unsafe { glfwGetKey(window, KEY_D) } == PRESS {
-        unsafe {
-            CAMERA
-                .lock()
-                .unwrap()
-                .process_keyboard(camera::CameraMovement::RIGHT, DELTATIME);
-        };
+    unsafe {
+        if glfwGetKey(window, KEY_ESCAPE) == PRESS {
+            glfwSetWindowShouldClose(window, TRUE)
+        }
+
+        if glfwGetKey(window, KEY_LEFT_ALT) == PRESS {
+            glfwSetInputMode(window, CURSOR, CURSOR_NORMAL);
+            FIRST_MOUSE = true;
+        }
+        if glfwGetKey(window, KEY_LEFT_ALT) == RELEASE {
+            glfwSetInputMode(window, CURSOR, CURSOR_DISABLED);
+        }
+
+        let mut camera = CAMERA.lock().unwrap();
+        if glfwGetKey(window, KEY_W) == PRESS {
+            camera.process_keyboard(camera::CameraMovement::FORWARD, DELTATIME);
+        }
+        if glfwGetKey(window, KEY_S) == PRESS {
+            camera.process_keyboard(camera::CameraMovement::BACKWARD, DELTATIME);
+        }
+        if glfwGetKey(window, KEY_A) == PRESS {
+            camera.process_keyboard(camera::CameraMovement::LEFT, DELTATIME);
+        }
+        if glfwGetKey(window, KEY_D) == PRESS {
+            camera.process_keyboard(camera::CameraMovement::RIGHT, DELTATIME);
+        }
     }
 }
 
 extern "C" fn mouse_callback(_window: *mut GLFWwindow, xposIn: f64, yposIn: f64) {
-    let xpos = xposIn as f32;
-    let ypos = yposIn as f32;
-    unsafe {
-        if FIRST_MOUSE {
+    if unsafe { glfwGetInputMode(_window, CURSOR) } == CURSOR_DISABLED {
+        let xpos = xposIn as f32;
+        let ypos = yposIn as f32;
+        unsafe {
+            if FIRST_MOUSE {
+                LAST_X = xpos;
+                LAST_Y = ypos;
+                FIRST_MOUSE = false;
+            }
+
+            let xoffset = xpos - LAST_X;
+            let yoffset = LAST_Y - ypos;
+
             LAST_X = xpos;
             LAST_Y = ypos;
-            FIRST_MOUSE = false;
+
+            CAMERA.lock().unwrap().process_mouse(xoffset, yoffset);
         }
-
-        let xoffset = xpos - LAST_X;
-        let yoffset = LAST_Y - ypos;
-
-        LAST_X = xpos;
-        LAST_Y = ypos;
-
-        CAMERA.lock().unwrap().process_mouse(xoffset, yoffset);
     }
 }
 
