@@ -144,7 +144,7 @@ fn main() -> LinuxExitCode {
             ambient: glm::vec3(1f32, 0.5f32, 0.31f32),
             diffuse: glm::vec3(1f32, 0.5f32, 0.31f32),
             specular: glm::vec3(0.5f32, 0.5f32, 0.5f32),
-            shininess: 256f32,
+            shininess: 32f32,
         };
 
         shader.setMat4("view", view, gl::FALSE);
@@ -159,7 +159,7 @@ fn main() -> LinuxExitCode {
         shader.setVec3("material.diffuse", m.diffuse);
         shader.setVec3("material.specular", m.specular);
         shader.setFloat("material.shininess", m.shininess);
-        let mut lightColor: glm::TVec3<f32> = glm::vec3(0f32, 0f32, 0f32);
+        // let mut lightColor: glm::TVec3<f32> = glm::vec3(0f32, 0f32, 0f32);
 
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
@@ -168,20 +168,20 @@ fn main() -> LinuxExitCode {
             gl::ClearColor(0.1, 0.1, 0.1, 1.0);
             gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT);
 
-            lightColor.x = (glfwGetTime() * 2.0f64).sin() as f32;
-            lightColor.y = (glfwGetTime() * 0.7f64).sin() as f32;
-            lightColor.z = (glfwGetTime() * 1.3f64).sin() as f32;
+            // lightColor.x = (glfwGetTime() * 2.0f64).sin() as f32;
+            // lightColor.y = (glfwGetTime() * 0.7f64).sin() as f32;
+            // lightColor.z = (glfwGetTime() * 1.3f64).sin() as f32;
 
-            light.diffuse = glm::vec3(
-                lightColor.x * 0.5f32,
-                lightColor.y * 0.5f32,
-                lightColor.z * 0.5f32,
-            );
-            light.ambient = glm::vec3(
-                lightColor.x * 0.2f32,
-                lightColor.y * 0.2f32,
-                lightColor.z * 0.2f32,
-            );
+            // light.diffuse = glm::vec3(
+            //     lightColor.x * 0.5f32,
+            //     lightColor.y * 0.5f32,
+            //     lightColor.z * 0.5f32,
+            // );
+            // light.ambient = glm::vec3(
+            //     lightColor.x * 0.2f32,
+            //     lightColor.y * 0.2f32,
+            //     lightColor.z * 0.2f32,
+            // );
 
             shader.activate();
             shader.setMat4("view", CAMERA.lock().unwrap().get_view_matrix(), gl::FALSE);
@@ -190,13 +190,13 @@ fn main() -> LinuxExitCode {
                 glm::perspective(
                     (SCREEN_WIDTH as f32) / (SCREEN_HEIGHT as f32),
                     CAMERA.lock().unwrap().zoom.to_radians(),
-                    0.1f32,
+                    0.01f32,
                     100f32,
                 ),
                 gl::FALSE,
             );
-            shader.setVec3("light.ambient", light.ambient);
-            shader.setVec3("light.diffuse", light.diffuse);
+            // shader.setVec3("light.ambient", light.ambient);
+            // shader.setVec3("light.diffuse", light.diffuse);
             shader.setVec3("viewPos", CAMERA.lock().unwrap().get_position());
 
             gl::BindVertexArray(vao);
