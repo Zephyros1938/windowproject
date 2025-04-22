@@ -26,6 +26,7 @@ impl CameraMovement {
         }
     }
 }
+#[derive(Clone, Copy)]
 pub struct Camera {
     position: glm::Vec3,
     front: glm::Vec3,
@@ -47,6 +48,10 @@ impl Camera {
 
     pub fn get_position(&self) -> glm::Vec3 {
         self.position
+    }
+
+    pub fn get_front(&self) -> glm::Vec3 {
+        self.front
     }
 
     pub fn process_keyboard(&mut self, direction: CameraMovement, deltatime: f64) {

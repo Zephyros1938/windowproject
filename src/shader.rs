@@ -79,13 +79,13 @@ impl Shader {
             );
         }
     }
-    pub unsafe fn setMat4(&self, name: &str, value: glm::TMat4<f32>, transpose: GLboolean) {
+    pub unsafe fn setMat4(&self, name: &str, value: &glm::TMat4<f32>, transpose: GLboolean) {
         unsafe {
             gl::UniformMatrix4fv(
                 gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 1,
                 transpose,
-                value.as_ptr(),
+                &glm::value_ptr(value)[0],
             );
         }
     }
@@ -107,14 +107,14 @@ impl Shader {
             );
         }
     }
-    pub unsafe fn setVec4(&self, name: &str, v: glm::Vec4) {
+    pub unsafe fn setVec4(&self, name: &str, value: glm::Vec4) {
         unsafe {
             gl::Uniform4f(
                 gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
-                v.x,
-                v.y,
-                v.z,
-                v.w,
+                value.x,
+                value.y,
+                value.z,
+                value.w,
             );
         }
     }

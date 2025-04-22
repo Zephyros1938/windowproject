@@ -2039,3 +2039,229 @@ Fragment info
 2025-04-22 07:44:33 - DEBUG - Shader compiled successfully
 2025-04-22 07:44:33 - DEBUG - Shader compiled successfully
 2025-04-22 07:44:33 - DEBUG - Program linked successfully
+2025-04-22 10:41:10 - DEBUG - log4rs configured!
+2025-04-22 10:41:10 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 10:41:10 - DEBUG - Shader compiled successfully
+2025-04-22 10:41:10 - DEBUG - Shader compiled successfully
+2025-04-22 10:41:10 - DEBUG - Program linked successfully
+2025-04-22 10:42:13 - DEBUG - log4rs configured!
+2025-04-22 10:42:13 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 10:42:13 - DEBUG - Shader compiled successfully
+2025-04-22 10:42:13 - DEBUG - Shader compiled successfully
+2025-04-22 10:42:13 - DEBUG - Program linked successfully
+2025-04-22 11:19:17 - DEBUG - log4rs configured!
+2025-04-22 11:19:17 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:19:17 - DEBUG - Shader compiled successfully
+2025-04-22 11:19:17 - DEBUG - Shader compiled successfully
+2025-04-22 11:19:17 - DEBUG - Program linked successfully
+2025-04-22 11:19:17 - DEBUG - Loading Texture
+2025-04-22 11:19:17 - DEBUG - Loaded Texture
+2025-04-22 11:20:31 - DEBUG - log4rs configured!
+2025-04-22 11:20:31 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:20:31 - DEBUG - Shader compiled successfully
+2025-04-22 11:20:31 - DEBUG - Shader compiled successfully
+2025-04-22 11:20:31 - DEBUG - Program linked successfully
+2025-04-22 11:20:31 - DEBUG - Loading Texture
+2025-04-22 11:20:31 - DEBUG - Loaded Texture
+2025-04-22 11:21:15 - DEBUG - log4rs configured!
+2025-04-22 11:21:16 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:21:16 - DEBUG - Shader compiled successfully
+2025-04-22 11:21:16 - DEBUG - Shader compiled successfully
+2025-04-22 11:21:16 - DEBUG - Program linked successfully
+2025-04-22 11:21:16 - DEBUG - Loading Texture
+2025-04-22 11:21:16 - DEBUG - Loaded Texture
+2025-04-22 11:22:18 - DEBUG - log4rs configured!
+2025-04-22 11:22:19 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:22:19 - DEBUG - Shader compiled successfully
+2025-04-22 11:22:19 - DEBUG - Shader compiled successfully
+2025-04-22 11:22:19 - DEBUG - Program linked successfully
+2025-04-22 11:22:19 - DEBUG - Loading Texture
+2025-04-22 11:22:19 - DEBUG - Loaded Texture
+2025-04-22 11:22:43 - DEBUG - log4rs configured!
+2025-04-22 11:22:44 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:22:44 - DEBUG - Shader compiled successfully
+2025-04-22 11:22:44 - DEBUG - Shader compiled successfully
+2025-04-22 11:22:44 - DEBUG - Program linked successfully
+2025-04-22 11:22:44 - DEBUG - Loading Texture
+2025-04-22 11:22:44 - DEBUG - Loaded Texture
+2025-04-22 11:25:20 - DEBUG - log4rs configured!
+2025-04-22 11:25:20 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:25:20 - DEBUG - Shader compiled successfully
+2025-04-22 11:25:20 - DEBUG - Shader compiled successfully
+2025-04-22 11:25:20 - DEBUG - Program linked successfully
+2025-04-22 11:25:20 - DEBUG - Loading Texture
+2025-04-22 11:25:20 - DEBUG - Loaded Texture
+2025-04-22 11:25:20 - DEBUG - Loading Texture
+2025-04-22 11:25:20 - DEBUG - Loaded Texture
+2025-04-22 11:38:23 - DEBUG - log4rs configured!
+2025-04-22 11:38:23 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:38:23 - DEBUG - Shader compiled successfully
+2025-04-22 11:38:23 - ERROR - Shader compilation failed:
+0:28(1): error: syntax error, unexpected IN_TOK, expecting ',' or ';'
+
+2025-04-22 11:38:23 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shader
+2025-04-22 11:38:23 - DEBUG - Loading Texture
+2025-04-22 11:38:23 - DEBUG - Loaded Texture
+2025-04-22 11:38:23 - DEBUG - Loading Texture
+2025-04-22 11:38:23 - DEBUG - Loaded Texture
+2025-04-22 11:39:04 - DEBUG - log4rs configured!
+2025-04-22 11:39:04 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:39:04 - DEBUG - Shader compiled successfully
+2025-04-22 11:39:04 - DEBUG - Shader compiled successfully
+2025-04-22 11:39:04 - DEBUG - Program linked successfully
+2025-04-22 11:39:04 - DEBUG - Loading Texture
+2025-04-22 11:39:04 - DEBUG - Loaded Texture
+2025-04-22 11:39:04 - DEBUG - Loading Texture
+2025-04-22 11:39:04 - DEBUG - Loaded Texture
+2025-04-22 11:51:01 - DEBUG - log4rs configured!
+2025-04-22 11:51:01 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 11:51:01 - DEBUG - Shader compiled successfully
+2025-04-22 11:51:01 - DEBUG - Shader compiled successfully
+2025-04-22 11:51:01 - DEBUG - Program linked successfully
+2025-04-22 11:51:01 - DEBUG - Loading Texture
+2025-04-22 11:51:01 - DEBUG - Loaded Texture
+2025-04-22 11:51:01 - DEBUG - Loading Texture
+2025-04-22 11:51:01 - DEBUG - Loaded Texture
+2025-04-22 12:42:32 - DEBUG - log4rs configured!
+2025-04-22 12:42:32 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 12:42:32 - DEBUG - Shader compiled successfully
+2025-04-22 12:42:32 - ERROR - Shader compilation failed:
+0:68(41): error: cannot access field `direction' of structure
+0:68(41): error: type mismatch
+0:68(40): error: operands to arithmetic operators must be numeric
+0:68(30): error: no matching function for call to `normalize(error)'; candidates are:
+0:68(30): error:    float normalize(float)
+0:68(30): error:    vec2 normalize(vec2)
+0:68(30): error:    vec3 normalize(vec3)
+0:68(30): error:    vec4 normalize(vec4)
+0:68(16): error: no matching function for call to `dot(vec3, error)'; candidates are:
+0:68(16): error:    float dot(float, float)
+0:68(16): error:    float dot(vec2, vec2)
+0:68(16): error:    float dot(vec3, vec3)
+0:68(16): error:    float dot(vec4, vec4)
+0:70(6): warning: `theta' used uninitialized
+0:70(14): error: cannot access field `cutOff' of structure
+0:70(14): error: type mismatch
+0:70(6): error: operands to relational operators must be scalar and numeric
+0:70(6): error: if-statement condition must be scalar boolean
+
+2025-04-22 12:42:32 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shader
+2025-04-22 12:46:37 - DEBUG - log4rs configured!
+2025-04-22 12:46:37 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 12:46:37 - DEBUG - Shader compiled successfully
+2025-04-22 12:46:37 - DEBUG - Shader compiled successfully
+2025-04-22 12:46:37 - DEBUG - Program linked successfully
+2025-04-22 12:47:52 - DEBUG - log4rs configured!
+2025-04-22 12:47:52 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 12:47:52 - DEBUG - Shader compiled successfully
+2025-04-22 12:47:52 - DEBUG - Shader compiled successfully
+2025-04-22 12:47:52 - DEBUG - Program linked successfully
+2025-04-22 12:49:22 - DEBUG - log4rs configured!
+2025-04-22 12:49:23 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 12:49:23 - DEBUG - Shader compiled successfully
+2025-04-22 12:49:23 - DEBUG - Shader compiled successfully
+2025-04-22 12:49:23 - DEBUG - Program linked successfully
+2025-04-22 13:11:02 - DEBUG - log4rs configured!
+2025-04-22 13:11:02 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:11:02 - DEBUG - Shader compiled successfully
+2025-04-22 13:11:02 - DEBUG - Shader compiled successfully
+2025-04-22 13:11:02 - DEBUG - Program linked successfully
+2025-04-22 13:11:02 - DEBUG - Loading Texture
+2025-04-22 13:11:02 - DEBUG - Loaded Texture
+2025-04-22 13:11:02 - DEBUG - Loading Texture
+2025-04-22 13:11:02 - DEBUG - Loaded Texture
+2025-04-22 13:11:45 - DEBUG - log4rs configured!
+2025-04-22 13:11:45 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:11:45 - DEBUG - Shader compiled successfully
+2025-04-22 13:11:45 - DEBUG - Shader compiled successfully
+2025-04-22 13:11:45 - DEBUG - Program linked successfully
+2025-04-22 13:11:45 - DEBUG - Loading Texture
+2025-04-22 13:11:45 - DEBUG - Loaded Texture
+2025-04-22 13:11:45 - DEBUG - Loading Texture
+2025-04-22 13:11:45 - DEBUG - Loaded Texture
+2025-04-22 13:15:27 - DEBUG - log4rs configured!
+2025-04-22 13:15:27 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:15:27 - DEBUG - Shader compiled successfully
+2025-04-22 13:15:27 - DEBUG - Shader compiled successfully
+2025-04-22 13:15:27 - DEBUG - Program linked successfully
+2025-04-22 13:16:27 - DEBUG - log4rs configured!
+2025-04-22 13:16:27 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:16:27 - DEBUG - Shader compiled successfully
+2025-04-22 13:16:27 - DEBUG - Shader compiled successfully
+2025-04-22 13:16:27 - DEBUG - Program linked successfully
+2025-04-22 13:21:36 - DEBUG - log4rs configured!
+2025-04-22 13:21:37 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:21:37 - DEBUG - Shader compiled successfully
+2025-04-22 13:21:37 - DEBUG - Shader compiled successfully
+2025-04-22 13:21:37 - DEBUG - Program linked successfully
+2025-04-22 13:24:28 - DEBUG - log4rs configured!
+2025-04-22 13:24:28 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:24:28 - DEBUG - Shader compiled successfully
+2025-04-22 13:24:28 - DEBUG - Shader compiled successfully
+2025-04-22 13:24:28 - DEBUG - Program linked successfully
+2025-04-22 13:25:06 - DEBUG - log4rs configured!
+2025-04-22 13:25:06 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:25:06 - DEBUG - Shader compiled successfully
+2025-04-22 13:25:06 - DEBUG - Shader compiled successfully
+2025-04-22 13:25:06 - DEBUG - Program linked successfully
+2025-04-22 13:26:00 - DEBUG - log4rs configured!
+2025-04-22 13:26:00 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:26:00 - DEBUG - Shader compiled successfully
+2025-04-22 13:26:00 - DEBUG - Shader compiled successfully
+2025-04-22 13:26:00 - DEBUG - Program linked successfully
+2025-04-22 13:26:49 - DEBUG - log4rs configured!
+2025-04-22 13:26:50 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:26:50 - DEBUG - Shader compiled successfully
+2025-04-22 13:26:50 - DEBUG - Shader compiled successfully
+2025-04-22 13:26:50 - DEBUG - Program linked successfully
+2025-04-22 13:34:56 - DEBUG - log4rs configured!
+2025-04-22 13:34:56 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:34:56 - DEBUG - Shader compiled successfully
+2025-04-22 13:34:56 - DEBUG - Shader compiled successfully
+2025-04-22 13:34:56 - DEBUG - Program linked successfully
+2025-04-22 13:49:13 - DEBUG - log4rs configured!
+2025-04-22 13:49:13 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:49:13 - DEBUG - Shader compiled successfully
+2025-04-22 13:49:13 - DEBUG - Shader compiled successfully
+2025-04-22 13:49:13 - DEBUG - Program linked successfully
+2025-04-22 13:51:07 - DEBUG - log4rs configured!
+2025-04-22 13:51:07 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:51:07 - DEBUG - Shader compiled successfully
+2025-04-22 13:51:07 - DEBUG - Shader compiled successfully
+2025-04-22 13:51:07 - DEBUG - Program linked successfully
+2025-04-22 13:52:47 - DEBUG - log4rs configured!
+2025-04-22 13:52:47 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:52:47 - DEBUG - Shader compiled successfully
+2025-04-22 13:52:47 - DEBUG - Shader compiled successfully
+2025-04-22 13:52:47 - DEBUG - Program linked successfully
+2025-04-22 13:54:55 - DEBUG - log4rs configured!
+2025-04-22 13:54:56 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:54:56 - DEBUG - Shader compiled successfully
+2025-04-22 13:54:56 - DEBUG - Shader compiled successfully
+2025-04-22 13:54:56 - DEBUG - Program linked successfully
+2025-04-22 13:59:11 - DEBUG - log4rs configured!
+2025-04-22 13:59:11 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:59:11 - DEBUG - Shader compiled successfully
+2025-04-22 13:59:11 - DEBUG - Shader compiled successfully
+2025-04-22 13:59:57 - DEBUG - log4rs configured!
+2025-04-22 13:59:57 - DEBUG - Using OpenGL version: 4.6 (Core Profile) Mesa 25.0.3-arch1.1
+2025-04-22 13:59:57 - DEBUG - Shader compiled successfully
+2025-04-22 13:59:57 - DEBUG - Shader compiled successfully
+2025-04-22 13:59:57 - DEBUG - Program linked successfully
+2025-04-22 14:04:06 - DEBUG - log4rs configured!
+2025-04-22 14:04:06 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 14:04:06 - DEBUG - Shader compiled successfully
+2025-04-22 14:04:06 - DEBUG - Shader compiled successfully
+2025-04-22 14:04:06 - DEBUG - Program linked successfully
+2025-04-22 14:08:07 - DEBUG - log4rs configured!
+2025-04-22 14:08:07 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 14:08:07 - DEBUG - Shader compiled successfully
+2025-04-22 14:08:07 - DEBUG - Shader compiled successfully
+2025-04-22 14:08:07 - DEBUG - Program linked successfully
+2025-04-22 14:09:29 - DEBUG - log4rs configured!
+2025-04-22 14:09:30 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-22 14:09:30 - DEBUG - Shader compiled successfully
+2025-04-22 14:09:30 - DEBUG - Shader compiled successfully
+2025-04-22 14:09:30 - DEBUG - Program linked successfully
