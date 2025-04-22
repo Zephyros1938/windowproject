@@ -79,13 +79,13 @@ impl Shader {
             );
         }
     }
-    pub unsafe fn setMat4(&self, name: &str, value: &glm::TMat4<f32>, transpose: GLboolean) {
+    pub unsafe fn setMat4(&self, name: &str, value: glm::TMat4<f32>, transpose: GLboolean) {
         unsafe {
             gl::UniformMatrix4fv(
                 gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),
                 1,
                 transpose,
-                &glm::value_ptr(value)[0],
+                value.as_ptr(),
             );
         }
     }

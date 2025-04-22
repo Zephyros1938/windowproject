@@ -1,4 +1,4 @@
-#[allow(unused_macros)]
+#![allow(unused_macros)]
 #[macro_export]
 macro_rules! sizeof {
     ($t:ty) => {
@@ -34,9 +34,7 @@ macro_rules! cstr_compiletime {
         C_STRING
     }};
 }
-
 #[macro_export]
-#[allow(unused_macros)]
 macro_rules! cstr_ptr {
     ($s:expr) => {{
         let c_string = crate::cstr!($s);
@@ -113,4 +111,22 @@ macro_rules! check_program_link {
             log::debug!("Program linked successfully");
         }
     }};
+}
+#[macro_export]
+macro_rules! as_mut_expect {
+    ($option:expr, $msg:expr) => {
+        $option.as_mut().expect($msg)
+    };
+}
+#[macro_export]
+macro_rules! as_ref_except {
+    ($obj:expr, $msg:expr) => {
+        $obj.as_ref().expect($msg)
+    };
+}
+#[macro_export]
+macro_rules! as_deref_mut_except {
+    ($obj:expr, $msg:expr) => {
+        $obj.as_deref_mut().expect($msg)
+    };
 }

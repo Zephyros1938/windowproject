@@ -1,6 +1,9 @@
+#![allow(dead_code)]
 use nalgebra_glm as glm;
 
-const MAX_ZOOM: f32 = 75f32;
+use crate::as_mut_expect;
+
+const MAX_ZOOM: f32 = 89f32;
 const MIN_ZOOM: f32 = 1f32;
 
 const YAW: f32 = -90f32;
@@ -26,7 +29,7 @@ impl CameraMovement {
         }
     }
 }
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Debug)]
 pub struct Camera {
     position: glm::Vec3,
     front: glm::Vec3,
@@ -39,11 +42,23 @@ pub struct Camera {
     move_speed: f32,
     pub zoom: f32,
     constrain_pitch: bool,
+    aspect_ratio: f32,
+    near: f32,
+    far: f32,
 }
 
 impl Camera {
     pub fn get_view_matrix(&self) -> glm::Mat4 {
         glm::look_at(&self.position, &(self.position + self.front), &self.up)
+    }
+
+    pub fn get_projection_matrix(&self) -> glm::Mat4 {
+        glm::perspective(
+            self.aspect_ratio,
+            self.zoom.to_radians(),
+            self.near,
+            self.far,
+        )
     }
 
     pub fn get_position(&self) -> glm::Vec3 {
@@ -95,6 +110,7 @@ impl Camera {
         if self.zoom > MAX_ZOOM {
             self.zoom = MAX_ZOOM;
         }
+        println!("{}", self.zoom);
     }
 
     fn update_vectors(&mut self) {
@@ -107,6 +123,14 @@ impl Camera {
         self.right = glm::cross(&self.front, &self.world_up).normalize();
         self.up = glm::cross(&self.right, &self.front).normalize();
     }
+
+    pub fn set_aspect_ratio_xy(&mut self, x: f32, y: f32) {
+        self.aspect_ratio = x / y;
+    }
+
+    pub fn set_aspect_ratio(&mut self, aspect: f32) {
+        self.aspect_ratio = aspect;
+    }
 }
 
 pub fn CameraConstructor(
@@ -118,6 +142,9 @@ pub fn CameraConstructor(
     move_speed: Option<f32>,
     zoom: Option<f32>,
     constrain_pitch: Option<bool>,
+    aspect_ratio: Option<f32>,
+    near: Option<f32>,
+    far: Option<f32>,
 ) -> Camera {
     let yaw = match yaw {
         Some(n) => n,
@@ -165,5 +192,75 @@ pub fn CameraConstructor(
             Some(n) => n,
             None => true,
         },
+        aspect_ratio: match aspect_ratio {
+            Some(n) => n,
+            None => 800f32 / 600f32,
+        },
+        near: match near {
+            Some(n) => n,
+            None => 0.01f32,
+        },
+        far: match far {
+            Some(n) => n,
+            None => 100f32,
+        },
+    }
+}
+
+#[derive(Debug)]
+pub struct cpp_camera {
+    pub camera: Option<Camera>,
+}
+
+impl cpp_camera {
+    pub fn new(camera: Camera) -> Self {
+        Self {
+            camera: Some(camera),
+        }
+    }
+
+    pub fn get_view_matrix(&self) -> glm::Mat4 {
+        self.camera
+            .expect("Camera not initialized")
+            .get_view_matrix()
+    }
+
+    pub fn get_projection_matrix(&self) -> glm::Mat4 {
+        self.camera
+            .expect("Camera not initialized")
+            .get_projection_matrix()
+    }
+
+    pub fn get_position(&self) -> glm::Vec3 {
+        self.camera.expect("Camera not initialized").get_position()
+    }
+
+    pub fn get_front(&self) -> glm::Vec3 {
+        self.camera.expect("Camera not initialized").get_front()
+    }
+
+    pub fn process_keyboard(&mut self, direction: CameraMovement, deltatime: f64) {
+        as_mut_expect!(self.camera, "Camera not initialized")
+            .process_keyboard(direction, deltatime);
+    }
+
+    pub fn process_mouse(&mut self, xoffset: f32, yoffset: f32) {
+        as_mut_expect!(self.camera, "Camera not initialized").process_mouse(xoffset, yoffset);
+    }
+
+    pub fn process_scroll(&mut self, yoffset: f32) {
+        as_mut_expect!(self.camera, "Camera not initialized").process_scroll(yoffset);
+    }
+
+    fn update_vectors(&mut self) {
+        as_mut_expect!(self.camera, "Camera not initialized").update_vectors();
+    }
+
+    pub fn set_aspect_ratio_xy(&mut self, x: f32, y: f32) {
+        as_mut_expect!(self.camera, "Camera not initialized").set_aspect_ratio(x / y);
+    }
+
+    pub fn set_aspect_ratio(&mut self, aspect: f32) {
+        as_mut_expect!(self.camera, "Camera not initialized").set_aspect_ratio(aspect);
     }
 }
