@@ -1409,3 +1409,190 @@ error: linking with uncompiled/unspecialized shader
 2025-04-21 15:47:10 - DEBUG - Loaded Texture
 2025-04-21 15:47:10 - DEBUG - Loading Texture
 2025-04-21 15:47:10 - DEBUG - Loaded Texture
+2025-04-21 17:33:21 - DEBUG - log4rs configured!
+2025-04-21 17:33:21 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:33:21 - DEBUG - Shader compiled successfully
+2025-04-21 17:33:21 - DEBUG - Shader compiled successfully
+2025-04-21 17:33:21 - DEBUG - Program linked successfully
+2025-04-21 17:33:21 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 17:33:21 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 17:33:21 - DEBUG - Loading Texture
+2025-04-21 17:33:21 - DEBUG - Loaded Texture
+2025-04-21 17:33:21 - DEBUG - Loading Texture
+2025-04-21 17:33:21 - DEBUG - Loaded Texture
+2025-04-21 17:33:55 - DEBUG - log4rs configured!
+2025-04-21 17:33:55 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:33:55 - DEBUG - Shader compiled successfully
+2025-04-21 17:33:55 - DEBUG - Shader compiled successfully
+2025-04-21 17:33:55 - DEBUG - Program linked successfully
+2025-04-21 17:33:55 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 17:33:55 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 17:33:55 - DEBUG - Loading Texture
+2025-04-21 17:33:55 - DEBUG - Loaded Texture
+2025-04-21 17:33:55 - DEBUG - Loading Texture
+2025-04-21 17:33:55 - DEBUG - Loaded Texture
+2025-04-21 17:37:25 - DEBUG - log4rs configured!
+2025-04-21 17:37:25 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:37:25 - DEBUG - Shader compiled successfully
+2025-04-21 17:37:25 - DEBUG - Shader compiled successfully
+2025-04-21 17:37:25 - DEBUG - Program linked successfully
+2025-04-21 17:37:25 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 17:37:25 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 17:37:25 - DEBUG - Loading Texture
+2025-04-21 17:37:25 - DEBUG - Loaded Texture
+2025-04-21 17:37:25 - DEBUG - Loading Texture
+2025-04-21 17:37:25 - DEBUG - Loaded Texture
+2025-04-21 17:45:05 - DEBUG - log4rs configured!
+2025-04-21 17:45:05 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:45:05 - DEBUG - Shader compiled successfully
+2025-04-21 17:45:05 - DEBUG - Shader compiled successfully
+2025-04-21 17:45:05 - DEBUG - Program linked successfully
+2025-04-21 17:45:05 - DEBUG - Enabled Vertex Attrib Array 0
+2025-04-21 17:45:05 - DEBUG - Enabled Vertex Attrib Array 1
+2025-04-21 17:46:50 - DEBUG - log4rs configured!
+2025-04-21 17:46:50 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:46:50 - DEBUG - Shader compiled successfully
+2025-04-21 17:46:50 - DEBUG - Shader compiled successfully
+2025-04-21 17:46:50 - DEBUG - Program linked successfully
+2025-04-21 17:47:00 - DEBUG - log4rs configured!
+2025-04-21 17:47:00 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:47:00 - DEBUG - Shader compiled successfully
+2025-04-21 17:47:00 - DEBUG - Shader compiled successfully
+2025-04-21 17:47:00 - DEBUG - Program linked successfully
+2025-04-21 17:47:11 - DEBUG - log4rs configured!
+2025-04-21 17:47:11 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:47:11 - DEBUG - Shader compiled successfully
+2025-04-21 17:47:11 - DEBUG - Shader compiled successfully
+2025-04-21 17:47:11 - DEBUG - Program linked successfully
+2025-04-21 17:53:44 - DEBUG - log4rs configured!
+2025-04-21 17:53:44 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 17:53:44 - DEBUG - Shader compiled successfully
+2025-04-21 17:53:44 - DEBUG - Shader compiled successfully
+2025-04-21 17:53:44 - DEBUG - Program linked successfully
+2025-04-21 18:01:32 - DEBUG - log4rs configured!
+2025-04-21 18:01:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:01:32 - DEBUG - Shader compiled successfully
+2025-04-21 18:01:32 - ERROR - Shader compilation failed:
+0(14) : error C1503: undefined variable "lightColor"
+0(15) : error C1503: undefined variable "ambient"
+0(15) : error C1503: undefined variable "objectColor"
+
+2025-04-21 18:01:32 - ERROR - Program linking failed:
+Fragment info
+-------------
+0(14) : error C1503: undefined variable "lightColor"
+0(15) : error C1503: undefined variable "ambient"
+0(15) : error C1503: undefined variable "objectColor"
+(0) : error C2003: incompatible options for link
+
+2025-04-21 18:02:20 - DEBUG - log4rs configured!
+2025-04-21 18:02:20 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:02:20 - DEBUG - Shader compiled successfully
+2025-04-21 18:02:20 - ERROR - Shader compilation failed:
+0(14) : error C1503: undefined variable "lightColor"
+0(15) : error C1503: undefined variable "ambient"
+0(15) : error C1503: undefined variable "objectColor"
+
+2025-04-21 18:02:20 - ERROR - Program linking failed:
+Fragment info
+-------------
+0(14) : error C1503: undefined variable "lightColor"
+0(15) : error C1503: undefined variable "ambient"
+0(15) : error C1503: undefined variable "objectColor"
+(0) : error C2003: incompatible options for link
+
+2025-04-21 18:02:59 - DEBUG - log4rs configured!
+2025-04-21 18:02:59 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:02:59 - DEBUG - Shader compiled successfully
+2025-04-21 18:02:59 - DEBUG - Shader compiled successfully
+2025-04-21 18:02:59 - DEBUG - Program linked successfully
+2025-04-21 18:04:00 - DEBUG - log4rs configured!
+2025-04-21 18:04:00 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:04:00 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:00 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:00 - DEBUG - Program linked successfully
+2025-04-21 18:04:34 - DEBUG - log4rs configured!
+2025-04-21 18:04:34 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:04:34 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:34 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:34 - DEBUG - Program linked successfully
+2025-04-21 18:04:47 - DEBUG - log4rs configured!
+2025-04-21 18:04:47 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:04:47 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:47 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:47 - DEBUG - Program linked successfully
+2025-04-21 18:04:58 - DEBUG - log4rs configured!
+2025-04-21 18:04:58 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:04:58 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:58 - DEBUG - Shader compiled successfully
+2025-04-21 18:04:58 - DEBUG - Program linked successfully
+2025-04-21 18:05:06 - DEBUG - log4rs configured!
+2025-04-21 18:05:06 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:05:06 - DEBUG - Shader compiled successfully
+2025-04-21 18:05:06 - DEBUG - Shader compiled successfully
+2025-04-21 18:05:06 - DEBUG - Program linked successfully
+2025-04-21 18:05:43 - DEBUG - log4rs configured!
+2025-04-21 18:05:44 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:05:44 - DEBUG - Shader compiled successfully
+2025-04-21 18:05:44 - DEBUG - Shader compiled successfully
+2025-04-21 18:05:44 - DEBUG - Program linked successfully
+2025-04-21 18:10:04 - DEBUG - log4rs configured!
+2025-04-21 18:10:04 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:10:04 - DEBUG - Shader compiled successfully
+2025-04-21 18:10:04 - DEBUG - Shader compiled successfully
+2025-04-21 18:10:04 - DEBUG - Program linked successfully
+2025-04-21 18:11:23 - DEBUG - log4rs configured!
+2025-04-21 18:11:24 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:11:24 - DEBUG - Shader compiled successfully
+2025-04-21 18:11:24 - DEBUG - Shader compiled successfully
+2025-04-21 18:11:24 - DEBUG - Program linked successfully
+2025-04-21 18:13:01 - DEBUG - log4rs configured!
+2025-04-21 18:13:01 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:13:01 - DEBUG - Shader compiled successfully
+2025-04-21 18:13:01 - DEBUG - Shader compiled successfully
+2025-04-21 18:13:01 - DEBUG - Program linked successfully
+2025-04-21 18:14:48 - DEBUG - log4rs configured!
+2025-04-21 18:14:48 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:14:48 - DEBUG - Shader compiled successfully
+2025-04-21 18:14:48 - DEBUG - Shader compiled successfully
+2025-04-21 18:14:48 - DEBUG - Program linked successfully
+2025-04-21 18:15:57 - DEBUG - log4rs configured!
+2025-04-21 18:15:57 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:15:57 - DEBUG - Shader compiled successfully
+2025-04-21 18:15:57 - DEBUG - Shader compiled successfully
+2025-04-21 18:15:57 - DEBUG - Program linked successfully
+2025-04-21 18:18:45 - DEBUG - log4rs configured!
+2025-04-21 18:18:45 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:18:45 - DEBUG - Shader compiled successfully
+2025-04-21 18:18:45 - DEBUG - Shader compiled successfully
+2025-04-21 18:18:45 - DEBUG - Program linked successfully
+2025-04-21 18:26:32 - DEBUG - log4rs configured!
+2025-04-21 18:26:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:26:32 - DEBUG - Shader compiled successfully
+2025-04-21 18:26:32 - DEBUG - Shader compiled successfully
+2025-04-21 18:26:32 - DEBUG - Program linked successfully
+2025-04-21 18:37:42 - DEBUG - log4rs configured!
+2025-04-21 18:37:42 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:37:42 - DEBUG - Shader compiled successfully
+2025-04-21 18:37:42 - DEBUG - Shader compiled successfully
+2025-04-21 18:37:42 - DEBUG - Program linked successfully
+2025-04-21 18:38:26 - DEBUG - log4rs configured!
+2025-04-21 18:38:26 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:38:26 - DEBUG - Shader compiled successfully
+2025-04-21 18:38:26 - DEBUG - Shader compiled successfully
+2025-04-21 18:38:26 - DEBUG - Program linked successfully
+2025-04-21 18:44:05 - DEBUG - log4rs configured!
+2025-04-21 18:44:05 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:44:05 - DEBUG - Shader compiled successfully
+2025-04-21 18:44:05 - DEBUG - Shader compiled successfully
+2025-04-21 18:44:05 - DEBUG - Program linked successfully
+2025-04-21 18:52:36 - DEBUG - log4rs configured!
+2025-04-21 18:52:36 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 18:52:36 - DEBUG - Shader compiled successfully
+2025-04-21 18:52:36 - DEBUG - Shader compiled successfully
+2025-04-21 18:52:36 - DEBUG - Program linked successfully
+2025-04-21 19:16:47 - DEBUG - log4rs configured!
+2025-04-21 19:16:47 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-21 19:16:47 - DEBUG - Shader compiled successfully
+2025-04-21 19:16:47 - DEBUG - Shader compiled successfully
+2025-04-21 19:16:47 - DEBUG - Program linked successfully

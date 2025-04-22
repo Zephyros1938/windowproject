@@ -49,7 +49,7 @@ impl Shader {
     pub fn getId(&self) -> GLuint {
         self.ID
     }
-    pub fn activate(&self) {
+    pub unsafe fn useshader(&self) {
         unsafe {
             gl::UseProgram(self.ID);
         }
@@ -78,7 +78,7 @@ impl Shader {
             );
         }
     }
-    pub unsafe fn setMat4(&self, name: &str, value: glm::TMat4<f32>, transpose: GLboolean) {
+    pub unsafe fn setMat4f(&self, name: &str, value: glm::TMat4<f32>, transpose: GLboolean) {
         unsafe {
             gl::UniformMatrix4fv(
                 gl::GetUniformLocation(self.ID, crate::cstr_ptr!(name).1),

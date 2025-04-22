@@ -31,24 +31,11 @@ lazy_static! {
     ));
 }
 
-// **constant shader test values**
-const VERTICES: [f32; 180] = [
-    -0.5, -0.5, -0.5, 0.0, 0.0, 0.5, -0.5, -0.5, 1.0, 0.0, 0.5, 0.5, -0.5, 1.0, 1.0, 0.5, 0.5,
-    -0.5, 1.0, 1.0, -0.5, 0.5, -0.5, 0.0, 1.0, -0.5, -0.5, -0.5, 0.0, 0.0, -0.5, -0.5, 0.5, 0.0,
-    0.0, 0.5, -0.5, 0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 1.0, -0.5, 0.5,
-    0.5, 0.0, 1.0, -0.5, -0.5, 0.5, 0.0, 0.0, -0.5, 0.5, 0.5, 1.0, 0.0, -0.5, 0.5, -0.5, 1.0, 1.0,
-    -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, -0.5, 0.5, 0.0, 0.0, -0.5, 0.5,
-    0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, 0.5, 0.5, -0.5, 1.0, 1.0, 0.5, -0.5, -0.5, 0.0, 1.0,
-    0.5, -0.5, -0.5, 0.0, 1.0, 0.5, -0.5, 0.5, 0.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, -0.5, -0.5, -0.5,
-    0.0, 1.0, 0.5, -0.5, -0.5, 1.0, 1.0, 0.5, -0.5, 0.5, 1.0, 0.0, 0.5, -0.5, 0.5, 1.0, 0.0, -0.5,
-    -0.5, 0.5, 0.0, 0.0, -0.5, -0.5, -0.5, 0.0, 1.0, -0.5, 0.5, -0.5, 0.0, 1.0, 0.5, 0.5, -0.5,
-    1.0, 1.0, 0.5, 0.5, 0.5, 1.0, 0.0, 0.5, 0.5, 0.5, 1.0, 0.0, -0.5, 0.5, 0.5, 0.0, 0.0, -0.5,
-    0.5, -0.5, 0.0, 1.0,
-];
+use asset_management::cube::VERTICES;
 
 fn main() -> LinuxExitCode {
     unsafe {
-        util::init_log4rs();
+        util::init_logging();
         if glfw::ffi::glfwInit() == 0 {
             error!("GLFW failed to initialize!");
             panic!("GLFW failed to initialize!");
@@ -58,7 +45,7 @@ fn main() -> LinuxExitCode {
         let height: i32 = 600;
         let title = CString::new("My GLFW Window").unwrap();
 
-        let window = glfwCreateWindow(
+        let window: *mut GLFWwindow = glfwCreateWindow(
             width,
             height,
             title.as_ptr(),
@@ -96,8 +83,9 @@ fn main() -> LinuxExitCode {
         let window_title = CString::new(format!("{:#?} - {}", title, version)).unwrap();
         glfw::ffi::glfwSetWindowTitle(window, window_title.as_ptr());
 
-        let ourShader: Shader = shader::ShaderConstructor("shaders/test.vert", "shaders/test.frag");
-        ourShader.useshader();
+        let shader: Shader =
+            shader::ShaderConstructor("shaders/basic_lighting.vert", "shaders/basic_lighting.frag");
+        shader.activate();
 
         let mut vao: u32 = 0;
         gl::GenVertexArrays(1, &mut vao);
@@ -112,89 +100,85 @@ fn main() -> LinuxExitCode {
             as_c_void!(VERTICES),
             gl::STATIC_DRAW,
         );
-
         gl::VertexAttribPointer(
             0,
             3,
             gl::FLOAT,
             gl::FALSE,
-            5 * sizeof!(f32),
+            6 * sizeof!(f32),
             std::ptr::null(),
         );
         gl::EnableVertexAttribArray(0);
-        debug!("Enabled Vertex Attrib Array 0");
         gl::VertexAttribPointer(
             1,
-            2,
+            3,
             gl::FLOAT,
             gl::FALSE,
-            5 * sizeof!(f32),
+            6 * sizeof!(f32),
             (3 * sizeof!(f32)) as *const _,
         );
         gl::EnableVertexAttribArray(1);
-        debug!("Enabled Vertex Attrib Array 1");
-
-        let tex_crate: texture::Texture = texture::TextureConstructor(
-            "textures/container.jpg",
-            gl::RGB,
-            false,
-            None,
-            None,
-            None,
-            None,
-        );
-        let tex_awesome: texture::Texture = texture::TextureConstructor(
-            "textures/awesomeface.png",
-            gl::RGBA,
-            true,
-            None,
-            None,
-            None,
-            None,
-        );
-        ourShader.setInt("texture1", 0);
-        ourShader.setInt("texture2", 1);
-
-        let CUBE_POSITIONS = [
-            glm::vec3(0.0, 0.0, 0.0),
-            glm::vec3(2.0, 5.0, -15.0),
-            glm::vec3(-1.5, -2.2, -2.5),
-            glm::vec3(-3.8, -2.0, -12.3),
-            glm::vec3(2.4, -0.4, -3.5),
-            glm::vec3(-1.7, 3.0, -7.5),
-            glm::vec3(1.3, -2.0, -2.5),
-            glm::vec3(1.5, 2.0, -2.5),
-            glm::vec3(1.5, 0.2, -1.5),
-            glm::vec3(-1.3, 1.0, -1.5),
-        ];
 
         let mut view = crate::util::glmaddon::mat4(1.032);
         let projection =
             glm::perspective(800f32 / 600f32, CAMERA.lock().unwrap().zoom, 0.1f32, 100f32);
         let mut model = util::glmaddon::mat4(1.032);
-        model = glm::rotate(&model, -55f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
+
+        model = glm::rotate(&model, -0f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
-        ourShader.setMat4f("view", view, gl::FALSE);
-        ourShader.setMat4f("projection", projection, gl::FALSE);
-        ourShader.setMat4f("model", model, gl::FALSE);
-        ourShader.setFloat("depthFactor", 2.0);
-        gl::BindVertexArray(0);
+
+        let mut light: shader::light::Light = shader::light::Light {
+            position: glm::vec3(1.2f32, 1.0f32, 2.0f32),
+            ambient: glm::vec3(0.2f32, 0.2f32, 0.2f32),
+            diffuse: glm::vec3(0.5f32, 0.5f32, 0.5f32),
+            specular: glm::vec3(1.0f32, 1.0f32, 1.0f32),
+        };
+        let m: shader::material::Material = shader::material::Material {
+            ambient: glm::vec3(1f32, 0.5f32, 0.31f32),
+            diffuse: glm::vec3(1f32, 0.5f32, 0.31f32),
+            specular: glm::vec3(0.5f32, 0.5f32, 0.5f32),
+            shininess: 32f32,
+        };
+
+        shader.setMat4("view", view, gl::FALSE);
+        shader.setMat4("projection", projection, gl::FALSE);
+        shader.setMat4("model", model, gl::FALSE);
+        shader.setVec3("light.position", light.position);
+        shader.setVec3("light.ambient", light.ambient);
+        shader.setVec3("light.diffuse", light.diffuse);
+        shader.setVec3("light.specular", light.specular);
+        shader.setVec3("viewPos", CAMERA.lock().unwrap().get_position());
+        shader.setVec3("material.ambient", m.ambient);
+        shader.setVec3("material.diffuse", m.diffuse);
+        shader.setVec3("material.specular", m.specular);
+        shader.setFloat("material.shininess", m.shininess);
+        let mut lightColor: glm::TVec3<f32> = glm::vec3(0f32, 0f32, 0f32);
 
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
             process_input(window);
 
-            gl::ClearColor(0.2, 0.3, 0.3, 1.0);
-            gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT | gl::STENCIL_BUFFER_BIT);
+            gl::ClearColor(0.1, 0.1, 0.1, 1.0);
+            gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT);
 
-            ourShader.useshader();
-            gl::ActiveTexture(gl::TEXTURE0);
-            gl::BindTexture(gl::TEXTURE_2D, tex_crate.get_texture());
-            gl::ActiveTexture(gl::TEXTURE1);
-            gl::BindTexture(gl::TEXTURE_2D, tex_awesome.get_texture());
-            gl::BindVertexArray(vao);
-            ourShader.setMat4f("view", CAMERA.lock().unwrap().get_view_matrix(), gl::FALSE);
-            ourShader.setMat4f(
+            lightColor.x = (glfwGetTime() * 2.0f64).sin() as f32;
+            lightColor.y = (glfwGetTime() * 0.7f64).sin() as f32;
+            lightColor.z = (glfwGetTime() * 1.3f64).sin() as f32;
+
+            light.diffuse = glm::vec3(
+                lightColor.x * 0.5f32,
+                lightColor.y * 0.5f32,
+                lightColor.z * 0.5f32,
+            );
+            light.ambient = glm::vec3(
+                lightColor.x * 0.2f32,
+                lightColor.y * 0.2f32,
+                lightColor.z * 0.2f32,
+            );
+
+            shader.activate();
+            shader.setMat4("view", CAMERA.lock().unwrap().get_view_matrix(), gl::FALSE);
+            shader.setMat4(
                 "projection",
                 glm::perspective(
                     (SCREEN_WIDTH as f32) / (SCREEN_HEIGHT as f32),
@@ -204,22 +188,20 @@ fn main() -> LinuxExitCode {
                 ),
                 gl::FALSE,
             );
-            for i in 0..10 {
-                let mut model = util::glmaddon::mat4(1.032);
-                model = glm::translate(&model, &CUBE_POSITIONS[i]);
-                let angle = 20f32 * (i as f32);
-                model = glm::rotate(&model, angle.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
-                ourShader.setMat4f("model", model, gl::FALSE);
-                gl::DrawArrays(gl::TRIANGLES, 0, 36);
-            }
+            shader.setVec3("light.ambient", light.ambient);
+            shader.setVec3("light.diffuse", light.diffuse);
+            shader.setVec3("viewPos", CAMERA.lock().unwrap().get_position());
 
-            glfwPollEvents();
+            gl::BindVertexArray(vao);
+            gl::DrawArrays(gl::TRIANGLES, 0, 36);
+
             glfwSwapBuffers(window);
+            glfwPollEvents();
         }
 
         gl::DeleteVertexArrays(1, &mut vao);
         gl::DeleteBuffers(1, &mut vbo);
-        gl::DeleteProgram(ourShader.getId());
+        gl::DeleteProgram(shader.getId());
 
         glfwDestroyWindow(window);
         glfwTerminate();

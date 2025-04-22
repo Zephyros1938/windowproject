@@ -45,6 +45,10 @@ impl Camera {
         glm::look_at(&self.position, &(self.position + self.front), &self.up)
     }
 
+    pub fn get_position(&self) -> glm::Vec3 {
+        self.position
+    }
+
     pub fn process_keyboard(&mut self, direction: CameraMovement, deltatime: f64) {
         let vel: f32 = self.move_speed * (deltatime as f32);
         if direction.val() == 0 {

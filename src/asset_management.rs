@@ -1,6 +1,7 @@
 use std::ffi::CString;
 use std::{env, ffi::OsString};
 use std::{fs::File, io::Read};
+pub mod cube;
 
 use crate::cstr;
 
