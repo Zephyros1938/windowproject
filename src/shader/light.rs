@@ -1,5 +1,3 @@
-use std::any::type_name;
-
 use crate::name_struct;
 
 use super::Shader;
@@ -12,13 +10,49 @@ pub trait LightImpl {
         )
     }
 }
-
+#[derive(Debug, Clone, Copy)]
 pub struct BasicLight {
     pub position: nalgebra_glm::TVec3<f32>,
 
     pub ambient: nalgebra_glm::TVec3<f32>,
     pub diffuse: nalgebra_glm::TVec3<f32>,
     pub specular: nalgebra_glm::TVec3<f32>,
+}
+#[derive(Debug, Clone, Copy)]
+pub struct DirectionalLight {
+    pub direction: nalgebra_glm::TVec3<f32>,
+
+    pub ambient: nalgebra_glm::TVec3<f32>,
+    pub diffuse: nalgebra_glm::TVec3<f32>,
+    pub specular: nalgebra_glm::TVec3<f32>,
+}
+#[derive(Debug, Clone, Copy)]
+pub struct PointLight {
+    pub position: nalgebra_glm::TVec3<f32>,
+
+    pub ambient: nalgebra_glm::TVec3<f32>,
+    pub diffuse: nalgebra_glm::TVec3<f32>,
+    pub specular: nalgebra_glm::TVec3<f32>,
+
+    pub constant: f32,
+    pub linear: f32,
+    pub quadratic: f32,
+}
+#[derive(Debug, Clone, Copy)]
+pub struct SpotLight {
+    pub position: nalgebra_glm::TVec3<f32>,
+    pub direction: nalgebra_glm::TVec3<f32>,
+
+    pub ambient: nalgebra_glm::TVec3<f32>,
+    pub diffuse: nalgebra_glm::TVec3<f32>,
+    pub specular: nalgebra_glm::TVec3<f32>,
+
+    pub constant: f32,
+    pub linear: f32,
+    pub quadratic: f32,
+
+    pub cutOff: f32,
+    pub outerCutOff: f32,
 }
 
 impl LightImpl for BasicLight {
@@ -39,14 +73,6 @@ impl LightImpl for BasicLight {
     }
 }
 
-pub struct DirectionalLight {
-    pub direction: nalgebra_glm::TVec3<f32>,
-
-    pub ambient: nalgebra_glm::TVec3<f32>,
-    pub diffuse: nalgebra_glm::TVec3<f32>,
-    pub specular: nalgebra_glm::TVec3<f32>,
-}
-
 impl LightImpl for DirectionalLight {
     fn set_uniform(&self, shader: &Shader, light_uniform_basename: &str) {
         unsafe {
@@ -63,18 +89,6 @@ impl LightImpl for DirectionalLight {
             set_vec3!(specular);
         }
     }
-}
-
-pub struct PointLight {
-    pub position: nalgebra_glm::TVec3<f32>,
-
-    pub ambient: nalgebra_glm::TVec3<f32>,
-    pub diffuse: nalgebra_glm::TVec3<f32>,
-    pub specular: nalgebra_glm::TVec3<f32>,
-
-    pub constant: f32,
-    pub linear: f32,
-    pub quadratic: f32,
 }
 
 impl LightImpl for PointLight {
@@ -101,22 +115,6 @@ impl LightImpl for PointLight {
             set_float!(quadratic);
         }
     }
-}
-
-pub struct SpotLight {
-    pub position: nalgebra_glm::TVec3<f32>,
-    pub direction: nalgebra_glm::TVec3<f32>,
-
-    pub ambient: nalgebra_glm::TVec3<f32>,
-    pub diffuse: nalgebra_glm::TVec3<f32>,
-    pub specular: nalgebra_glm::TVec3<f32>,
-
-    pub constant: f32,
-    pub linear: f32,
-    pub quadratic: f32,
-
-    pub cutOff: f32,
-    pub outerCutOff: f32,
 }
 
 impl LightImpl for SpotLight {

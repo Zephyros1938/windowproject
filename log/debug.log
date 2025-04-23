@@ -2642,3 +2642,67 @@ error: linking with uncompiled/unspecialized shader
 2025-04-23 07:04:37 - DEBUG - Loaded Texture
 2025-04-23 07:04:38 - DEBUG - Loading Texture
 2025-04-23 07:04:38 - DEBUG - Loaded Texture
+2025-04-23 07:36:34 - DEBUG - log4rs configured!
+2025-04-23 07:36:34 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 07:36:34 - DEBUG - Shader compiled successfully
+2025-04-23 07:36:34 - DEBUG - Shader compiled successfully
+2025-04-23 07:36:34 - DEBUG - Program linked successfully
+2025-04-23 07:36:34 - DEBUG - Shader compiled successfully
+2025-04-23 07:36:34 - DEBUG - Shader compiled successfully
+2025-04-23 07:36:34 - DEBUG - Program linked successfully
+2025-04-23 07:36:34 - DEBUG - Loading Texture
+2025-04-23 07:36:34 - DEBUG - Loaded Texture
+2025-04-23 07:36:34 - DEBUG - Loading Texture
+2025-04-23 07:36:34 - DEBUG - Loaded Texture
+2025-04-23 07:37:19 - DEBUG - log4rs configured!
+2025-04-23 07:37:19 - DEBUG - gl_proc: glWaitSync
+2025-04-23 07:37:19 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 07:37:19 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:19 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:19 - DEBUG - Program linked successfully
+2025-04-23 07:37:19 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:19 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:19 - DEBUG - Program linked successfully
+2025-04-23 07:37:19 - DEBUG - Loading Texture
+2025-04-23 07:37:19 - DEBUG - Loaded Texture
+2025-04-23 07:37:19 - DEBUG - Loading Texture
+2025-04-23 07:37:19 - DEBUG - Loaded Texture
+2025-04-23 07:37:46 - DEBUG - log4rs configured!
+2025-04-23 07:37:46 - DEBUG - gl_proc: 0x00007b57beba59c0
+2025-04-23 07:37:46 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 07:37:46 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:46 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:46 - DEBUG - Program linked successfully
+2025-04-23 07:37:46 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:46 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:46 - DEBUG - Program linked successfully
+2025-04-23 07:37:46 - DEBUG - Loading Texture
+2025-04-23 07:37:46 - DEBUG - Loaded Texture
+2025-04-23 07:37:46 - DEBUG - Loading Texture
+2025-04-23 07:37:46 - DEBUG - Loaded Texture
+2025-04-23 07:37:50 - DEBUG - log4rs configured!
+2025-04-23 07:37:50 - DEBUG - gl_proc: 0x00007cc8bc3589c0
+2025-04-23 07:37:50 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 07:37:50 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:50 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:50 - DEBUG - Program linked successfully
+2025-04-23 07:37:50 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:50 - DEBUG - Shader compiled successfully
+2025-04-23 07:37:50 - DEBUG - Program linked successfully
+2025-04-23 07:37:50 - DEBUG - Loading Texture
+2025-04-23 07:37:50 - DEBUG - Loaded Texture
+2025-04-23 07:37:50 - DEBUG - Loading Texture
+2025-04-23 07:37:50 - DEBUG - Loaded Texture
+2025-04-23 07:38:55 - DEBUG - log4rs configured!
+2025-04-23 07:38:55 - DEBUG - gl_proc: 0x00007037299a59c0
+2025-04-23 07:38:55 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 07:38:55 - DEBUG - Shader compiled successfully
+2025-04-23 07:38:55 - DEBUG - Shader compiled successfully
+2025-04-23 07:38:55 - DEBUG - Program linked successfully
+2025-04-23 07:38:55 - DEBUG - Shader compiled successfully
+2025-04-23 07:38:55 - DEBUG - Shader compiled successfully
+2025-04-23 07:38:55 - DEBUG - Program linked successfully
+2025-04-23 07:38:55 - DEBUG - Loading Texture
+2025-04-23 07:38:55 - DEBUG - Loaded Texture
+2025-04-23 07:38:55 - DEBUG - Loading Texture
+2025-04-23 07:38:55 - DEBUG - Loaded Texture

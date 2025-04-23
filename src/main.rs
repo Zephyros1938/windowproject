@@ -35,7 +35,7 @@ use asset_management::cube::VERTICES;
 fn main() -> LinuxExitCode {
     unsafe {
         util::init_logging();
-        if glfw::ffi::glfwInit() == 0 {
+        if glfwInit() == 0 {
             error!("GLFW failed to initialize!");
             panic!("GLFW failed to initialize!");
         }
@@ -61,14 +61,17 @@ fn main() -> LinuxExitCode {
 
         glfwMakeContextCurrent(window);
 
+        let mut _procname = CString::new("");
         gl::load_with(|name| {
-            let cstr = CString::new(name).unwrap();
-            glfwGetProcAddress(cstr.as_ptr()) as *const _
+            _procname = CString::new(name);
+            glfwGetProcAddress(_procname.as_mut().unwrap().as_ptr()) as *const _
         });
+        debug!(
+            "gl_proc: {:#?}",
+            glfwGetProcAddress(_procname.as_mut().unwrap().as_ptr())
+        );
         gl::Viewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         gl::Enable(gl::DEPTH_TEST);
-
-        gl::Enable(gl::DEBUG_OUTPUT);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
         glfwSetCursorPosCallback(window, Some(mouse_callback));
