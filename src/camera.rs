@@ -110,7 +110,6 @@ impl Camera {
         if self.zoom > MAX_ZOOM {
             self.zoom = MAX_ZOOM;
         }
-        println!("{}", self.zoom);
     }
 
     fn update_vectors(&mut self) {

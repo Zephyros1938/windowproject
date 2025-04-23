@@ -8,6 +8,7 @@ use glfw::ffi::*;
 use log::{debug, error};
 use nalgebra_glm::{self as glm};
 use shader::Shader;
+use shader::light::LightImpl;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
 use texture::TextureConstructor;
@@ -176,7 +177,6 @@ fn main() -> LinuxExitCode {
             linear: 0.09f32,
             quadratic: 0.032f32,
         };
-        println!("made light!");
 
         let m: shader::material::MaterialTexture = shader::material::MaterialTexture {
             diffuse: TextureConstructor(
@@ -185,8 +185,8 @@ fn main() -> LinuxExitCode {
                 true,
                 None,
                 None,
-                None,
-                None,
+                Some(gl::NEAREST),
+                Some(gl::NEAREST),
             ),
             specular: TextureConstructor(
                 "textures/container_specular.png",
@@ -194,10 +194,10 @@ fn main() -> LinuxExitCode {
                 true,
                 None,
                 None,
-                None,
-                None,
+                Some(gl::NEAREST),
+                Some(gl::NEAREST),
             ),
-            shininess: 1f32,
+            shininess: 32f32,
         };
 
         let cubePositions = [
@@ -250,8 +250,7 @@ fn main() -> LinuxExitCode {
 
             shader.activate();
 
-            shader.setVec3("light.position", light.position);
-            shader.setVec3("light.direction", light.direction);
+            light.set_uniform(&shader, "light");
             shader.setVec3("viewPos", CAMERA.get_position());
 
             shader.setMat4("view", CAMERA.get_view_matrix(), gl::FALSE);
@@ -280,8 +279,7 @@ fn main() -> LinuxExitCode {
             for i in 0..3 {
                 let mut model = glm::Mat4::identity();
                 model = glm::translate(&model, &lightPositions[i]);
-                let angle: f32 = 20f32 * i as f32;
-                model = glm::rotate(&model, angle.to_radians(), &glm::vec3(1f32, 0.3f32, 0.5f32));
+                model = glm::scale(&model, &glm::vec3(0.2f32, 0.2, 0.2));
                 lightCubeShader.setMat4("model", model, gl::FALSE);
 
                 gl::DrawArrays(gl::TRIANGLES, 0, 36);

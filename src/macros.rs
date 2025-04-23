@@ -130,3 +130,13 @@ macro_rules! as_deref_mut_except {
         $obj.as_deref_mut().expect($msg)
     };
 }
+// From https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=82ec5c5ee299ee939c6689859809db58
+pub fn _get_name<T>(_: &T) -> &'static str {
+    std::any::type_name::<T>()
+}
+#[macro_export]
+macro_rules! name_struct {
+    ($e:expr) => {
+        crate::macros::_get_name(&$e)
+    };
+}
