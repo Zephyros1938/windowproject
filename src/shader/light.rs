@@ -3,7 +3,7 @@ use crate::name_struct;
 use super::Shader;
 
 pub trait LightImpl {
-    fn set_uniform(&self, shader: &Shader, light_uniform_basename: &str) {
+    fn set_uniform(&self, _shader: &Shader, _light_uniform_basename: &str) {
         todo!(
             "{} Did Not Implement LightImpl::set_uniform",
             name_struct!(self)
@@ -144,6 +144,21 @@ impl LightImpl for SpotLight {
 
             set_float!(cutOff);
             set_float!(outerCutOff);
+        }
+    }
+}
+
+pub struct LightCollection<T: LightImpl, const N: usize> {
+    pub lights: [T; N],
+}
+
+impl<T: LightImpl, const N: usize> LightCollection<T, N> {
+    pub fn set_uniform(&self, shader: &Shader, light_uniform_basename: &str) {
+        for i in 0..N {
+            self.lights[i].set_uniform(
+                shader,
+                format!("{}[{}]", light_uniform_basename, i).as_str(),
+            );
         }
     }
 }

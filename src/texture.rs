@@ -4,8 +4,12 @@ use glfw::ffi::TRUE;
 use log::{debug, error};
 use stb_image;
 
+#[repr(C)]
+#[derive(Clone)]
 pub struct Texture {
-    ID: u32,
+    pub ID: u32,
+    pub type_s: String,
+    pub path: String,
 }
 
 impl Texture {
@@ -14,14 +18,25 @@ impl Texture {
     }
 }
 
+impl Default for Texture {
+    fn default() -> Self {
+        Self {
+            ID: 0,
+            type_s: String::new(),
+            path: String::new(),
+        }
+    }
+}
+
 pub unsafe fn TextureConstructor(
-    location: &str,
+    path: String,
     format: GLenum,
     flip: bool,
     wrap_s: Option<GLenum>,
     wrap_t: Option<GLenum>,
     min_filter: Option<GLenum>,
     mag_filter: Option<GLenum>,
+    type_s: String,
 ) -> Texture {
     unsafe {
         debug!("Loading Texture");
@@ -74,7 +89,7 @@ pub unsafe fn TextureConstructor(
         let mut width: i32 = 0;
         let mut height: i32 = 0;
         let mut nrChannels: i32 = 0;
-        let loc = crate::asset_management::get_asset_path_cstr(location)
+        let loc = crate::asset_management::get_asset_path_cstr(path.as_str())
             .expect("Could not get asset path");
         if flip {
             stb_image::stb_image::stbi_set_flip_vertically_on_load(TRUE);
@@ -101,10 +116,14 @@ pub unsafe fn TextureConstructor(
             );
             gl::GenerateMipmap(gl::TEXTURE_2D);
         } else {
-            error!("Failed to load texture: [{}]!", location);
-            panic!("Failed to load texture: [{}]!", location);
+            error!("Failed to load texture: [{}]!", path);
+            panic!("Failed to load texture: [{}]!", path);
         }
         stb_image::stb_image::stbi_image_free(data);
-        Texture { ID: texture }
+        Texture {
+            ID: texture,
+            type_s,
+            path,
+        }
     }
 }

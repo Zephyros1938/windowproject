@@ -2,7 +2,8 @@ use std::ffi::CString;
 use std::{env, ffi::OsString};
 use std::{fs::File, io::Read};
 pub mod cube;
-pub mod object;
+pub mod mesh;
+pub mod model;
 
 use crate::cstr;
 

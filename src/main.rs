@@ -20,8 +20,8 @@ mod shader;
 mod texture;
 mod util;
 
-static mut SCREEN_WIDTH: i32 = 1920;
-static mut SCREEN_HEIGHT: i32 = 1080;
+static mut SCREEN_WIDTH: i32 = 800;
+static mut SCREEN_HEIGHT: i32 = 600;
 
 static mut LASTFRAME: f64 = 0f64;
 static mut DELTATIME: f64 = 0f64;
@@ -165,7 +165,62 @@ fn main() -> LinuxExitCode {
         model = glm::rotate(&model, -0f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
 
-        let mut light: shader::light::SpotLight = shader::light::SpotLight {
+        let lightPositions = [
+            glm::vec3(0.7f32, 0.2f32, 2.0f32),
+            glm::vec3(2.3f32, -3.3f32, -4.0f32),
+            glm::vec3(-4.0f32, 2.0f32, -12.0f32),
+            glm::vec3(0.0f32, 0.0f32, -3.0f32),
+        ];
+
+        let directionalLight = shader::light::DirectionalLight {
+            direction: glm::vec3(-0.2f32, -1.0, -0.3),
+            ambient: glm::vec3(0.05f32, 0.05, 0.05),
+            diffuse: glm::vec3(0.4f32, 0.4, 0.4),
+            specular: glm::vec3(0.5f32, 0.5, 0.5),
+        };
+
+        let pointLightCollection = shader::light::LightCollection {
+            lights: [
+                shader::light::PointLight {
+                    position: lightPositions[0],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[1],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[2],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[3],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+            ],
+        };
+
+        let mut cameraSpotLight: shader::light::SpotLight = shader::light::SpotLight {
             position: CAMERA.get_position(),
             direction: CAMERA.get_front(),
 
@@ -183,27 +238,29 @@ fn main() -> LinuxExitCode {
 
         let m: shader::material::MaterialTexture = shader::material::MaterialTexture {
             diffuse: TextureConstructor(
-                "textures/container.png",
+                "textures/container.png".to_string(),
                 gl::RGBA,
                 true,
                 None,
                 None,
                 Some(gl::NEAREST),
                 Some(gl::NEAREST),
+                "diffuse".to_string(),
             ),
             specular: TextureConstructor(
-                "textures/container_specular.png",
+                "textures/container_specular.png".to_string(),
                 gl::RGBA,
                 true,
                 None,
                 None,
                 Some(gl::NEAREST),
                 Some(gl::NEAREST),
+                "specular".to_string(),
             ),
             shininess: 32f32,
         };
 
-        let cubePositions = [
+        let cubePositions: [glm::TVec3<f32>; 10] = [
             glm::vec3(0.0f32, 0.0f32, 0.0f32),
             glm::vec3(2.0f32, 5.0f32, -15.0f32),
             glm::vec3(-1.5f32, -2.2f32, -2.5f32),
@@ -216,30 +273,17 @@ fn main() -> LinuxExitCode {
             glm::vec3(-1.3f32, 1.0f32, -1.5f32),
         ];
 
-        let lightPositions = [
-            glm::vec3(0.7f32, 0.2f32, 2.0f32),
-            glm::vec3(2.3f32, -3.3f32, -4.0f32),
-            glm::vec3(-4.0f32, 2.0f32, -12.0f32),
-            glm::vec3(0.0f32, 0.0f32, -3.0f32),
-        ];
-
         shader.activate();
         shader.setInt("material.diffuse", 0);
         shader.setInt("material.specular", 1);
         shader.setFloat("material.shininess", m.shininess);
 
-        shader.setFloat("light.cutOff", light.cutOff);
-        shader.setFloat("light.outerCutOff", light.outerCutOff);
-        shader.setVec3("light.ambient", light.ambient);
-        shader.setVec3("light.diffuse", light.diffuse);
-        shader.setVec3("light.specular", light.specular);
-        shader.setFloat("light.constant", light.constant);
-        shader.setFloat("light.linear", light.linear);
-        shader.setFloat("light.quadratic", light.quadratic);
-
         shader.setMat4("view", view, gl::FALSE);
         shader.setMat4("projection", projection, gl::FALSE);
         shader.setMat4("model", model, gl::FALSE);
+
+        pointLightCollection.set_uniform(&shader, "pointLights");
+        directionalLight.set_uniform(&shader, "dirLight");
 
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
@@ -248,12 +292,12 @@ fn main() -> LinuxExitCode {
             gl::ClearColor(0.1, 0.1, 0.1, 1.0);
             gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT);
 
-            light.position = CAMERA.get_position();
-            light.direction = CAMERA.get_front();
+            cameraSpotLight.position = CAMERA.get_position();
+            cameraSpotLight.direction = CAMERA.get_front();
 
             shader.activate();
 
-            light.set_uniform(&shader, "light");
+            cameraSpotLight.set_uniform(&shader, "spotLight");
             shader.setVec3("viewPos", CAMERA.get_position());
 
             shader.setMat4("view", CAMERA.get_view_matrix(), gl::FALSE);
