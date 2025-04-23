@@ -3,6 +3,7 @@
     Please ignore the shitty code, im new to this :plead:
 */
 
+use asset_management::model::Model;
 use camera::{CameraConstructor, cpp_camera};
 use glfw::ffi::*;
 use log::{debug, error};
@@ -20,8 +21,8 @@ mod shader;
 mod texture;
 mod util;
 
-static mut SCREEN_WIDTH: i32 = 800;
-static mut SCREEN_HEIGHT: i32 = 600;
+static mut SCREEN_WIDTH: i32 = 1920;
+static mut SCREEN_HEIGHT: i32 = 1080;
 
 static mut LASTFRAME: f64 = 0f64;
 static mut DELTATIME: f64 = 0f64;
@@ -99,64 +100,9 @@ fn main() -> LinuxExitCode {
         glfw::ffi::glfwSetWindowTitle(window, window_title.as_ptr());
 
         let shader: Shader =
-            shader::ShaderConstructor("shaders/basic_lighting.vert", "shaders/basic_lighting.frag");
-        let lightCubeShader: Shader =
-            shader::ShaderConstructor("shaders/light_cube.vert", "shaders/light_cube.frag");
+            shader::ShaderConstructor("shaders/model_loading.vert", "shaders/model_loading.frag");
 
-        let mut cube_VAO: u32 = 0;
-        gl::GenVertexArrays(1, &mut cube_VAO);
-        let mut light_cube_VAO: u32 = 0;
-        gl::GenVertexArrays(1, &mut light_cube_VAO);
-        let mut VBO: u32 = 0;
-        gl::GenBuffers(1, &mut VBO);
-
-        gl::BindVertexArray(cube_VAO);
-        gl::BindBuffer(gl::ARRAY_BUFFER, VBO);
-        gl::BufferData(
-            gl::ARRAY_BUFFER,
-            sizeof_val!(VERTICES).try_into().unwrap(),
-            as_c_void!(VERTICES),
-            gl::STATIC_DRAW,
-        );
-        gl::VertexAttribPointer(
-            0,
-            3,
-            gl::FLOAT,
-            gl::FALSE,
-            8 * sizeof!(f32),
-            std::ptr::null(),
-        );
-        gl::EnableVertexAttribArray(0);
-        gl::VertexAttribPointer(
-            1,
-            3,
-            gl::FLOAT,
-            gl::FALSE,
-            8 * sizeof!(f32),
-            (3 * sizeof!(f32)) as *const _,
-        );
-        gl::EnableVertexAttribArray(1);
-        gl::VertexAttribPointer(
-            2,
-            2,
-            gl::FLOAT,
-            gl::FALSE,
-            8 * sizeof!(f32),
-            (6 * sizeof!(f32)) as *const _,
-        );
-        gl::EnableVertexAttribArray(2);
-
-        gl::BindVertexArray(light_cube_VAO);
-        gl::BindBuffer(gl::ARRAY_BUFFER, VBO);
-        gl::VertexAttribPointer(
-            0,
-            3,
-            gl::FLOAT,
-            gl::FALSE,
-            8 * sizeof!(f32),
-            std::ptr::null(),
-        );
-        gl::EnableVertexAttribArray(0);
+        let backpack: Model = Model::new("models/backpack/backpack.obj");
 
         let mut view = crate::util::glmaddon::mat4(1.032);
         let projection = CAMERA.get_projection_matrix();
@@ -164,61 +110,6 @@ fn main() -> LinuxExitCode {
 
         model = glm::rotate(&model, -0f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
-
-        let lightPositions = [
-            glm::vec3(0.7f32, 0.2f32, 2.0f32),
-            glm::vec3(2.3f32, -3.3f32, -4.0f32),
-            glm::vec3(-4.0f32, 2.0f32, -12.0f32),
-            glm::vec3(0.0f32, 0.0f32, -3.0f32),
-        ];
-
-        let directionalLight = shader::light::DirectionalLight {
-            direction: glm::vec3(-0.2f32, -1.0, -0.3),
-            ambient: glm::vec3(0.05f32, 0.05, 0.05),
-            diffuse: glm::vec3(0.4f32, 0.4, 0.4),
-            specular: glm::vec3(0.5f32, 0.5, 0.5),
-        };
-
-        let pointLightCollection = shader::light::LightCollection {
-            lights: [
-                shader::light::PointLight {
-                    position: lightPositions[0],
-                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
-                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
-                    specular: glm::vec3(1f32, 1f32, 1f32),
-                    constant: 1f32,
-                    linear: 0.09f32,
-                    quadratic: 0.32f32,
-                },
-                shader::light::PointLight {
-                    position: lightPositions[1],
-                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
-                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
-                    specular: glm::vec3(1f32, 1f32, 1f32),
-                    constant: 1f32,
-                    linear: 0.09f32,
-                    quadratic: 0.32f32,
-                },
-                shader::light::PointLight {
-                    position: lightPositions[2],
-                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
-                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
-                    specular: glm::vec3(1f32, 1f32, 1f32),
-                    constant: 1f32,
-                    linear: 0.09f32,
-                    quadratic: 0.32f32,
-                },
-                shader::light::PointLight {
-                    position: lightPositions[3],
-                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
-                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
-                    specular: glm::vec3(1f32, 1f32, 1f32),
-                    constant: 1f32,
-                    linear: 0.09f32,
-                    quadratic: 0.32f32,
-                },
-            ],
-        };
 
         let mut cameraSpotLight: shader::light::SpotLight = shader::light::SpotLight {
             position: CAMERA.get_position(),
@@ -236,54 +127,11 @@ fn main() -> LinuxExitCode {
             quadratic: 0.032f32,
         };
 
-        let m: shader::material::MaterialTexture = shader::material::MaterialTexture {
-            diffuse: TextureConstructor(
-                "textures/container.png".to_string(),
-                gl::RGBA,
-                true,
-                None,
-                None,
-                Some(gl::NEAREST),
-                Some(gl::NEAREST),
-                "diffuse".to_string(),
-            ),
-            specular: TextureConstructor(
-                "textures/container_specular.png".to_string(),
-                gl::RGBA,
-                true,
-                None,
-                None,
-                Some(gl::NEAREST),
-                Some(gl::NEAREST),
-                "specular".to_string(),
-            ),
-            shininess: 32f32,
-        };
-
-        let cubePositions: [glm::TVec3<f32>; 10] = [
-            glm::vec3(0.0f32, 0.0f32, 0.0f32),
-            glm::vec3(2.0f32, 5.0f32, -15.0f32),
-            glm::vec3(-1.5f32, -2.2f32, -2.5f32),
-            glm::vec3(-3.8f32, -2.0f32, -12.3f32),
-            glm::vec3(2.4f32, -0.4f32, -3.5f32),
-            glm::vec3(-1.7f32, 3.0f32, -7.5f32),
-            glm::vec3(1.3f32, -2.0f32, -2.5f32),
-            glm::vec3(1.5f32, 2.0f32, -2.5f32),
-            glm::vec3(1.5f32, 0.2f32, -1.5f32),
-            glm::vec3(-1.3f32, 1.0f32, -1.5f32),
-        ];
-
         shader.activate();
-        shader.setInt("material.diffuse", 0);
-        shader.setInt("material.specular", 1);
-        shader.setFloat("material.shininess", m.shininess);
 
         shader.setMat4("view", view, gl::FALSE);
         shader.setMat4("projection", projection, gl::FALSE);
         shader.setMat4("model", model, gl::FALSE);
-
-        pointLightCollection.set_uniform(&shader, "pointLights");
-        directionalLight.set_uniform(&shader, "dirLight");
 
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
@@ -297,48 +145,16 @@ fn main() -> LinuxExitCode {
 
             shader.activate();
 
-            cameraSpotLight.set_uniform(&shader, "spotLight");
-            shader.setVec3("viewPos", CAMERA.get_position());
-
+            // cameraSpotLight.set_uniform(&shader, "spotLight");
+            // shader.setVec3("viewPos", CAMERA.get_position());
             shader.setMat4("view", CAMERA.get_view_matrix(), gl::FALSE);
             shader.setMat4("projection", CAMERA.get_projection_matrix(), gl::FALSE);
-            gl::ActiveTexture(gl::TEXTURE0);
-            gl::BindTexture(gl::TEXTURE_2D, m.diffuse.get_texture());
-            gl::ActiveTexture(gl::TEXTURE1);
-            gl::BindTexture(gl::TEXTURE_2D, m.specular.get_texture());
 
-            gl::BindVertexArray(cube_VAO);
-            for i in 0..10 {
-                let mut model = glm::Mat4::identity();
-                model = glm::translate(&model, &cubePositions[i]);
-                let angle: f32 = 20f32 * i as f32;
-                model = glm::rotate(&model, angle.to_radians(), &glm::vec3(1f32, 0.3f32, 0.5f32));
-                shader.setMat4("model", model, gl::FALSE);
-
-                gl::DrawArrays(gl::TRIANGLES, 0, 36);
-            }
-
-            lightCubeShader.activate();
-            lightCubeShader.setMat4("view", CAMERA.get_view_matrix(), gl::FALSE);
-            lightCubeShader.setMat4("projection", CAMERA.get_projection_matrix(), gl::FALSE);
-
-            gl::BindVertexArray(light_cube_VAO);
-            for i in 0..3 {
-                let mut model = glm::Mat4::identity();
-                model = glm::translate(&model, &lightPositions[i]);
-                model = glm::scale(&model, &glm::vec3(0.2f32, 0.2, 0.2));
-                lightCubeShader.setMat4("model", model, gl::FALSE);
-
-                gl::DrawArrays(gl::TRIANGLES, 0, 36);
-            }
+            backpack.draw(&shader);
 
             glfwSwapBuffers(window);
             glfwPollEvents();
         }
-
-        gl::DeleteVertexArrays(1, &mut cube_VAO);
-        gl::DeleteBuffers(1, &mut VBO);
-        gl::DeleteProgram(shader.getId());
 
         glfwDestroyWindow(window);
         glfwTerminate();

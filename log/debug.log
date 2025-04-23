@@ -1134,3 +1134,138 @@ error: linking with uncompiled/unspecialized shader
 2025-04-23 12:16:50 - DEBUG - Loaded Texture
 2025-04-23 12:16:50 - DEBUG - Loading Texture
 2025-04-23 12:16:50 - DEBUG - Loaded Texture
+2025-04-23 18:06:21 - DEBUG - log4rs configured!
+2025-04-23 18:06:21 - DEBUG - gl_proc: 0x00007146115a49c0
+2025-04-23 18:06:21 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:06:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:06:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:06:21 - DEBUG - Program linked successfully
+2025-04-23 18:06:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:06:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:06:21 - DEBUG - Program linked successfully
+2025-04-23 18:06:21 - DEBUG - Loading Texture
+2025-04-23 18:06:21 - DEBUG - Loaded Texture
+2025-04-23 18:06:21 - DEBUG - Loading Texture
+2025-04-23 18:06:21 - DEBUG - Loaded Texture
+2025-04-23 18:07:32 - DEBUG - log4rs configured!
+2025-04-23 18:07:32 - DEBUG - gl_proc: 0x000072555aba49c0
+2025-04-23 18:07:32 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:07:32 - DEBUG - Shader compiled successfully
+2025-04-23 18:07:32 - DEBUG - Shader compiled successfully
+2025-04-23 18:07:32 - DEBUG - Program linked successfully
+2025-04-23 18:07:32 - DEBUG - Shader compiled successfully
+2025-04-23 18:07:32 - DEBUG - Shader compiled successfully
+2025-04-23 18:07:32 - DEBUG - Program linked successfully
+2025-04-23 18:07:32 - DEBUG - Loading Texture
+2025-04-23 18:07:32 - DEBUG - Loaded Texture
+2025-04-23 18:07:32 - DEBUG - Loading Texture
+2025-04-23 18:07:32 - DEBUG - Loaded Texture
+2025-04-23 18:24:31 - DEBUG - log4rs configured!
+2025-04-23 18:24:31 - DEBUG - gl_proc: 0x000072b2e13a49c0
+2025-04-23 18:24:31 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:24:31 - DEBUG - Shader compiled successfully
+2025-04-23 18:24:31 - DEBUG - Shader compiled successfully
+2025-04-23 18:24:31 - DEBUG - Program linked successfully
+2025-04-23 18:24:44 - DEBUG - log4rs configured!
+2025-04-23 18:24:44 - DEBUG - gl_proc: 0x000078440efa59c0
+2025-04-23 18:24:44 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:24:44 - DEBUG - Shader compiled successfully
+2025-04-23 18:24:44 - DEBUG - Shader compiled successfully
+2025-04-23 18:24:44 - DEBUG - Program linked successfully
+2025-04-23 18:25:46 - DEBUG - log4rs configured!
+2025-04-23 18:25:46 - DEBUG - gl_proc: 0x00007ff794da59c0
+2025-04-23 18:25:46 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:25:46 - DEBUG - Shader compiled successfully
+2025-04-23 18:25:46 - DEBUG - Shader compiled successfully
+2025-04-23 18:25:46 - DEBUG - Program linked successfully
+2025-04-23 18:29:21 - DEBUG - log4rs configured!
+2025-04-23 18:29:21 - DEBUG - gl_proc: 0x00007495157a49c0
+2025-04-23 18:29:21 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:29:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:29:21 - DEBUG - Shader compiled successfully
+2025-04-23 18:29:21 - DEBUG - Program linked successfully
+2025-04-23 18:29:48 - DEBUG - log4rs configured!
+2025-04-23 18:29:48 - DEBUG - gl_proc: 0x00007457555a59c0
+2025-04-23 18:29:48 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:29:48 - DEBUG - Shader compiled successfully
+2025-04-23 18:29:48 - DEBUG - Shader compiled successfully
+2025-04-23 18:29:48 - DEBUG - Program linked successfully
+2025-04-23 18:32:00 - DEBUG - log4rs configured!
+2025-04-23 18:32:00 - DEBUG - gl_proc: 0x00007c2c303a59c0
+2025-04-23 18:32:00 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:32:00 - DEBUG - Shader compiled successfully
+2025-04-23 18:32:00 - DEBUG - Shader compiled successfully
+2025-04-23 18:32:00 - DEBUG - Program linked successfully
+2025-04-23 18:33:54 - DEBUG - log4rs configured!
+2025-04-23 18:33:54 - DEBUG - gl_proc: 0x000070cd19ba59c0
+2025-04-23 18:33:54 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:33:54 - DEBUG - Shader compiled successfully
+2025-04-23 18:33:54 - DEBUG - Shader compiled successfully
+2025-04-23 18:33:54 - DEBUG - Program linked successfully
+2025-04-23 18:34:16 - DEBUG - log4rs configured!
+2025-04-23 18:34:16 - DEBUG - gl_proc: 0x000074c7a29589c0
+2025-04-23 18:34:16 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:34:16 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:16 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:16 - DEBUG - Program linked successfully
+2025-04-23 18:34:26 - DEBUG - log4rs configured!
+2025-04-23 18:34:27 - DEBUG - gl_proc: 0x00007e0e637a49c0
+2025-04-23 18:34:27 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:34:27 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:27 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:27 - DEBUG - Program linked successfully
+2025-04-23 18:34:33 - DEBUG - log4rs configured!
+2025-04-23 18:34:33 - DEBUG - gl_proc: 0x000079f5341a49c0
+2025-04-23 18:34:33 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:34:33 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:33 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:33 - DEBUG - Program linked successfully
+2025-04-23 18:34:56 - DEBUG - log4rs configured!
+2025-04-23 18:34:56 - DEBUG - gl_proc: 0x00007059847a59c0
+2025-04-23 18:34:56 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:34:56 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:56 - DEBUG - Shader compiled successfully
+2025-04-23 18:34:56 - DEBUG - Program linked successfully
+2025-04-23 18:35:17 - DEBUG - log4rs configured!
+2025-04-23 18:35:17 - DEBUG - gl_proc: 0x00007f1e5e1a49c0
+2025-04-23 18:35:17 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:35:17 - DEBUG - Shader compiled successfully
+2025-04-23 18:35:17 - DEBUG - Shader compiled successfully
+2025-04-23 18:35:17 - DEBUG - Program linked successfully
+2025-04-23 18:35:17 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-23 18:36:20 - DEBUG - log4rs configured!
+2025-04-23 18:36:20 - DEBUG - gl_proc: 0x00007826091a49c0
+2025-04-23 18:36:20 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:36:20 - DEBUG - Shader compiled successfully
+2025-04-23 18:36:20 - DEBUG - Shader compiled successfully
+2025-04-23 18:36:20 - DEBUG - Program linked successfully
+2025-04-23 18:36:20 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-23 18:36:20 - DEBUG - Processing Node:
+	NODE : backpack.obj
+2025-04-23 18:36:49 - DEBUG - log4rs configured!
+2025-04-23 18:36:49 - DEBUG - gl_proc: 0x000072fce19a49c0
+2025-04-23 18:36:49 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:36:49 - DEBUG - Shader compiled successfully
+2025-04-23 18:36:49 - DEBUG - Shader compiled successfully
+2025-04-23 18:36:49 - DEBUG - Program linked successfully
+2025-04-23 18:36:49 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-23 18:36:49 - DEBUG - Processing Node:
+	NODE : backpack.obj
+2025-04-23 18:37:24 - DEBUG - log4rs configured!
+2025-04-23 18:37:24 - DEBUG - gl_proc: 0x00007e5f0ada49c0
+2025-04-23 18:37:24 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:37:24 - DEBUG - Shader compiled successfully
+2025-04-23 18:37:24 - DEBUG - Shader compiled successfully
+2025-04-23 18:37:24 - DEBUG - Program linked successfully
+2025-04-23 18:37:24 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-23 18:37:24 - DEBUG - Processing Node:
+	NODE : backpack.obj
+2025-04-23 18:38:35 - DEBUG - log4rs configured!
+2025-04-23 18:38:35 - DEBUG - gl_proc: 0x00007cdfe17a49c0
+2025-04-23 18:38:35 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-23 18:38:35 - DEBUG - Shader compiled successfully
+2025-04-23 18:38:35 - DEBUG - Shader compiled successfully
+2025-04-23 18:38:35 - DEBUG - Program linked successfully
+2025-04-23 18:38:35 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-23 18:38:35 - DEBUG - Processing Node:
+	NODE : backpack.obj

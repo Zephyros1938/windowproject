@@ -4,6 +4,7 @@ use crate::{shader::Shader, texture::Texture};
 
 use super::get_asset_path;
 use super::mesh::{Mesh, Vertex};
+use log::{debug, trace};
 use russimp::material::TextureType as AITextureType;
 use russimp::material::{Material as AIMaterial, TextureType};
 use russimp::mesh::Mesh as AIMesh;
@@ -29,11 +30,13 @@ impl Model {
     }
     pub fn draw(&self, shader: &Shader) {
         for i in 0..self.meshes.len() {
+            debug!("Drawing {}", i);
             self.meshes[i].draw(shader);
         }
     }
 
     fn load_model(&mut self, path: &str) {
+        debug!("Loading Model: {}", path);
         let scene = AIScene::from_file(
             get_asset_path(path).unwrap().as_str(),
             vec![AIProcess::Triangulate, AIProcess::FlipUVs],
@@ -46,6 +49,8 @@ impl Model {
         }
     }
     fn process_node(&mut self, node: &Node, scene: &AIScene) {
+        debug!("Processing Node:\n\r\tNODE : {}", node.name);
+        debug!("{:#?}", node);
         for &mesh_i in node.meshes.iter() {
             let mesh_i = mesh_i as usize;
 
@@ -58,6 +63,8 @@ impl Model {
         let mut vertices: Vec<Vertex> = Vec::new();
         let mut indices: Vec<u32> = Vec::new();
         let mut textures: Vec<Texture> = Vec::new();
+
+        debug!("Processing Mesh:\r\n\tMESH : {}", mesh.name);
 
         for (i, vertice) in mesh.vertices.iter().enumerate() {
             let mut vertex = Vertex::default();
@@ -143,7 +150,9 @@ impl Model {
                         typename.clone(),
                     )
                 };
+                debug!("Loaded Texture {}", texture.1.borrow().filename.clone());
                 textures.push(texture_load.clone());
+
                 self.textures_loaded.push(texture_load.clone());
             }
         }
