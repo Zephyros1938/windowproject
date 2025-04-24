@@ -160,7 +160,7 @@ impl Model {
                 let mut texture_load = unsafe {
                     TextureConstructor(
                         full_path.clone(),
-                        gl::RGB,
+                        gl::RGBA,
                         true,
                         None,
                         None,

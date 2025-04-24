@@ -178,7 +178,7 @@ fn main() -> LinuxExitCode {
         };
 
         shader.activate();
-        let backpack: Model = Model::new("models/backpack/backpack.obj");
+        let backpack: Model = Model::new("models/nanosuit/nanosuit.obj");
 
         shader.setMat4("view", view, gl::FALSE);
         shader.setMat4("projection", projection, gl::FALSE);

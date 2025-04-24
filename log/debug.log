@@ -80,3 +80,113 @@ Fragment info
 2025-04-23 21:50:15 - DEBUG - Loading Texture
 2025-04-23 21:50:16 - DEBUG - Loaded Texture
 2025-04-23 21:50:17 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 07:03:44 - DEBUG - log4rs configured!
+2025-04-24 07:03:44 - DEBUG - gl_proc: 0x000079d7649a49c0
+2025-04-24 07:03:44 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-24 07:03:44 - DEBUG - Shader compiled successfully
+2025-04-24 07:03:44 - DEBUG - Shader compiled successfully
+2025-04-24 07:03:44 - DEBUG - Program linked successfully
+2025-04-24 07:03:44 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 07:03:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 07:03:44 - DEBUG - Loading Texture
+2025-04-24 07:03:45 - DEBUG - Loaded Texture
+2025-04-24 07:03:45 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 07:03:45 - DEBUG - Loading Texture
+2025-04-24 07:03:46 - DEBUG - Loaded Texture
+2025-04-24 07:03:47 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 07:23:40 - DEBUG - log4rs configured!
+2025-04-24 07:23:41 - DEBUG - gl_proc: 0x0000758e657579c0
+2025-04-24 07:23:41 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-24 07:23:41 - DEBUG - Shader compiled successfully
+2025-04-24 07:23:41 - DEBUG - Shader compiled successfully
+2025-04-24 07:23:41 - DEBUG - Program linked successfully
+2025-04-24 07:23:41 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 07:23:41 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 07:23:41 - DEBUG - Loading Texture
+2025-04-24 07:23:41 - DEBUG - Loaded Texture
+2025-04-24 07:23:41 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 07:23:41 - DEBUG - Loading Texture
+2025-04-24 07:23:42 - DEBUG - Loaded Texture
+2025-04-24 07:23:43 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 07:29:28 - DEBUG - log4rs configured!
+2025-04-24 07:29:28 - DEBUG - gl_proc: 0x00007679747a59c0
+2025-04-24 07:29:28 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-24 07:29:28 - DEBUG - Shader compiled successfully
+2025-04-24 07:29:28 - DEBUG - Shader compiled successfully
+2025-04-24 07:29:28 - DEBUG - Program linked successfully
+2025-04-24 07:29:28 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-24 07:29:28 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-24 07:29:28 - DEBUG - Loading Texture
+2025-04-24 07:29:28 - DEBUG - Loaded Texture
+2025-04-24 07:29:28 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-24 07:29:28 - DEBUG - Loading Texture
+2025-04-24 07:29:28 - DEBUG - Loaded Texture
+2025-04-24 07:29:28 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-24 07:29:28 - DEBUG - Loading Texture
+2025-04-24 07:29:28 - DEBUG - Loaded Texture
+2025-04-24 07:29:28 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-24 07:29:28 - DEBUG - Loading Texture
+2025-04-24 07:29:28 - DEBUG - Loaded Texture
+2025-04-24 07:29:28 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-24 07:29:28 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-24 07:29:29 - DEBUG - Loading Texture
+2025-04-24 07:29:29 - DEBUG - Loaded Texture
+2025-04-24 07:29:29 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-24 07:29:55 - DEBUG - log4rs configured!
+2025-04-24 07:29:55 - DEBUG - gl_proc: 0x0000752fbc1a49c0
+2025-04-24 07:29:55 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-24 07:29:55 - DEBUG - Shader compiled successfully
+2025-04-24 07:29:55 - DEBUG - Shader compiled successfully
+2025-04-24 07:29:55 - DEBUG - Program linked successfully
+2025-04-24 07:29:55 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-24 07:29:55 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-24 07:29:55 - DEBUG - Loading Texture
+2025-04-24 07:29:55 - DEBUG - Loaded Texture
+2025-04-24 07:29:55 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-24 07:29:55 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-24 07:29:56 - DEBUG - Loading Texture
+2025-04-24 07:29:56 - DEBUG - Loaded Texture
+2025-04-24 07:29:56 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
