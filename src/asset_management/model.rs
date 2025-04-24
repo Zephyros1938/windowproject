@@ -123,9 +123,20 @@ impl Model {
                 vec.x = mesh.texture_coords[0].clone().unwrap()[i].x;
                 vec.y = mesh.texture_coords[0].clone().unwrap()[i].y;
                 vertex.texcoords = vec.clone();
+
+                vector.x = mesh.tangents[i].x;
+                vector.y = mesh.tangents[i].y;
+                vector.z = mesh.tangents[i].z;
+                vertex.tangent = vector.clone();
+
+                vector.x = mesh.bitangents[i].x;
+                vector.y = mesh.bitangents[i].y;
+                vector.z = mesh.bitangents[i].z;
+                vertex.bit_tangent = vector.clone();
             } else {
                 vertex.texcoords = glm::vec2(0f32, 0.0);
             }
+
             vertices.push(vertex);
         }
 

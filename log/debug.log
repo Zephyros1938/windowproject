@@ -13457,3 +13457,2657 @@ error: linking with uncompiled/unspecialized shader
 	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
 	NODE : nanosuit.obj
 2025-04-24 14:03:12 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-24 14:57:05 - DEBUG - log4rs configured!
+2025-04-24 14:57:05 - DEBUG - gl_proc: 0x000078e54b1a49c0
+2025-04-24 14:57:05 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 14:57:05 - DEBUG - Shader compiled successfully
+2025-04-24 14:57:05 - DEBUG - Shader compiled successfully
+2025-04-24 14:57:05 - DEBUG - Program linked successfully
+2025-04-24 14:57:05 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 14:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 14:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 14:57:06 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 14:57:06 - DEBUG - Loading Texture
+2025-04-24 14:57:07 - DEBUG - Loaded Texture
+2025-04-24 14:57:07 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 14:57:07 - DEBUG - Loading Texture
+2025-04-24 14:57:08 - DEBUG - Loaded Texture
+2025-04-24 14:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-24 14:57:08 - DEBUG - Loading Texture
+2025-04-24 14:57:10 - DEBUG - Loaded Texture
+2025-04-24 14:57:10 - DEBUG - Finish Processing Node In 4.015502964s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 14:57:10 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 14:57:10 - DEBUG - Finish Processing Node In 246.553ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 14:57:10 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 14:57:10 - DEBUG - Finish Processing Node In 444.083µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 14:57:10 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 14:57:10 - DEBUG - Finish Processing Node In 311.360609ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 14:57:10 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 254.998955ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 154.215372ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 790.339µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 295.338µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 613.109µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 473.159µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 33.319466ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 356.326311ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 4.794816ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.594328ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 126.445µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 15.033115ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.391339ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 157.677µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 166.168µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 159.307µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.76422ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.127643ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 8.040306ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 4.350806ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 437.504µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 2.393756ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 129.651µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 304.862µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 243.496µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 156.881µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 127.903µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 149.352µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 129.141µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 128.013µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 127.457µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 122.801µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 124.975µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 124.217µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 123.598µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 12.230944ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.722479ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 24.872145ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 25.580409ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 5.180018ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 4.922874ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.397772ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 486.591µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 1.411781ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 90.956514ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 4.649599ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 453.767µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 176.167µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 174.62µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 225.578µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 14:57:11 - DEBUG - Finish Processing Node In 246.195µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 14:57:11 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 162.84901ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 25.354583ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 198.499µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 175.904µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 64.062854ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.301031ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.52801ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.979166ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.981927ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 75.76107ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.108516ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.188339ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.300817ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.100207ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.854154ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 81.371939ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 37.647055ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.060459ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.919318ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.090346ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 2.215011ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.88986ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 1.964779ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 6.617276ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 6.084049128s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 14:57:12 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 14:57:12 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:12 - DEBUG - Loaded Texture
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:12 - DEBUG - Loaded Texture
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:12 - DEBUG - Loaded Texture
+2025-04-24 14:57:12 - DEBUG - Finish Processing Node In 4.518611ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 14:57:12 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:12 - DEBUG - Loaded Texture
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:12 - DEBUG - Loaded Texture
+2025-04-24 14:57:12 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-24 14:57:12 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-24 14:57:13 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Finish Processing Node In 664.261373ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 14:57:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 14:57:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-24 14:57:13 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-24 14:57:13 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-24 14:57:13 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-24 14:57:13 - DEBUG - Loading Texture
+2025-04-24 14:57:13 - DEBUG - Loaded Texture
+2025-04-24 14:57:13 - DEBUG - Finish Processing Node In 837.74702ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 14:57:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 14:57:13 - DEBUG - Finish Processing Node In 432.733µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 14:57:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Finish Processing Node In 429.045896ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 14:57:14 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Finish Processing Node In 393.968815ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 14:57:14 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:14 - DEBUG - Loaded Texture
+2025-04-24 14:57:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-24 14:57:14 - DEBUG - Loading Texture
+2025-04-24 14:57:15 - DEBUG - Loaded Texture
+2025-04-24 14:57:15 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-24 14:57:15 - DEBUG - Loading Texture
+2025-04-24 14:57:15 - DEBUG - Loaded Texture
+2025-04-24 14:57:15 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-24 14:57:15 - DEBUG - Loading Texture
+2025-04-24 14:57:15 - DEBUG - Loaded Texture
+2025-04-24 14:57:15 - DEBUG - Finish Processing Node In 490.591226ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 14:57:15 - DEBUG - Finish Processing Node In 2.826431634s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 14:57:15 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-24 15:57:01 - DEBUG - log4rs configured!
+2025-04-24 15:57:01 - DEBUG - gl_proc: 0x00007218df1579c0
+2025-04-24 15:57:01 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 15:57:01 - DEBUG - Shader compiled successfully
+2025-04-24 15:57:01 - DEBUG - Shader compiled successfully
+2025-04-24 15:57:01 - DEBUG - Program linked successfully
+2025-04-24 15:57:01 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 15:57:01 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 15:57:01 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 15:57:01 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 15:57:01 - DEBUG - Loading Texture
+2025-04-24 15:57:02 - DEBUG - Loaded Texture
+2025-04-24 15:57:02 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 15:57:02 - DEBUG - Loading Texture
+2025-04-24 15:57:03 - DEBUG - Loaded Texture
+2025-04-24 15:57:03 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-24 15:57:03 - DEBUG - Loading Texture
+2025-04-24 15:57:05 - DEBUG - Loaded Texture
+2025-04-24 15:57:05 - DEBUG - Finish Processing Node In 4.056667669s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 15:57:05 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 234.284597ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 464.135µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 282.566132ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 242.448376ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 146.427355ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 954.418µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 288.665µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 620.492µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 489.803µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 15:57:06 - DEBUG - Finish Processing Node In 36.934891ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 15:57:06 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 356.852521ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 5.244375ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.674884ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 174.609µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 14.948852ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.282262ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 189.087µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 156.107µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 184.255µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.576744ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.258584ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 7.569565ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 4.35522ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 438.866µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.467028ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 208.565µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 401.902µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 288.166µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 176.576µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 178.571µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 172.578µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 172.119µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 235.414µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 231.572µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 231.224µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 170.033µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 231.04µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 219.772µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 11.345341ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.001111ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 24.644145ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 24.412867ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 5.041842ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 4.833487ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.403403ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 446.607µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.361402ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 91.641204ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 4.639402ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 402.738µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 140.855µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 141.785µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 137.113µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 137.751µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 153.039263ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 22.980368ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 220.901µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 236.905µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 61.785124ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.117131ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.208069ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.985834ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.929583ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 71.461302ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.217245ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.235331ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.973322ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.314624ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.815593ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 82.207962ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 44.564505ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 1.967777ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.074202ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.078181ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.11136ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.137323ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 2.350044ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 7.041226ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 6.060428579s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 15:57:07 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 15:57:07 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 15:57:07 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-24 15:57:07 - DEBUG - Loading Texture
+2025-04-24 15:57:07 - DEBUG - Loaded Texture
+2025-04-24 15:57:07 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-24 15:57:07 - DEBUG - Loading Texture
+2025-04-24 15:57:07 - DEBUG - Loaded Texture
+2025-04-24 15:57:07 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-24 15:57:07 - DEBUG - Loading Texture
+2025-04-24 15:57:07 - DEBUG - Loaded Texture
+2025-04-24 15:57:07 - DEBUG - Finish Processing Node In 4.827497ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 15:57:07 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 15:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-24 15:57:08 - DEBUG - Loading Texture
+2025-04-24 15:57:08 - DEBUG - Loaded Texture
+2025-04-24 15:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-24 15:57:08 - DEBUG - Loading Texture
+2025-04-24 15:57:08 - DEBUG - Loaded Texture
+2025-04-24 15:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-24 15:57:08 - DEBUG - Loading Texture
+2025-04-24 15:57:08 - DEBUG - Loaded Texture
+2025-04-24 15:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-24 15:57:08 - DEBUG - Loading Texture
+2025-04-24 15:57:08 - DEBUG - Loaded Texture
+2025-04-24 15:57:08 - DEBUG - Finish Processing Node In 659.132396ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 15:57:08 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 15:57:08 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-24 15:57:08 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Finish Processing Node In 816.799802ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 15:57:09 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 15:57:09 - DEBUG - Finish Processing Node In 254.451µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 15:57:09 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Finish Processing Node In 425.436844ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 15:57:09 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:09 - DEBUG - Loaded Texture
+2025-04-24 15:57:09 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-24 15:57:09 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Finish Processing Node In 391.513789ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 15:57:10 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-24 15:57:10 - DEBUG - Loading Texture
+2025-04-24 15:57:10 - DEBUG - Loaded Texture
+2025-04-24 15:57:10 - DEBUG - Finish Processing Node In 485.541787ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 15:57:10 - DEBUG - Finish Processing Node In 2.784170367s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 15:57:10 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-24 15:57:49 - DEBUG - log4rs configured!
+2025-04-24 15:57:49 - DEBUG - gl_proc: 0x00007825b63a59c0
+2025-04-24 15:57:49 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 15:57:49 - DEBUG - Shader compiled successfully
+2025-04-24 15:57:49 - DEBUG - Shader compiled successfully
+2025-04-24 15:57:49 - DEBUG - Program linked successfully
+2025-04-24 15:57:49 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 15:57:50 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 15:57:50 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 15:57:50 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 15:57:50 - DEBUG - Loading Texture
+2025-04-24 15:57:51 - DEBUG - Loaded Texture
+2025-04-24 15:57:51 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 15:57:51 - DEBUG - Loading Texture
+2025-04-24 15:57:52 - DEBUG - Loaded Texture
+2025-04-24 15:57:52 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-24 15:57:52 - DEBUG - Loading Texture
+2025-04-24 15:57:54 - DEBUG - Loaded Texture
+2025-04-24 15:57:54 - DEBUG - Finish Processing Node In 4.009199437s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 15:57:54 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 15:57:54 - DEBUG - Finish Processing Node In 239.299792ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-24 15:57:54 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 15:57:54 - DEBUG - Finish Processing Node In 466.106µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-24 15:57:54 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 15:57:54 - DEBUG - Finish Processing Node In 307.831385ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-24 15:57:54 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 238.540038ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 150.356156ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 917.859µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 335.93µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 888.968µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 515.524µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 32.08407ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 348.42764ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 4.816506ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.699291ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 175.774µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 13.701498ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.568415ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 197.343µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 198.62µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 202.294µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.83011ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.242683ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 7.535409ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 5.321647ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 438.025µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 2.376887ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 169.516µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 488.626µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 407.565µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 230.524µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 228.827µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 167.949µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 177.743µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 228.165µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 227.391µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 217.42µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 167.402µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 217.844µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 228.627µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 11.175172ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.83824ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 26.004952ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 24.523906ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 5.13366ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 4.994174ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.382321ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 476.829µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 1.396141ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 83.295171ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 4.931907ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 640.087µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 173.402µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 229.996µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 191.934µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 170.512µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 146.036876ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 22.860601ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 183.25µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 15:57:55 - DEBUG - Finish Processing Node In 181.042µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-24 15:57:55 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 66.413607ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.027208ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.248296ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.47772ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.181966ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 80.665027ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.056877ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.957739ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.168516ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.007298ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.8659ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 82.212987ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 38.746816ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.106187ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.93852ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.909243ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 2.472306ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.855567ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 1.818438ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 6.592764ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 6.023872176s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 15:57:56 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-24 15:57:56 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Finish Processing Node In 4.600954ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-24 15:57:56 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:56 - DEBUG - Loaded Texture
+2025-04-24 15:57:56 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-24 15:57:56 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Finish Processing Node In 655.646176ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-24 15:57:57 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Finish Processing Node In 829.477588ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-24 15:57:57 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 15:57:57 - DEBUG - Finish Processing Node In 306.715µs
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-24 15:57:57 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:57 - DEBUG - Loaded Texture
+2025-04-24 15:57:57 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-24 15:57:57 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Finish Processing Node In 429.86589ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-24 15:57:58 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Finish Processing Node In 392.200191ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-24 15:57:58 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:58 - DEBUG - Loaded Texture
+2025-04-24 15:57:58 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-24 15:57:58 - DEBUG - Loading Texture
+2025-04-24 15:57:59 - DEBUG - Loaded Texture
+2025-04-24 15:57:59 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-24 15:57:59 - DEBUG - Loading Texture
+2025-04-24 15:57:59 - DEBUG - Loaded Texture
+2025-04-24 15:57:59 - DEBUG - Finish Processing Node In 457.780854ms
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-24 15:57:59 - DEBUG - Finish Processing Node In 2.770576036s
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-24 15:57:59 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-24 16:27:13 - DEBUG - log4rs configured!
+2025-04-24 16:27:13 - DEBUG - gl_proc: 0x000072fae35a59c0
+2025-04-24 16:27:13 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:27:13 - ERROR - Shader compilation failed:
+0:36(2): error: value of type mat3 cannot be assigned to variable of type vec3
+0:40(41): error: `FragPos' undeclared
+0:40(36): error: cannot construct `vec4' from a non-numeric data type
+0:40(16): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:27:13 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:140(20): error: `lightDir' undeclared
+0:140(16): error: no matching function for call to `dot(error, vec3)'; candidates are:
+0:140(16): error:    float dot(float, float)
+0:140(16): error:    float dot(vec2, vec2)
+0:140(16): error:    float dot(vec3, vec3)
+0:140(16): error:    float dot(vec4, vec4)
+0:142(27): warning: `theta' used uninitialized
+0:159(78): error: `TexCoords' undeclared
+0:159(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:159(42): error:    vec4 texture(sampler1D, float)
+0:159(42): error:    ivec4 texture(isampler1D, float)
+0:159(42): error:    uvec4 texture(usampler1D, float)
+0:159(42): error:    vec4 texture(sampler2D, vec2)
+0:159(42): error:    ivec4 texture(isampler2D, vec2)
+0:159(42): error:    uvec4 texture(usampler2D, vec2)
+0:159(42): error:    vec4 texture(sampler3D, vec3)
+0:159(42): error:    ivec4 texture(isampler3D, vec3)
+0:159(42): error:    uvec4 texture(usampler3D, vec3)
+0:159(42): error:    vec4 texture(samplerCube, vec3)
+0:159(42): error:    ivec4 texture(isamplerCube, vec3)
+0:159(42): error:    uvec4 texture(usamplerCube, vec3)
+0:159(42): error:    float texture(sampler1DShadow, vec3)
+0:159(42): error:    float texture(sampler2DShadow, vec3)
+0:159(42): error:    float texture(samplerCubeShadow, vec4)
+0:159(42): error:    vec4 texture(sampler1DArray, vec2)
+0:159(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:159(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:159(42): error:    vec4 texture(sampler2DArray, vec3)
+0:159(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:159(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:159(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:159(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:159(42): error:    vec4 texture(sampler2DRect, vec2)
+0:159(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:159(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:159(42): error:    float texture(sampler2DRectShadow, vec3)
+0:159(42): error:    vec4 texture(sampler1D, float, float)
+0:159(42): error:    ivec4 texture(isampler1D, float, float)
+0:159(42): error:    uvec4 texture(usampler1D, float, float)
+0:159(42): error:    vec4 texture(sampler2D, vec2, float)
+0:159(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:159(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:159(42): error:    vec4 texture(sampler3D, vec3, float)
+0:159(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:159(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:159(42): error:    vec4 texture(samplerCube, vec3, float)
+0:159(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:159(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:159(42): error:    float texture(sampler1DShadow, vec3, float)
+0:159(42): error:    float texture(sampler2DShadow, vec3, float)
+0:159(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:159(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:159(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:159(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:159(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:159(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:159(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:159(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:159(42): error: type mismatch
+0:159(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:27:13 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shadererror: linking with uncompiled/unspecialized shader
+2025-04-24 16:27:13 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:27:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:27:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:27:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:27:13 - DEBUG - Loading Texture
+2025-04-24 16:27:14 - DEBUG - Loaded Texture
+2025-04-24 16:27:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 16:27:14 - DEBUG - Loading Texture
+2025-04-24 16:28:18 - DEBUG - log4rs configured!
+2025-04-24 16:28:18 - DEBUG - gl_proc: 0x00007d34a25a49c0
+2025-04-24 16:28:18 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:28:18 - ERROR - Shader compilation failed:
+0:36(2): error: value of type mat3 cannot be assigned to variable of type vec3
+0:40(41): error: `FragPos' undeclared
+0:40(36): error: cannot construct `vec4' from a non-numeric data type
+0:40(16): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:28:18 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:151(7): error: `lightDir' redeclared
+0:159(78): error: `TexCoords' undeclared
+0:159(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:159(42): error:    vec4 texture(sampler1D, float)
+0:159(42): error:    ivec4 texture(isampler1D, float)
+0:159(42): error:    uvec4 texture(usampler1D, float)
+0:159(42): error:    vec4 texture(sampler2D, vec2)
+0:159(42): error:    ivec4 texture(isampler2D, vec2)
+0:159(42): error:    uvec4 texture(usampler2D, vec2)
+0:159(42): error:    vec4 texture(sampler3D, vec3)
+0:159(42): error:    ivec4 texture(isampler3D, vec3)
+0:159(42): error:    uvec4 texture(usampler3D, vec3)
+0:159(42): error:    vec4 texture(samplerCube, vec3)
+0:159(42): error:    ivec4 texture(isamplerCube, vec3)
+0:159(42): error:    uvec4 texture(usamplerCube, vec3)
+0:159(42): error:    float texture(sampler1DShadow, vec3)
+0:159(42): error:    float texture(sampler2DShadow, vec3)
+0:159(42): error:    float texture(samplerCubeShadow, vec4)
+0:159(42): error:    vec4 texture(sampler1DArray, vec2)
+0:159(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:159(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:159(42): error:    vec4 texture(sampler2DArray, vec3)
+0:159(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:159(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:159(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:159(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:159(42): error:    vec4 texture(sampler2DRect, vec2)
+0:159(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:159(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:159(42): error:    float texture(sampler2DRectShadow, vec3)
+0:159(42): error:    vec4 texture(sampler1D, float, float)
+0:159(42): error:    ivec4 texture(isampler1D, float, float)
+0:159(42): error:    uvec4 texture(usampler1D, float, float)
+0:159(42): error:    vec4 texture(sampler2D, vec2, float)
+0:159(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:159(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:159(42): error:    vec4 texture(sampler3D, vec3, float)
+0:159(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:159(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:159(42): error:    vec4 texture(samplerCube, vec3, float)
+0:159(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:159(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:159(42): error:    float texture(sampler1DShadow, vec3, float)
+0:159(42): error:    float texture(sampler2DShadow, vec3, float)
+0:159(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:159(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:159(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:159(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:159(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:159(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:159(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:159(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:159(42): error: type mismatch
+0:159(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:28:18 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shadererror: linking with uncompiled/unspecialized shader
+2025-04-24 16:28:18 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:28:18 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:28:18 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:28:18 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:28:18 - DEBUG - Loading Texture
+2025-04-24 16:34:27 - DEBUG - log4rs configured!
+2025-04-24 16:34:27 - DEBUG - gl_proc: 0x00007a116c2f69c0
+2025-04-24 16:34:27 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:34:27 - ERROR - Shader compilation failed:
+0:36(2): error: value of type mat3 cannot be assigned to variable of type vec3
+0:40(41): error: `FragPos' undeclared
+0:40(36): error: cannot construct `vec4' from a non-numeric data type
+0:40(16): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:34:27 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:152(7): error: `lightDir' redeclared
+0:160(78): error: `TexCoords' undeclared
+0:160(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:160(42): error:    vec4 texture(sampler1D, float)
+0:160(42): error:    ivec4 texture(isampler1D, float)
+0:160(42): error:    uvec4 texture(usampler1D, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2)
+0:160(42): error:    ivec4 texture(isampler2D, vec2)
+0:160(42): error:    uvec4 texture(usampler2D, vec2)
+0:160(42): error:    vec4 texture(sampler3D, vec3)
+0:160(42): error:    ivec4 texture(isampler3D, vec3)
+0:160(42): error:    uvec4 texture(usampler3D, vec3)
+0:160(42): error:    vec4 texture(samplerCube, vec3)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3)
+0:160(42): error:    float texture(sampler1DShadow, vec3)
+0:160(42): error:    float texture(sampler2DShadow, vec3)
+0:160(42): error:    float texture(samplerCubeShadow, vec4)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:160(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:160(42): error:    vec4 texture(sampler2DRect, vec2)
+0:160(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:160(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:160(42): error:    float texture(sampler2DRectShadow, vec3)
+0:160(42): error:    vec4 texture(sampler1D, float, float)
+0:160(42): error:    ivec4 texture(isampler1D, float, float)
+0:160(42): error:    uvec4 texture(usampler1D, float, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2, float)
+0:160(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:160(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:160(42): error:    vec4 texture(sampler3D, vec3, float)
+0:160(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:160(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:160(42): error:    vec4 texture(samplerCube, vec3, float)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:160(42): error:    float texture(sampler1DShadow, vec3, float)
+0:160(42): error:    float texture(sampler2DShadow, vec3, float)
+0:160(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:160(42): error: type mismatch
+0:160(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:34:27 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shadererror: linking with uncompiled/unspecialized shader
+2025-04-24 16:34:27 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:34:27 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:34:27 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:34:28 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:34:28 - DEBUG - Loading Texture
+2025-04-24 16:34:29 - DEBUG - Loaded Texture
+2025-04-24 16:34:29 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 16:34:29 - DEBUG - Loading Texture
+2025-04-24 16:34:30 - DEBUG - Loaded Texture
+2025-04-24 16:34:30 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-24 16:34:30 - DEBUG - Loading Texture
+2025-04-24 16:35:12 - DEBUG - log4rs configured!
+2025-04-24 16:35:13 - DEBUG - gl_proc: 0x000072d7de7579c0
+2025-04-24 16:35:13 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:35:13 - ERROR - Shader compilation failed:
+0:36(2): error: value of type mat3 cannot be assigned to variable of type vec3
+
+2025-04-24 16:35:13 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:152(7): error: `lightDir' redeclared
+0:160(78): error: `TexCoords' undeclared
+0:160(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:160(42): error:    vec4 texture(sampler1D, float)
+0:160(42): error:    ivec4 texture(isampler1D, float)
+0:160(42): error:    uvec4 texture(usampler1D, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2)
+0:160(42): error:    ivec4 texture(isampler2D, vec2)
+0:160(42): error:    uvec4 texture(usampler2D, vec2)
+0:160(42): error:    vec4 texture(sampler3D, vec3)
+0:160(42): error:    ivec4 texture(isampler3D, vec3)
+0:160(42): error:    uvec4 texture(usampler3D, vec3)
+0:160(42): error:    vec4 texture(samplerCube, vec3)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3)
+0:160(42): error:    float texture(sampler1DShadow, vec3)
+0:160(42): error:    float texture(sampler2DShadow, vec3)
+0:160(42): error:    float texture(samplerCubeShadow, vec4)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:160(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:160(42): error:    vec4 texture(sampler2DRect, vec2)
+0:160(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:160(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:160(42): error:    float texture(sampler2DRectShadow, vec3)
+0:160(42): error:    vec4 texture(sampler1D, float, float)
+0:160(42): error:    ivec4 texture(isampler1D, float, float)
+0:160(42): error:    uvec4 texture(usampler1D, float, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2, float)
+0:160(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:160(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:160(42): error:    vec4 texture(sampler3D, vec3, float)
+0:160(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:160(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:160(42): error:    vec4 texture(samplerCube, vec3, float)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:160(42): error:    float texture(sampler1DShadow, vec3, float)
+0:160(42): error:    float texture(sampler2DShadow, vec3, float)
+0:160(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:160(42): error: type mismatch
+0:160(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:35:13 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shadererror: linking with uncompiled/unspecialized shader
+2025-04-24 16:35:13 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:35:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:35:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:35:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:35:13 - DEBUG - Loading Texture
+2025-04-24 16:35:14 - DEBUG - Loaded Texture
+2025-04-24 16:35:14 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 16:35:14 - DEBUG - Loading Texture
+2025-04-24 16:36:01 - DEBUG - log4rs configured!
+2025-04-24 16:36:02 - DEBUG - gl_proc: 0x000073ec225a49c0
+2025-04-24 16:36:02 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:36:02 - DEBUG - Shader compiled successfully
+2025-04-24 16:36:02 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:152(7): error: `lightDir' redeclared
+0:160(78): error: `TexCoords' undeclared
+0:160(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:160(42): error:    vec4 texture(sampler1D, float)
+0:160(42): error:    ivec4 texture(isampler1D, float)
+0:160(42): error:    uvec4 texture(usampler1D, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2)
+0:160(42): error:    ivec4 texture(isampler2D, vec2)
+0:160(42): error:    uvec4 texture(usampler2D, vec2)
+0:160(42): error:    vec4 texture(sampler3D, vec3)
+0:160(42): error:    ivec4 texture(isampler3D, vec3)
+0:160(42): error:    uvec4 texture(usampler3D, vec3)
+0:160(42): error:    vec4 texture(samplerCube, vec3)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3)
+0:160(42): error:    float texture(sampler1DShadow, vec3)
+0:160(42): error:    float texture(sampler2DShadow, vec3)
+0:160(42): error:    float texture(samplerCubeShadow, vec4)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:160(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:160(42): error:    vec4 texture(sampler2DRect, vec2)
+0:160(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:160(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:160(42): error:    float texture(sampler2DRectShadow, vec3)
+0:160(42): error:    vec4 texture(sampler1D, float, float)
+0:160(42): error:    ivec4 texture(isampler1D, float, float)
+0:160(42): error:    uvec4 texture(usampler1D, float, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2, float)
+0:160(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:160(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:160(42): error:    vec4 texture(sampler3D, vec3, float)
+0:160(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:160(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:160(42): error:    vec4 texture(samplerCube, vec3, float)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:160(42): error:    float texture(sampler1DShadow, vec3, float)
+0:160(42): error:    float texture(sampler2DShadow, vec3, float)
+0:160(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:160(42): error: type mismatch
+0:160(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:36:02 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shader
+2025-04-24 16:36:02 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:36:02 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:36:02 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:36:02 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:36:02 - DEBUG - Loading Texture
+2025-04-24 16:38:13 - DEBUG - log4rs configured!
+2025-04-24 16:38:13 - DEBUG - gl_proc: 0x00007cc21e5a59c0
+2025-04-24 16:38:13 - DEBUG - Using OpenGL version: 4.6 (Compatibility Profile) Mesa 25.0.3-arch1.1
+2025-04-24 16:38:13 - DEBUG - Shader compiled successfully
+2025-04-24 16:38:13 - ERROR - Shader compilation failed:
+0:117(56): error: cannot access field `direction' of structure
+0:117(56): error: type mismatch
+0:117(25): error: operands to arithmetic operators must be numeric
+0:121(28): warning: `tangentLightPos' used uninitialized
+0:129(78): error: `TexCoords' undeclared
+0:129(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:129(42): error:    vec4 texture(sampler1D, float)
+0:129(42): error:    ivec4 texture(isampler1D, float)
+0:129(42): error:    uvec4 texture(usampler1D, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2)
+0:129(42): error:    ivec4 texture(isampler2D, vec2)
+0:129(42): error:    uvec4 texture(usampler2D, vec2)
+0:129(42): error:    vec4 texture(sampler3D, vec3)
+0:129(42): error:    ivec4 texture(isampler3D, vec3)
+0:129(42): error:    uvec4 texture(usampler3D, vec3)
+0:129(42): error:    vec4 texture(samplerCube, vec3)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3)
+0:129(42): error:    float texture(sampler1DShadow, vec3)
+0:129(42): error:    float texture(sampler2DShadow, vec3)
+0:129(42): error:    float texture(samplerCubeShadow, vec4)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:129(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:129(42): error:    vec4 texture(sampler2DRect, vec2)
+0:129(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:129(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:129(42): error:    float texture(sampler2DRectShadow, vec3)
+0:129(42): error:    vec4 texture(sampler1D, float, float)
+0:129(42): error:    ivec4 texture(isampler1D, float, float)
+0:129(42): error:    uvec4 texture(usampler1D, float, float)
+0:129(42): error:    vec4 texture(sampler2D, vec2, float)
+0:129(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:129(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:129(42): error:    vec4 texture(sampler3D, vec3, float)
+0:129(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:129(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:129(42): error:    vec4 texture(samplerCube, vec3, float)
+0:129(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:129(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:129(42): error:    float texture(sampler1DShadow, vec3, float)
+0:129(42): error:    float texture(sampler2DShadow, vec3, float)
+0:129(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:129(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:129(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:129(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:129(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:129(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:129(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:129(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:129(42): error: type mismatch
+0:129(18): error: operands to arithmetic operators must be numeric
+0:152(7): error: `lightDir' redeclared
+0:160(78): error: `TexCoords' undeclared
+0:160(42): error: no matching function for call to `texture(sampler2D, error)'; candidates are:
+0:160(42): error:    vec4 texture(sampler1D, float)
+0:160(42): error:    ivec4 texture(isampler1D, float)
+0:160(42): error:    uvec4 texture(usampler1D, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2)
+0:160(42): error:    ivec4 texture(isampler2D, vec2)
+0:160(42): error:    uvec4 texture(usampler2D, vec2)
+0:160(42): error:    vec4 texture(sampler3D, vec3)
+0:160(42): error:    ivec4 texture(isampler3D, vec3)
+0:160(42): error:    uvec4 texture(usampler3D, vec3)
+0:160(42): error:    vec4 texture(samplerCube, vec3)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3)
+0:160(42): error:    float texture(sampler1DShadow, vec3)
+0:160(42): error:    float texture(sampler2DShadow, vec3)
+0:160(42): error:    float texture(samplerCubeShadow, vec4)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3)
+0:160(42): error:    float texture(sampler2DArrayShadow, vec4)
+0:160(42): error:    vec4 texture(sampler2DRect, vec2)
+0:160(42): error:    ivec4 texture(isampler2DRect, vec2)
+0:160(42): error:    uvec4 texture(usampler2DRect, vec2)
+0:160(42): error:    float texture(sampler2DRectShadow, vec3)
+0:160(42): error:    vec4 texture(sampler1D, float, float)
+0:160(42): error:    ivec4 texture(isampler1D, float, float)
+0:160(42): error:    uvec4 texture(usampler1D, float, float)
+0:160(42): error:    vec4 texture(sampler2D, vec2, float)
+0:160(42): error:    ivec4 texture(isampler2D, vec2, float)
+0:160(42): error:    uvec4 texture(usampler2D, vec2, float)
+0:160(42): error:    vec4 texture(sampler3D, vec3, float)
+0:160(42): error:    ivec4 texture(isampler3D, vec3, float)
+0:160(42): error:    uvec4 texture(usampler3D, vec3, float)
+0:160(42): error:    vec4 texture(samplerCube, vec3, float)
+0:160(42): error:    ivec4 texture(isamplerCube, vec3, float)
+0:160(42): error:    uvec4 texture(usamplerCube, vec3, float)
+0:160(42): error:    float texture(sampler1DShadow, vec3, float)
+0:160(42): error:    float texture(sampler2DShadow, vec3, float)
+0:160(42): error:    float texture(samplerCubeShadow, vec4, float)
+0:160(42): error:    vec4 texture(sampler1DArray, vec2, float)
+0:160(42): error:    ivec4 texture(isampler1DArray, vec2, float)
+0:160(42): error:    uvec4 texture(usampler1DArray, vec2, float)
+0:160(42): error:    vec4 texture(sampler2DArray, vec3, float)
+0:160(42): error:    ivec4 texture(isampler2DArray, vec3, float)
+0:160(42): error:    uvec4 texture(usampler2DArray, vec3, float)
+0:160(42): error:    float texture(sampler1DArrayShadow, vec3, float)
+0:160(42): error: type mismatch
+0:160(18): error: operands to arithmetic operators must be numeric
+
+2025-04-24 16:38:13 - ERROR - Program linking failed:
+error: linking with uncompiled/unspecialized shader
+2025-04-24 16:38:13 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-24 16:38:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-24 16:38:13 - DEBUG - Start Processing Node
+	MODEL: /home/zephyros/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-24 16:38:13 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-24 16:38:13 - DEBUG - Loading Texture
+2025-04-24 16:38:15 - DEBUG - Loaded Texture
+2025-04-24 16:38:15 - DEBUG - Trying to load texture at: /home/zephyros/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-24 16:38:15 - DEBUG - Loading Texture

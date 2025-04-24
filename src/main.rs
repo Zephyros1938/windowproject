@@ -182,7 +182,7 @@ fn main() -> LinuxExitCode {
         let backpack: Model = Model::new(
             "models/backpack/backpack.obj",
             None,
-            Some(glm::vec3(10.0, 0.0, 10.0)),
+            Some(glm::vec3(0.0, 0.0, 0.0)),
         );
         let nanosuit: Model = Model::new(
             "models/nanosuit/nanosuit.obj",
