@@ -9,6 +9,8 @@ pub struct Vertex {
     pub position: glm::Vec3,
     pub normal: glm::Vec3,
     pub texcoords: glm::Vec2,
+    pub tangent: glm::Vec3,
+    pub bit_tangent: glm::Vec3,
 }
 
 impl Default for Vertex {
@@ -17,6 +19,8 @@ impl Default for Vertex {
             position: glm::vec3(0f32, 0.0, 0.0),
             normal: glm::vec3(0f32, 0.0, 0.0),
             texcoords: glm::vec2(0f32, 0.0),
+            tangent: glm::vec3(0f32, 0.0, 0.0),
+            bit_tangent: glm::vec3(0f32, 0.0, 0.0),
         }
     }
 }
@@ -99,6 +103,8 @@ impl Mesh {
             use std::ffi::CString;
             let mut diffuseNr = 1u32;
             let mut specularNr = 1u32;
+            let mut normalNr = 1u32;
+            let mut heightNr = 1u32;
             // debug!("Drawing mesh!");
             for i in 0..self.textures.len() {
                 ActiveTexture(TEXTURE0 + i as u32);
@@ -111,6 +117,12 @@ impl Mesh {
                 } else if name == "texture_specular" {
                     number = CString::new(specularNr.to_string()).unwrap();
                     specularNr += 1;
+                } else if name == "texture_normal" {
+                    number = CString::new(normalNr.to_string()).unwrap();
+                    normalNr += 1;
+                } else if name == "texture_height" {
+                    number = CString::new(heightNr.to_string()).unwrap();
+                    heightNr += 1;
                 } else {
                     panic!("Could not get texture!");
                 }
@@ -120,7 +132,6 @@ impl Mesh {
                 );
                 BindTexture(TEXTURE_2D, self.textures[i].ID);
             }
-            ActiveTexture(TEXTURE0);
 
             BindVertexArray(self.VAO);
             DrawElements(
@@ -130,6 +141,7 @@ impl Mesh {
                 0 as *const _,
             );
             BindVertexArray(0);
+            ActiveTexture(TEXTURE0);
         }
     }
 }

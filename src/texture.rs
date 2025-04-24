@@ -1,7 +1,7 @@
 #![allow(non_snake_case, non_camel_case_types, dead_code)]
 use gl::{self, types::GLenum};
 use glfw::ffi::TRUE;
-use log::{debug, error};
+use log::debug;
 use stb_image;
 
 #[repr(C)]
@@ -30,7 +30,6 @@ impl Default for Texture {
 
 pub unsafe fn TextureConstructor(
     path: String,
-    format: GLenum,
     flip: bool,
     wrap_s: Option<GLenum>,
     wrap_t: Option<GLenum>,
@@ -102,11 +101,21 @@ pub unsafe fn TextureConstructor(
             0,
         ) as *mut _;
         if !data.is_null() {
-            debug!("Loaded Texture");
+            let format = match nrChannels {
+                1 => gl::RED,
+                2 => gl::RG,
+                3 => gl::RGB,
+                4 => gl::RGBA,
+                _ => panic!(
+                    "Could not get number of channels for Texture {}\r\n\tCHNLS: {}",
+                    loc.into_string().unwrap().as_str(),
+                    nrChannels
+                ),
+            };
             gl::TexImage2D(
                 gl::TEXTURE_2D,
                 0,
-                gl::RGB as i32,
+                format as i32,
                 width,
                 height,
                 0,
@@ -115,8 +124,8 @@ pub unsafe fn TextureConstructor(
                 data,
             );
             gl::GenerateMipmap(gl::TEXTURE_2D);
+            debug!("Loaded Texture");
         } else {
-            error!("Failed to load texture: [{}]!", path);
             panic!("Failed to load texture: [{}]!", path);
         }
         stb_image::stb_image::stbi_image_free(data);

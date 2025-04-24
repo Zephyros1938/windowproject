@@ -1,4 +1,7 @@
 extern crate nalgebra_glm as glm;
+extern crate russimp;
+
+use std::time::Instant;
 
 use crate::texture::TextureConstructor;
 use crate::{shader::Shader, texture::Texture};
@@ -10,37 +13,53 @@ use russimp::material::Material as AIMaterial;
 use russimp::material::TextureType as AITextureType;
 use russimp::mesh::Mesh as AIMesh;
 use russimp::node::Node;
-use russimp::scene::PostProcess as AIProcess;
 use russimp::scene::Scene as AIScene;
+use russimp::scene::{PostProcess as AIProcess, PostProcessSteps};
 
 pub struct Model {
     pub meshes: Vec<Mesh>,
     pub directory: String,
     pub textures_loaded: Vec<Texture>,
+    pub position: glm::Mat4,
 }
 
 impl Model {
-    pub fn new(path: &str) -> Self {
+    pub fn new(path: &str, flags: Option<PostProcessSteps>, position: Option<glm::Vec3>) -> Self {
         let mut result = Self {
             textures_loaded: Vec::new(),
             meshes: Vec::new(),
             directory: String::new(),
+            position: match position {
+                Some(n) => glm::translate(&glm::Mat4::identity(), &n),
+                None => glm::Mat4::identity(),
+            },
         };
-        result.load_model(path);
+        result.load_model(path, flags);
         result
     }
     pub fn draw(&self, shader: &Shader) {
         for mesh in self.meshes.iter() {
+            unsafe {
+                shader.setMat4("model", self.position, gl::FALSE);
+            }
             mesh.draw(shader);
         }
     }
 
-    fn load_model(&mut self, path: &str) {
+    fn load_model(&mut self, path: &str, flags: Option<PostProcessSteps>) {
         debug!("Loading Model: {}", path);
 
         let scene = AIScene::from_file(
             get_asset_path(path).unwrap().as_str(),
-            vec![AIProcess::Triangulate, AIProcess::FlipUVs],
+            match flags {
+                Some(n) => n,
+                None => vec![
+                    AIProcess::Triangulate,
+                    AIProcess::FlipUVs,
+                    AIProcess::GenerateSmoothNormals,
+                    AIProcess::CalculateTangentSpace,
+                ],
+            },
         )
         .unwrap();
         let full_path = get_asset_path(path).unwrap();
@@ -57,6 +76,11 @@ impl Model {
         debug!("Model Loaded: {}", path);
     }
     fn process_node(&mut self, node: &Node, scene: &AIScene) {
+        let t = Instant::now();
+        debug!(
+            "Start Processing Node\r\n\tMODEL: {}\r\n\tNODE : {}",
+            self.directory, node.name
+        );
         for &mesh_i in node.meshes.iter() {
             let mesh_i = mesh_i as usize;
 
@@ -64,10 +88,15 @@ impl Model {
             let result = self.process_mesh(mesh, scene);
             self.meshes.push(result);
         }
-
         for child in node.children.borrow().iter() {
             self.process_node(child, scene);
         }
+        debug!(
+            "Finish Processing Node In {:#?}\r\n\tMODEL: {}\r\n\tNODE : {}",
+            t.elapsed(),
+            self.directory,
+            node.name
+        );
     }
     fn process_mesh(&mut self, mesh: &AIMesh, scene: &AIScene) -> Mesh {
         let mut vertices: Vec<Vertex> = Vec::new();
@@ -107,6 +136,7 @@ impl Model {
         }
 
         let material = &scene.materials[mesh.material_index as usize];
+
         let diffuse_maps = self.load_material_textures(
             material,
             AITextureType::Diffuse,
@@ -123,6 +153,22 @@ impl Model {
         specular_maps.iter().for_each(|it| {
             textures.push(it.clone());
         });
+        let normal_maps = self.load_material_textures(
+            material,
+            AITextureType::Height,
+            "texture_normal".to_string(),
+        );
+        normal_maps.iter().for_each(|it| {
+            textures.push(it.clone());
+        });
+        let height_maps = self.load_material_textures(
+            material,
+            AITextureType::Ambient,
+            "texture_height".to_string(),
+        );
+        height_maps.iter().for_each(|it| {
+            textures.push(it.clone());
+        });
 
         Mesh::new(vertices, indices, textures)
     }
@@ -135,6 +181,7 @@ impl Model {
         let mut textures: Vec<Texture> = Vec::new();
 
         for prop in &mat.properties {
+            // debug!("{:#?}", prop);
             if prop.key != "$tex.file" || prop.semantic != t_type {
                 continue;
             }
@@ -146,6 +193,7 @@ impl Model {
                     .replace("String(\"", "")
                     .replace("\")", "")
             );
+            // debug!("Fullpath: {}", full_path);
             for texture_loaded in &self.textures_loaded {
                 if texture_loaded.path == full_path {
                     textures.push(texture_loaded.clone());
@@ -160,7 +208,6 @@ impl Model {
                 let mut texture_load = unsafe {
                     TextureConstructor(
                         full_path.clone(),
-                        gl::RGBA,
                         true,
                         None,
                         None,

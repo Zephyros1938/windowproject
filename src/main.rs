@@ -70,6 +70,7 @@ fn main() -> LinuxExitCode {
         );
         gl::Viewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         gl::Enable(gl::DEPTH_TEST);
+        gl::Enable(gl::CULL_FACE);
 
         glfwSetFramebufferSizeCallback(window, Some(framebuffer_size_callback));
         glfwSetCursorPosCallback(window, Some(mouse_callback));
@@ -178,7 +179,16 @@ fn main() -> LinuxExitCode {
         };
 
         shader.activate();
-        let backpack: Model = Model::new("models/nanosuit/nanosuit.obj");
+        let backpack: Model = Model::new(
+            "models/backpack/backpack.obj",
+            None,
+            Some(glm::vec3(10.0, 0.0, 10.0)),
+        );
+        let nanosuit: Model = Model::new(
+            "models/nanosuit/nanosuit.obj",
+            None,
+            Some(glm::vec3(0.0, 0.0, 10.0)),
+        );
 
         shader.setMat4("view", view, gl::FALSE);
         shader.setMat4("projection", projection, gl::FALSE);
@@ -205,6 +215,7 @@ fn main() -> LinuxExitCode {
             shader.setMat4("projection", CAMERA.get_projection_matrix(), gl::FALSE);
 
             backpack.draw(&shader);
+            nanosuit.draw(&shader);
 
             glfwSwapBuffers(window);
             glfwPollEvents();
