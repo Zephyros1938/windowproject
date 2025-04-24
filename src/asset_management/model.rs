@@ -1,12 +1,13 @@
 extern crate nalgebra_glm as glm;
+
 use crate::texture::TextureConstructor;
 use crate::{shader::Shader, texture::Texture};
 
 use super::get_asset_path;
 use super::mesh::{Mesh, Vertex};
-use log::{debug, trace};
+use log::debug;
+use russimp::material::Material as AIMaterial;
 use russimp::material::TextureType as AITextureType;
-use russimp::material::{Material as AIMaterial, TextureType};
 use russimp::mesh::Mesh as AIMesh;
 use russimp::node::Node;
 use russimp::scene::PostProcess as AIProcess;
@@ -29,28 +30,33 @@ impl Model {
         result
     }
     pub fn draw(&self, shader: &Shader) {
-        for i in 0..self.meshes.len() {
-            debug!("Drawing {}", i);
-            self.meshes[i].draw(shader);
+        for mesh in self.meshes.iter() {
+            mesh.draw(shader);
         }
     }
 
     fn load_model(&mut self, path: &str) {
         debug!("Loading Model: {}", path);
+
         let scene = AIScene::from_file(
             get_asset_path(path).unwrap().as_str(),
             vec![AIProcess::Triangulate, AIProcess::FlipUVs],
         )
         .unwrap();
-        self.directory = get_asset_path(path).unwrap();
+        let full_path = get_asset_path(path).unwrap();
+        self.directory = std::path::Path::new(&full_path)
+            .parent()
+            .unwrap()
+            .to_str()
+            .unwrap()
+            .to_string();
 
         if let Some(root) = &scene.root {
             self.process_node(root, &scene);
         }
+        debug!("Model Loaded: {}", path);
     }
     fn process_node(&mut self, node: &Node, scene: &AIScene) {
-        debug!("Processing Node:\n\r\tNODE : {}", node.name);
-        debug!("{:#?}", node);
         for &mesh_i in node.meshes.iter() {
             let mesh_i = mesh_i as usize;
 
@@ -58,13 +64,15 @@ impl Model {
             let result = self.process_mesh(mesh, scene);
             self.meshes.push(result);
         }
+
+        for child in node.children.borrow().iter() {
+            self.process_node(child, scene);
+        }
     }
     fn process_mesh(&mut self, mesh: &AIMesh, scene: &AIScene) -> Mesh {
         let mut vertices: Vec<Vertex> = Vec::new();
         let mut indices: Vec<u32> = Vec::new();
         let mut textures: Vec<Texture> = Vec::new();
-
-        debug!("Processing Mesh:\r\n\tMESH : {}", mesh.name);
 
         for (i, vertice) in mesh.vertices.iter().enumerate() {
             let mut vertex = Vertex::default();
@@ -99,21 +107,22 @@ impl Model {
         }
 
         let material = &scene.materials[mesh.material_index as usize];
-
         let diffuse_maps = self.load_material_textures(
             material,
             AITextureType::Diffuse,
             "texture_diffuse".to_string(),
         );
-        diffuse_maps.iter().for_each(|it| textures.push(it.clone()));
+        diffuse_maps.iter().for_each(|it| {
+            textures.push(it.clone());
+        });
         let specular_maps = self.load_material_textures(
             material,
             AITextureType::Specular,
             "texture_specular".to_string(),
         );
-        specular_maps
-            .iter()
-            .for_each(|it| textures.push(it.clone()));
+        specular_maps.iter().for_each(|it| {
+            textures.push(it.clone());
+        });
 
         Mesh::new(vertices, indices, textures)
     }
@@ -124,38 +133,49 @@ impl Model {
         typename: String,
     ) -> Vec<Texture> {
         let mut textures: Vec<Texture> = Vec::new();
-        for texture in mat.textures.iter() {
-            if *texture.0 != t_type {
+
+        for prop in &mat.properties {
+            if prop.key != "$tex.file" || prop.semantic != t_type {
                 continue;
             }
-
             let mut skip = false;
-            for texture_loaded in self.textures_loaded.iter() {
-                if texture_loaded.path == texture.1.borrow().filename {
-                    textures.push((*texture_loaded).clone());
+            let full_path = format!(
+                "{}/{}",
+                self.directory,
+                format!("{:?}", prop.data)
+                    .replace("String(\"", "")
+                    .replace("\")", "")
+            );
+            for texture_loaded in &self.textures_loaded {
+                if texture_loaded.path == full_path {
+                    textures.push(texture_loaded.clone());
                     skip = true;
                     break;
                 }
             }
+
             if !skip {
-                let texture_load = unsafe {
+                debug!("Trying to load texture at: {}", full_path);
+
+                let mut texture_load = unsafe {
                     TextureConstructor(
-                        texture.1.borrow().filename.clone(),
-                        gl::RGBA,
+                        full_path.clone(),
+                        gl::RGB,
                         true,
                         None,
                         None,
-                        Some(gl::NEAREST),
+                        Some(gl::NEAREST_MIPMAP_NEAREST),
                         Some(gl::NEAREST),
                         typename.clone(),
                     )
                 };
-                debug!("Loaded Texture {}", texture.1.borrow().filename.clone());
-                textures.push(texture_load.clone());
+                texture_load.path = full_path.clone();
 
-                self.textures_loaded.push(texture_load.clone());
+                textures.push(texture_load.clone());
+                self.textures_loaded.push(texture_load);
             }
         }
+
         textures
     }
 }

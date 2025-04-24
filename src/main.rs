@@ -12,7 +12,6 @@ use shader::Shader;
 use shader::light::LightImpl;
 use std::ffi::{CStr, CString};
 use std::ptr::{self};
-use texture::TextureConstructor;
 use util::LinuxExitCode;
 mod asset_management;
 mod camera;
@@ -30,8 +29,6 @@ static mut FIRST_MOUSE: bool = true;
 static mut LAST_X: f32 = 0f32;
 static mut LAST_Y: f32 = 0f32;
 static mut CAMERA: cpp_camera = cpp_camera { camera: None };
-
-use asset_management::cube::VERTICES;
 
 fn main() -> LinuxExitCode {
     unsafe {
@@ -102,14 +99,67 @@ fn main() -> LinuxExitCode {
         let shader: Shader =
             shader::ShaderConstructor("shaders/model_loading.vert", "shaders/model_loading.frag");
 
-        let backpack: Model = Model::new("models/backpack/backpack.obj");
-
         let mut view = crate::util::glmaddon::mat4(1.032);
         let projection = CAMERA.get_projection_matrix();
         let mut model = util::glmaddon::mat4(1.032);
 
         model = glm::rotate(&model, -0f32.to_radians(), &glm::vec3(1f32, 0.0, 0.0));
         view = glm::translate(&view, &glm::vec3(0f32, 0f32, -3f32));
+
+        let lightPositions = [
+            glm::vec3(0.7f32, 0.2f32, 2.0f32),
+            glm::vec3(2.3f32, -3.3f32, -4.0f32),
+            glm::vec3(-4.0f32, 2.0f32, -12.0f32),
+            glm::vec3(0.0f32, 0.0f32, -3.0f32),
+        ];
+
+        let directionalLight = shader::light::DirectionalLight {
+            direction: glm::vec3(-0.2f32, -1.0, -0.3),
+            ambient: glm::vec3(0.05f32, 0.05, 0.05),
+            diffuse: glm::vec3(0.4f32, 0.4, 0.4),
+            specular: glm::vec3(0.5f32, 0.5, 0.5),
+        };
+
+        let pointLightCollection = shader::light::LightCollection {
+            lights: [
+                shader::light::PointLight {
+                    position: lightPositions[0],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[1],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[2],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+                shader::light::PointLight {
+                    position: lightPositions[3],
+                    ambient: glm::vec3(0.05f32, 0.05, 0.05),
+                    diffuse: glm::vec3(0.8f32, 0.8, 0.8),
+                    specular: glm::vec3(1f32, 1f32, 1f32),
+                    constant: 1f32,
+                    linear: 0.09f32,
+                    quadratic: 0.32f32,
+                },
+            ],
+        };
 
         let mut cameraSpotLight: shader::light::SpotLight = shader::light::SpotLight {
             position: CAMERA.get_position(),
@@ -128,10 +178,14 @@ fn main() -> LinuxExitCode {
         };
 
         shader.activate();
+        let backpack: Model = Model::new("models/backpack/backpack.obj");
 
         shader.setMat4("view", view, gl::FALSE);
         shader.setMat4("projection", projection, gl::FALSE);
         shader.setMat4("model", model, gl::FALSE);
+
+        pointLightCollection.set_uniform(&shader, "pointLights");
+        directionalLight.set_uniform(&shader, "dirLight");
 
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
@@ -145,8 +199,8 @@ fn main() -> LinuxExitCode {
 
             shader.activate();
 
-            // cameraSpotLight.set_uniform(&shader, "spotLight");
-            // shader.setVec3("viewPos", CAMERA.get_position());
+            cameraSpotLight.set_uniform(&shader, "spotLight");
+            shader.setVec3("viewPos", CAMERA.get_position());
             shader.setMat4("view", CAMERA.get_view_matrix(), gl::FALSE);
             shader.setMat4("projection", CAMERA.get_projection_matrix(), gl::FALSE);
 

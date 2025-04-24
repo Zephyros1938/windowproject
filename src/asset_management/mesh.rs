@@ -1,7 +1,5 @@
 use gl;
-use glfw::ffi::*;
 use nalgebra_glm as glm;
-use russimp as assimp;
 
 use crate::{shader::Shader, texture::Texture};
 
@@ -23,10 +21,6 @@ impl Default for Vertex {
     }
 }
 
-const VERTEX_POSITION_OFFSET: *const std::ffi::c_void = 0 as *const std::ffi::c_void;
-const VERTEX_NORMAL_OFFSET: *const std::ffi::c_void = 12 as *const std::ffi::c_void;
-const VERTEX_TEXCOORD_OFFSET: *const std::ffi::c_void = 24 as *const std::ffi::c_void;
-
 #[repr(C)]
 #[derive(Clone)]
 pub struct Mesh {
@@ -40,16 +34,18 @@ pub struct Mesh {
 
 impl Mesh {
     pub fn new(vertices: Vec<Vertex>, indices: Vec<u32>, textures: Vec<Texture>) -> Self {
-        Self {
+        let mut m = Mesh {
             vertices,
             indices,
             textures,
             VAO: 0,
             VBO: 0,
             EBO: 0,
-        }
+        };
+        m.setup_mesh();
+        m
     }
-    fn setup_mesh(mut self) {
+    fn setup_mesh(&mut self) {
         unsafe {
             use crate::{as_c_void, sizeof};
             use gl::*;
@@ -74,11 +70,25 @@ impl Mesh {
                 as_c_void!(self.indices),
                 STATIC_DRAW,
             );
-            VertexAttribPointer(0, 3, FLOAT, FALSE, sizeof!(Vertex), VERTEX_POSITION_OFFSET);
+            VertexAttribPointer(0, 3, FLOAT, FALSE, sizeof!(Vertex), std::ptr::null());
             EnableVertexAttribArray(0);
-            VertexAttribPointer(1, 3, FLOAT, FALSE, sizeof!(Vertex), VERTEX_NORMAL_OFFSET);
+            VertexAttribPointer(
+                1,
+                3,
+                FLOAT,
+                FALSE,
+                sizeof!(Vertex),
+                (3 * sizeof!(f32)) as *const _,
+            );
             EnableVertexAttribArray(1);
-            VertexAttribPointer(2, 2, FLOAT, FALSE, sizeof!(Vertex), VERTEX_NORMAL_OFFSET);
+            VertexAttribPointer(
+                2,
+                2,
+                FLOAT,
+                FALSE,
+                sizeof!(Vertex),
+                (6 * sizeof!(f32)) as *const _,
+            );
             EnableVertexAttribArray(2);
             BindVertexArray(0);
         }
@@ -89,8 +99,10 @@ impl Mesh {
             use std::ffi::CString;
             let mut diffuseNr = 1u32;
             let mut specularNr = 1u32;
+            // debug!("Drawing mesh!");
             for i in 0..self.textures.len() {
                 ActiveTexture(TEXTURE0 + i as u32);
+                // debug!("Activated Texture {}", TEXTURE0 + i as u32);
                 let number: CString;
                 let name = &self.textures[i].type_s;
                 if name == "texture_diffuse" {
