@@ -8,10 +8,25 @@ layout(location = 4) in vec3 aBitangent;
 out VS_OUT {
     vec3 FragPos;
     vec2 TexCoords;
-    mat3 TangentLightPosPreCalc;
+    vec3 TangentLightPos;
+    vec3 TangentLightDir;
     vec3 TangentViewPos;
     vec3 TangentFragPos;
 } vs_out;
+
+struct SpotLight {
+    vec3 position;
+    vec3 direction;
+    float cutOff;
+    float outerCutOff;
+    vec3 ambient;
+    vec3 diffuse;
+    vec3 specular;
+    float constant;
+    float linear;
+    float quadratic;
+};
+uniform SpotLight spotLight;
 
 uniform mat4 model;
 uniform mat4 view;
@@ -33,7 +48,8 @@ void main()
 
     mat3 TBN = transpose(mat3(T, B, N));
 
-    vs_out.TangentLightPosPreCalc = TBN;
+    vs_out.TangentLightPos = TBN * spotLight.position;
+    vs_out.TangentLightDir = TBN * spotLight.direction;
     vs_out.TangentViewPos = TBN * viewPos;
     vs_out.TangentFragPos = TBN * vs_out.FragPos;
 
