@@ -39,6 +39,11 @@ fn main() -> LinuxExitCode {
         }
 
         let title = CString::new("My GLFW Window").unwrap();
+        glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
+        glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
+        glfwWindowHint(OPENGL_FORWARD_COMPAT, TRUE);
+        glfwWindowHint(OPENGL_PROFILE as i32, OPENGL_COMPAT_PROFILE as i32);
+        glfwWindowHint(VISIBLE, FALSE);
 
         let window: *mut GLFWwindow = glfwCreateWindow(
             SCREEN_WIDTH,
@@ -47,10 +52,6 @@ fn main() -> LinuxExitCode {
             ptr::null_mut(),
             ptr::null_mut(),
         );
-        glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
-        glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
-        glfwWindowHint(OPENGL_PROFILE as i32, OPENGL_CORE_PROFILE as i32);
-        glfwWindowHint(OPENGL_DEBUG_CONTEXT as i32, TRUE as i32);
         if window.is_null() {
             glfwTerminate();
             error!("Failed to create GLFW window!");
@@ -173,7 +174,7 @@ fn main() -> LinuxExitCode {
             cutOff: 12.5f32.to_radians().cos(),
             outerCutOff: 17.5f32.to_radians().cos(),
 
-            constant: 1f32,
+            constant: 1.1f32,
             linear: 0.09f32,
             quadratic: 0.032f32,
         };
@@ -197,6 +198,7 @@ fn main() -> LinuxExitCode {
         pointLightCollection.set_uniform(&shader, "pointLights");
         directionalLight.set_uniform(&shader, "dirLight");
 
+        glfwShowWindow(window);
         while glfwWindowShouldClose(window) == 0 {
             UPDATE_DELTATIME();
             process_input(window);

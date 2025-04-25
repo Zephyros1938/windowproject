@@ -1,7 +1,6 @@
 #![allow(non_snake_case, non_camel_case_types, dead_code)]
 use gl::{self, types::GLenum};
 use glfw::ffi::TRUE;
-use log::debug;
 use stb_image;
 
 #[repr(C)]

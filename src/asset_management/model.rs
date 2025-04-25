@@ -57,10 +57,20 @@ impl Model {
             match flags {
                 Some(n) => n,
                 None => vec![
+                    //TODO: Fix zsh: IOT instruction (core dumped)  ./target/release/windowproject
                     AIProcess::Triangulate,
                     AIProcess::FlipUVs,
-                    AIProcess::GenerateSmoothNormals,
+                    AIProcess::GenerateNormals,
                     AIProcess::CalculateTangentSpace,
+                    AIProcess::OptimizeMeshes,
+                    AIProcess::JoinIdenticalVertices,
+                    AIProcess::RemoveRedundantMaterials,
+                    AIProcess::SortByPrimitiveType,
+                    AIProcess::ImproveCacheLocality,
+                    AIProcess::FindDegenerates,
+                    AIProcess::FixOrRemoveInvalidData,
+                    AIProcess::FindInstances,
+                    AIProcess::ValidateDataStructure,
                 ],
             },
         )
