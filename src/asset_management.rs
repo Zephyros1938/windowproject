@@ -64,6 +64,7 @@ pub fn get_asset_path_cstr(path: &str) -> Result<CString, String> {
 }
 
 #[allow(dead_code)]
+#[deprecated = "This function is unstable and as of 4/24/2025 9:30PM does not work."]
 pub fn read_asset_to_cstr(path: &str) -> std::ffi::CString {
     let mut s = String::new();
     let _ = get_asset(path).unwrap().read_to_string(&mut s);

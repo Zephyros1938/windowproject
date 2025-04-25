@@ -16,6 +16,7 @@ use russimp::node::Node;
 use russimp::scene::Scene as AIScene;
 use russimp::scene::{PostProcess as AIProcess, PostProcessSteps};
 
+#[repr(C)]
 pub struct Model {
     pub meshes: Vec<Mesh>,
     pub directory: String,
@@ -24,6 +25,7 @@ pub struct Model {
 }
 
 impl Model {
+    #[inline(always)]
     pub fn new(path: &str, flags: Option<PostProcessSteps>, position: Option<glm::Vec3>) -> Self {
         let mut result = Self {
             textures_loaded: Vec::new(),
@@ -46,6 +48,7 @@ impl Model {
         }
     }
 
+    #[inline(always)]
     fn load_model(&mut self, path: &str, flags: Option<PostProcessSteps>) {
         debug!("Loading Model: {}", path);
 
@@ -75,6 +78,7 @@ impl Model {
         }
         debug!("Model Loaded: {}", path);
     }
+    #[inline(always)]
     fn process_node(&mut self, node: &Node, scene: &AIScene) {
         let t = Instant::now();
         debug!(
@@ -98,6 +102,7 @@ impl Model {
             node.name
         );
     }
+    #[inline(always)]
     fn process_mesh(&mut self, mesh: &AIMesh, scene: &AIScene) -> Mesh {
         let mut vertices: Vec<Vertex> = Vec::new();
         let mut indices: Vec<u32> = Vec::new();
@@ -183,6 +188,7 @@ impl Model {
 
         Mesh::new(vertices, indices, textures)
     }
+    #[inline(always)]
     fn load_material_textures(
         &mut self,
         mat: &AIMaterial,

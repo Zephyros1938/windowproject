@@ -1,8 +1,10 @@
 #![allow(non_snake_case, non_camel_case_types, dead_code)]
+use std::{ffi::CString, io::Read};
+
 use gl::types::{self, GLboolean, GLuint};
 use nalgebra_glm as glm;
 
-use crate::asset_management::read_asset_to_cstr;
+use crate::asset_management::{get_asset, read_asset_to_cstr};
 mod buffer;
 pub mod light;
 pub mod material;
@@ -11,24 +13,36 @@ pub struct Shader {
     ID: GLuint,
 }
 
+#[inline(always)]
 pub fn ShaderConstructor(vertexPath: &str, fragmentPath: &str) -> Shader {
     unsafe {
-        let vertexSource = read_asset_to_cstr(vertexPath);
-        let fragmentSource = read_asset_to_cstr(fragmentPath);
+        // Read shader files
+        let mut vertexCode = String::new();
+        get_asset(vertexPath)
+            .expect("Failed to read vertex shader file")
+            .read_to_string(&mut vertexCode)
+            .unwrap();
+        let mut fragmentCode = String::new();
+        get_asset(fragmentPath)
+            .expect("Failed to read vertex shader file")
+            .read_to_string(&mut fragmentCode)
+            .unwrap();
+
+        // Convert to CString
+        let vertexSource =
+            CString::new(vertexCode).expect("Could not convert vertex shader to CString");
+        let fragmentSource =
+            CString::new(fragmentCode).expect("Could not convert fragment shader to CString");
+
         let vertexShader: u32 = gl::CreateShader(gl::VERTEX_SHADER);
-        gl::ShaderSource(
-            vertexShader,
-            1,
-            crate::cstr_to_ptr_array!(vertexSource),
-            std::ptr::null(),
-        );
+        gl::ShaderSource(vertexShader, 1, &vertexSource.as_ptr(), std::ptr::null());
         gl::CompileShader(vertexShader);
         crate::check_shader_compile!(vertexShader);
         let fragmentShader: u32 = gl::CreateShader(gl::FRAGMENT_SHADER);
         gl::ShaderSource(
             fragmentShader,
             1,
-            crate::cstr_to_ptr_array!(fragmentSource),
+            &fragmentSource.as_ptr(),
             std::ptr::null(),
         );
         gl::CompileShader(fragmentShader);

@@ -38,7 +38,6 @@ pub unsafe fn TextureConstructor(
     type_s: String,
 ) -> Texture {
     unsafe {
-        debug!("Loading Texture");
         let mut texture = 0;
 
         gl::GenTextures(1, &mut texture);
@@ -124,7 +123,6 @@ pub unsafe fn TextureConstructor(
                 data,
             );
             gl::GenerateMipmap(gl::TEXTURE_2D);
-            debug!("Loaded Texture");
         } else {
             panic!("Failed to load texture: [{}]!", path);
         }
