@@ -48691,3 +48691,2279 @@ Fragment info
 	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
 	NODE : nanosuit.obj
 2025-04-25 07:19:39 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-25 07:27:24 - DEBUG - log4rs configured!
+2025-04-25 07:27:24 - DEBUG - gl_proc: 0x00007b1b7bba49c0
+2025-04-25 07:27:24 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:27:24 - DEBUG - Shader compiled successfully
+2025-04-25 07:27:24 - DEBUG - Shader compiled successfully
+2025-04-25 07:27:24 - DEBUG - Program linked successfully
+2025-04-25 07:27:24 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-25 07:27:24 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:27:24 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:27:24 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-25 07:27:25 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-25 07:27:25 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 1.88842756s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 6.467062ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 82.016µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 6.689501ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 5.479249ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 5.20474ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 161.103µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 40.645µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 105.533µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 109.24µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 1.147869ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 10.944368ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 599.938µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 426.415µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 65.446µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 769.753µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 165.798µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 46.531µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 56.164µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 42.643µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 2.646676ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 188.053µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 511.253µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 242.005µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 67.481µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 262.891µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.128µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 62.157µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 61.862µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 40.649µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 38.359µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 38.231µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.163µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 40.065µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 38.556µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 42.37µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.906µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.466µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.774µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 642.088µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 224.849µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 897.53µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 904.692µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 325.48µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 309.463µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 195.885µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 79.992µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 331.359µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 3.086914ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 247.289µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 71.68µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.942µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 42.688µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 38.628µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 39.094µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 5.668845ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 671.487µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 44.164µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 41.169µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 2.744368ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 179.083µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 163.469µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 200.461µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 177.714µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 3.231138ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 190.811µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 196.674µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 203.321µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 178.1µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 208.983µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 2.795866ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 1.138899ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 219.221µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 261.884µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 189.828µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 177.43µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 168.432µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 161.299µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 418.201µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 1.960866871s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:27:26 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-25 07:27:26 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 2.296408ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 199.393398ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 198.840132ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:27:26 - DEBUG - Finish Processing Node In 78.808µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:27:26 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:27:26 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-25 07:27:27 - DEBUG - Finish Processing Node In 168.916189ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:27:27 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-25 07:27:27 - DEBUG - Finish Processing Node In 155.829885ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:27:27 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-25 07:27:27 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-25 07:27:27 - DEBUG - Finish Processing Node In 180.219061ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:27:27 - DEBUG - Finish Processing Node In 906.361415ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:27:27 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-25 07:28:41 - DEBUG - log4rs configured!
+2025-04-25 07:28:41 - DEBUG - gl_proc: 0x000073b5955a59c0
+2025-04-25 07:28:41 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:28:41 - DEBUG - Shader compiled successfully
+2025-04-25 07:28:41 - DEBUG - Shader compiled successfully
+2025-04-25 07:28:41 - DEBUG - Program linked successfully
+2025-04-25 07:28:41 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-25 07:28:41 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:28:41 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:28:41 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-25 07:28:42 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-25 07:28:42 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.870059664s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 6.276602ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 78.957µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 6.371978ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 6.091394ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 5.430162ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 160.603µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 57.996µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 115.141µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 79.754µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.622383ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 10.251261ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 339.983µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 280.47µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 33.623µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 732.345µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 148.136µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.591µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 38.64µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 38.87µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.669596ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 190.6µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 545.077µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 292.475µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 71.373µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 246.891µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 40.568µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 116.571µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 83.445µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 38.479µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 52.376µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 68.053µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.218µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 39.549µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.053µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 42.445µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 41.723µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.992µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.397µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 730.014µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 202.785µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 936.366µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 915.907µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 319.069µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 388.642µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 2.261335ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 94.331µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 360.633µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 3.442945ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 336.458µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 83.865µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 55.415µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 54.683µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 36.892µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 37.834µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 5.508425ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 769.295µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 43.082µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 49.733µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 2.87112ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 204.371µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 173.031µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 147.719µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 159.98µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 3.080031ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 156.879µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 177.421µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 180.71µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 174.837µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 193.703µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 2.846383ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.187234ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 205.328µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 210.836µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 284.075µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 162.074µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 163.512µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 150.916µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 502.018µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.943868654s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:28:43 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-25 07:28:43 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:28:43 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-25 07:28:43 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-25 07:28:43 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-25 07:28:43 - DEBUG - Finish Processing Node In 1.62096ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:28:43 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:28:43 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-25 07:28:43 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 199.488765ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:28:44 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 196.709414ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:28:44 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 81.264µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:28:44 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 177.005976ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:28:44 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 162.899778ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:28:44 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-25 07:28:44 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 184.292892ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:28:44 - DEBUG - Finish Processing Node In 922.758758ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:28:44 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-25 07:32:51 - DEBUG - log4rs configured!
+2025-04-25 07:32:51 - DEBUG - gl_proc: 0x00007fc38d3a59c0
+2025-04-25 07:32:51 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:32:51 - DEBUG - Shader compiled successfully
+2025-04-25 07:32:51 - DEBUG - Shader compiled successfully
+2025-04-25 07:33:19 - DEBUG - log4rs configured!
+2025-04-25 07:33:19 - DEBUG - gl_proc: 0x00007ddb6f1579c0
+2025-04-25 07:33:19 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:33:19 - DEBUG - Shader compiled successfully
+2025-04-25 07:33:19 - ERROR - Shader compilation failed:
+0(45) : error C1503: undefined variable "NR_POINT_LIGHTS"
+0(45) : error C1307: non constant expression for array size
+
+2025-04-25 07:33:31 - DEBUG - log4rs configured!
+2025-04-25 07:33:31 - DEBUG - gl_proc: 0x00007651d6da59c0
+2025-04-25 07:33:31 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:33:31 - DEBUG - Shader compiled successfully
+2025-04-25 07:33:31 - DEBUG - Shader compiled successfully
+2025-04-25 07:33:31 - DEBUG - Program linked successfully
+2025-04-25 07:33:31 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-25 07:33:31 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:33:31 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:33:31 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-25 07:33:32 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-25 07:33:32 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.833073967s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 6.526634ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 80.07µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 6.833113ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 5.737603ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 5.00867ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 182.065µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 56.981µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 108.873µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 81.562µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.154165ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 10.956731ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 482.328µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 292.394µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 35.941µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 699.919µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 154.139µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 40.596µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 39.392µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 39.72µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.450897ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 176.477µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 507.141µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 238.749µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 64.008µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 242.961µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 37.524µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 61.553µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 90.249µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 38.731µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 37.189µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 36.628µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 43.096µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 39.739µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 40.294µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 43.53µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 38.99µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 55.294µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 38.802µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 843.412µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 211.58µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.078673ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 893.498µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 303.796µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 311.409µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.535767ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 87.034µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 334.662µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 3.187959ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 250.998µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 76.308µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 38.307µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 40.567µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 36.759µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 38.353µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 5.470694ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 606.641µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 56.9µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 36.967µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 2.623865ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 161.979µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 168.431µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 155.966µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 159.648µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 2.990786ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 180.88µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 195.021µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 187.001µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 179.013µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 206.188µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 3.092666ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 934.988µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 183.041µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 195.497µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 160.636µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 159.751µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 166.279µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 160.415µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 406.089µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 1.904960634s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:33:33 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-25 07:33:33 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 2.395823ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-25 07:33:33 - DEBUG - Finish Processing Node In 193.320232ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:33:33 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-25 07:33:33 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 205.167655ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:33:34 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 77.821µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:33:34 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 179.424785ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:33:34 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 152.40612ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:33:34 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-25 07:33:34 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 181.732913ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:33:34 - DEBUG - Finish Processing Node In 915.430416ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:33:34 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj
+2025-04-25 07:35:20 - DEBUG - log4rs configured!
+2025-04-25 07:35:20 - DEBUG - gl_proc: 0x0000794d639a49c0
+2025-04-25 07:35:20 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:35:20 - DEBUG - Shader compiled successfully
+2025-04-25 07:35:20 - ERROR - Shader compilation failed:
+0(119) : error C1503: undefined variable "i"
+
+2025-04-25 07:38:12 - DEBUG - log4rs configured!
+2025-04-25 07:38:12 - DEBUG - gl_proc: 0x00007935dfba59c0
+2025-04-25 07:38:12 - DEBUG - Using OpenGL version: 4.6.0 NVIDIA 570.133.07
+2025-04-25 07:38:12 - DEBUG - Shader compiled successfully
+2025-04-25 07:38:12 - DEBUG - Shader compiled successfully
+2025-04-25 07:38:12 - DEBUG - Program linked successfully
+2025-04-25 07:38:12 - DEBUG - Loading Model: models/backpack/backpack.obj
+2025-04-25 07:38:12 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:38:12 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:38:12 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/diffuse.jpg
+2025-04-25 07:38:13 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/specular.jpg
+2025-04-25 07:38:13 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/backpack/normal.png
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.857223993s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.028__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 6.626481ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.008__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 91.925µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.029__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 7.159553ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.009__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 5.419772ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.010__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 4.606693ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.011__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 188.639µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.029__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 58.538µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.030__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 104.293µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.012__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 85.835µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.013__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.156604ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.030__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 10.778141ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.014__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 394.31µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.031__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 293.341µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.031__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 33.587µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.032__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 706.407µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.032__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 187.345µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.033__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 71.488µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.034__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 56.787µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.035__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 68.381µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.036__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.390095ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.033__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 199.368µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.037__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 573.542µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.034__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 257.292µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.035__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 72.367µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.038__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 291.477µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.039__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 40.315µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.036__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 84.231µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.037__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 66.727µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.038__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.705µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.039__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 38.815µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.040__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.023µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.041__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.687µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.042__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 40.715µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.043__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 37.993µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.044__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 43.774µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.045__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.345µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.046__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 42.221µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.047__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.757µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.048__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 869.595µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.049__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 203.066µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.040__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.048099ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.041__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 922.816µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.042__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 315.614µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.043__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 311.509µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.044__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 224.376µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.045__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 89.603µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Plane.015__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 368.351µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.046__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 3.269205ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.047__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 292.978µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.050__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 95.675µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.048__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 40.879µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.051__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 41.698µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.052__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 39.374µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.053__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 41.128µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.054__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 5.564593ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : BezierCurve.003__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 677.56µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.049__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 42.8µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.055__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 36.825µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cylinder.056__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 2.622348ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.050__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 163.634µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.014__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 174.351µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.015__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 166.077µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.016__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 202.898µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.017__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 3.274867ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.051__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 169.881µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.018__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 188.411µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.019__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 207.973µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.020__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 170.642µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.021__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 206.847µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.052__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 2.601526ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.053__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.114779ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.054__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 167.88µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.022__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 172.521µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.023__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 171.305µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.024__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 160.668µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.025__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 190.519µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.026__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 167.297µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Sphere.027__0
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 448.116µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : Cube.055__0
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 1.927734237s
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/backpack
+	NODE : backpack.obj
+2025-04-25 07:38:14 - DEBUG - Model Loaded: models/backpack/backpack.obj
+2025-04-25 07:38:14 - DEBUG - Loading Model: models/nanosuit/nanosuit.obj
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_dif.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_ddn.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/glass_refl.png
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 3.870385ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Visor
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_dif.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_spec.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_ddn.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/leg_showroom_refl.png
+2025-04-25 07:38:14 - DEBUG - Finish Processing Node In 190.222612ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Legs
+2025-04-25 07:38:14 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_dif.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_spec.png
+2025-04-25 07:38:14 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_ddn.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/hand_showroom_refl.png
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 189.55671ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : hands
+2025-04-25 07:38:15 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 71.453µs
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Lights
+2025-04-25 07:38:15 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_dif.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_spec.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_ddn.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/arm_showroom_refl.png
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 168.490071ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Arms
+2025-04-25 07:38:15 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_diff.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_spec.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_ddn.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/helmet_showroom_refl.png
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 160.302254ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Helmet
+2025-04-25 07:38:15 - DEBUG - Start Processing Node
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_dif.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_spec.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_ddn.png
+2025-04-25 07:38:15 - DEBUG - Trying to load texture at: /home/zeph/.local/share/windowproject/assets/models/nanosuit/body_showroom_refl.png
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 180.972846ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : Body
+2025-04-25 07:38:15 - DEBUG - Finish Processing Node In 894.195106ms
+	MODEL: /home/zeph/.local/share/windowproject/assets/models/nanosuit
+	NODE : nanosuit.obj
+2025-04-25 07:38:15 - DEBUG - Model Loaded: models/nanosuit/nanosuit.obj

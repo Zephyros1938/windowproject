@@ -1,6 +1,9 @@
 #version 330 core
 out vec4 FragColor;
 
+#define NR_POINT_LIGHTS 4
+#define MATERIAL_SHININESS 32.0
+
 struct Material {
     sampler2D texture_diffuse1;
     sampler2D texture_specular1;
@@ -42,13 +45,11 @@ in VS_OUT {
     vec3 FragPos;
     vec2 TexCoords;
     vec3 TangentLightPos;
+    vec3 TangentPointLightPos[NR_POINT_LIGHTS];
     vec3 TangentLightDir;
     vec3 TangentViewPos;
     vec3 TangentFragPos;
 } fs_in;
-
-#define NR_POINT_LIGHTS 4
-#define MATERIAL_SHININESS 32.0
 
 uniform vec3 viewPos;
 uniform Material material;
@@ -79,9 +80,9 @@ void main()
     vec3 result = CalcDirLight(dirLight, normal, viewDir);
     // phase 2: point lights
     for (int i = 0; i < NR_POINT_LIGHTS; i++)
-        result += CalcPointLight(pointLights[i], normal, fs_in.FragPos, viewDir);
+        result += CalcPointLight(pointLights[i], normal, fs_in.TangentFragPos, viewDir);
     // phase 3: spot light
-    result += CalcSpotLight(spotLight, normal, fs_in.FragPos, viewDir);
+    result += CalcSpotLight(spotLight, normal, fs_in.TangentFragPos, viewDir);
 
     FragColor = vec4(result, 1.0);
     // FragColor = texture(material.texture_normal1, TexCoords);
@@ -93,11 +94,9 @@ vec3 color() {
 
 vec3 CalcDirLight(DirectionalLight light, vec3 normal, vec3 viewDir)
 {
-    vec3 tangentLightPos = fs_in.TangentLightPos * vec3(0.0);
-
     vec3 ambient = light.ambient * color();
 
-    vec3 lightDir = normalize(tangentLightPos - fs_in.TangentFragPos);
+    vec3 lightDir = normalize(-fs_in.TangentLightPos);
     float diff = max(dot(lightDir, normal), 0.0);
     vec3 diffuse = diff * color();
 
@@ -115,11 +114,9 @@ vec3 CalcPointLight(PointLight light, vec3 normal, vec3 fragPos, vec3 viewDir)
     float distance = length(light.position - fragPos);
     float attenuation = 1.0 / (light.constant + light.linear * distance + light.quadratic * (distance * distance));
 
-    vec3 tangentLightPos = fs_in.TangentLightPos * light.position;
-
     vec3 ambient = light.ambient * color();
 
-    vec3 lightDir = normalize(tangentLightPos - fs_in.TangentFragPos);
+    vec3 lightDir = normalize(light.position - fs_in.TangentFragPos);
     float diff = max(dot(lightDir, normal), 0.0);
     vec3 diffuse = light.diffuse * diff * color();
 
