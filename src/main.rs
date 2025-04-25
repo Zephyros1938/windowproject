@@ -41,8 +41,8 @@ fn main() -> LinuxExitCode {
         let title = CString::new("My GLFW Window").unwrap();
         glfwWindowHint(CONTEXT_VERSION_MAJOR as i32, 3);
         glfwWindowHint(CONTEXT_VERSION_MINOR as i32, 3);
-        glfwWindowHint(OPENGL_FORWARD_COMPAT, TRUE);
         glfwWindowHint(OPENGL_PROFILE as i32, OPENGL_COMPAT_PROFILE as i32);
+        glfwWindowHint(OPENGL_FORWARD_COMPAT, TRUE);
         glfwWindowHint(VISIBLE, FALSE);
 
         let window: *mut GLFWwindow = glfwCreateWindow(
@@ -174,7 +174,7 @@ fn main() -> LinuxExitCode {
             cutOff: 12.5f32.to_radians().cos(),
             outerCutOff: 17.5f32.to_radians().cos(),
 
-            constant: 1.1f32,
+            constant: 1f32,
             linear: 0.09f32,
             quadratic: 0.032f32,
         };
@@ -184,11 +184,15 @@ fn main() -> LinuxExitCode {
             "models/backpack/backpack.obj",
             None,
             Some(glm::vec3(0.0, 0.0, 0.0)),
+            None,
+            Some(false),
         );
-        let nanosuit: Model = Model::new(
+        let mut nanosuit: Model = Model::new(
             "models/nanosuit/nanosuit.obj",
             None,
             Some(glm::vec3(0.0, 0.0, 10.0)),
+            Some((90f32.to_radians(), glm::vec3(0.0, 1.0, 0.0))),
+            Some(false),
         );
 
         shader.setMat4("view", view, gl::FALSE);
@@ -205,6 +209,8 @@ fn main() -> LinuxExitCode {
 
             gl::ClearColor(0.1, 0.1, 0.1, 1.0);
             gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT);
+
+            nanosuit.rotation.0 += DELTATIME as f32;
 
             cameraSpotLight.position = CAMERA.get_position();
             cameraSpotLight.direction = CAMERA.get_front();

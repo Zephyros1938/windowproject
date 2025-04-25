@@ -21,28 +21,55 @@ pub struct Model {
     pub meshes: Vec<Mesh>,
     pub directory: String,
     pub textures_loaded: Vec<Texture>,
-    pub position: glm::Mat4,
+    pub position: glm::Vec3,
+    pub rotation: (f32, glm::Vec3),
+    pub height_mapping_enabled: bool,
 }
 
 impl Model {
     #[inline(always)]
-    pub fn new(path: &str, flags: Option<PostProcessSteps>, position: Option<glm::Vec3>) -> Self {
+    pub fn new(
+        path: &str,
+        flags: Option<PostProcessSteps>,
+        position: Option<glm::Vec3>,
+        rotation: Option<(f32, glm::Vec3)>,
+        height_mapping_enabled: Option<bool>,
+    ) -> Self {
         let mut result = Self {
             textures_loaded: Vec::new(),
             meshes: Vec::new(),
             directory: String::new(),
             position: match position {
-                Some(n) => glm::translate(&glm::Mat4::identity(), &n),
-                None => glm::Mat4::identity(),
+                Some(n) => n,
+                None => glm::Vec3::identity(),
+            },
+            rotation: match rotation {
+                Some(n) => n,
+                None => (0f32, glm::vec3(0f32, -1.0, 0.0)),
+            },
+            height_mapping_enabled: match height_mapping_enabled {
+                Some(n) => n,
+                None => false,
             },
         };
         result.load_model(path, flags);
         result
     }
     pub fn draw(&self, shader: &Shader) {
+        unsafe {
+            shader.setBool("heightMappingEnabled", self.height_mapping_enabled);
+        }
         for mesh in self.meshes.iter() {
             unsafe {
-                shader.setMat4("model", self.position, gl::FALSE);
+                shader.setMat4(
+                    "model",
+                    glm::rotate(
+                        &glm::translate(&glm::Mat4::identity(), &self.position),
+                        self.rotation.0,
+                        &self.rotation.1,
+                    ),
+                    gl::FALSE,
+                );
             }
             mesh.draw(shader);
         }
@@ -236,10 +263,10 @@ impl Model {
                     TextureConstructor(
                         full_path.clone(),
                         true,
-                        None,
-                        None,
-                        Some(gl::NEAREST_MIPMAP_NEAREST),
-                        Some(gl::NEAREST),
+                        Some(gl::TEXTURE_WRAP_S),
+                        Some(gl::TEXTURE_WRAP_T),
+                        Some(gl::LINEAR_MIPMAP_LINEAR),
+                        Some(gl::LINEAR),
                         typename.clone(),
                     )
                 };

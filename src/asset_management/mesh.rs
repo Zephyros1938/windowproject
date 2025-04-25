@@ -94,6 +94,24 @@ impl Mesh {
                 (6 * sizeof!(f32)) as *const _,
             );
             EnableVertexAttribArray(2);
+            VertexAttribPointer(
+                3,
+                3,
+                FLOAT,
+                FALSE,
+                sizeof!(Vertex),
+                (8 * sizeof!(f32)) as *const _,
+            );
+            EnableVertexAttribArray(3);
+            VertexAttribPointer(
+                4,
+                3,
+                FLOAT,
+                FALSE,
+                sizeof!(Vertex),
+                (11 * sizeof!(f32)) as *const _,
+            );
+            EnableVertexAttribArray(4);
             BindVertexArray(0);
         }
     }
