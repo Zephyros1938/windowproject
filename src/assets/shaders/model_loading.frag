@@ -78,22 +78,13 @@ void main()
     vec3 normal = texture(material.texture_normal1, texCoords).rgb;
     normal = normalize(normal * 2.0 - 1.0);
 
-    // == =====================================================
-    // Our lighting is set up in 3 phases: directional, point lights and an optional flashlight
-    // For each phase, a calculate function is defined that calculates the corresponding color
-    // per lamp. In the main() function we take all the calculated colors and sum them up for
-    // this fragment's final color.
-    // == =====================================================
-    // phase 1: directional lighting
     vec3 result = CalcDirLight(dirLight, normal, viewDir, texCoords);
-    // phase 2: point lights
+
     for (int i = 0; i < NR_POINT_LIGHTS; i++)
         result += CalcPointLight(pointLights[i], normal, fs_in.TangentFragPos, viewDir, texCoords);
-    // phase 3: spot light
     result += CalcSpotLight(spotLight, normal, fs_in.TangentFragPos, viewDir, texCoords);
 
     FragColor = vec4(result, 1.0);
-    // FragColor = texture(material.texture_height1, fs_in.TexCoords);
 }
 
 vec2 ParallaxMapping(vec2 texCoords, vec3 viewDir) {
@@ -159,8 +150,6 @@ vec3 CalcPointLight(PointLight light, vec3 normal, vec3 fragPos, vec3 viewDir, v
     vec3 color = color(texCoords);
     float distance = length(light.position - fragPos);
     float attenuation = 1.0 / (light.constant + light.linear * distance + light.quadratic * (distance * distance));
-
-    // vec3 tangentLightPos = fs_in.TangentLightPos * light.position;
 
     vec3 ambient = light.ambient * color;
 
