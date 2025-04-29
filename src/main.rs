@@ -19,6 +19,7 @@ mod macros;
 mod shader;
 mod texture;
 mod util;
+use imgui_rs as imgui;
 
 static mut SCREEN_WIDTH: i32 = 1920;
 static mut SCREEN_HEIGHT: i32 = 1080;
