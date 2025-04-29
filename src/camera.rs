@@ -38,8 +38,8 @@ pub struct Camera {
     world_up: glm::Vec3,
     yaw: f32,
     pitch: f32,
-    mouse_sensitivity: f32,
-    move_speed: f32,
+    pub mouse_sensitivity: f32,
+    pub move_speed: f32,
     pub zoom: f32,
     constrain_pitch: bool,
     aspect_ratio: f32,
@@ -67,6 +67,10 @@ impl Camera {
 
     pub fn get_front(&self) -> glm::Vec3 {
         self.front
+    }
+
+    pub fn get_sensitivity(&self) -> f32 {
+        self.mouse_sensitivity
     }
 
     pub fn process_keyboard(&mut self, direction: CameraMovement, deltatime: f64) {
@@ -236,6 +240,12 @@ impl cpp_camera {
 
     pub fn get_front(&self) -> glm::Vec3 {
         self.camera.expect("Camera not initialized").get_front()
+    }
+
+    pub fn get_sensitivity(&self) -> f32 {
+        self.camera
+            .expect("Camera not initialized")
+            .get_sensitivity()
     }
 
     pub fn process_keyboard(&mut self, direction: CameraMovement, deltatime: f64) {

@@ -15,11 +15,11 @@ use std::ptr::{self};
 use util::LinuxExitCode;
 mod asset_management;
 mod camera;
+mod gui;
 mod macros;
 mod shader;
 mod texture;
 mod util;
-use imgui_rs as imgui;
 
 static mut SCREEN_WIDTH: i32 = 1920;
 static mut SCREEN_HEIGHT: i32 = 1080;
@@ -34,6 +34,8 @@ static mut CAMERA: cpp_camera = cpp_camera { camera: None };
 fn main() -> LinuxExitCode {
     unsafe {
         util::init_logging();
+        gui::Font::load_ttf("fonts/Arial.ttf").unwrap();
+        return LinuxExitCode::OK;
         if glfwInit() == 0 {
             error!("GLFW failed to initialize!");
             panic!("GLFW failed to initialize!");
@@ -268,6 +270,54 @@ extern "C" fn process_input(window: *mut GLFWwindow) {
         }
         if glfwGetKey(window, KEY_D) == PRESS {
             CAMERA.process_keyboard(camera::CameraMovement::RIGHT, DELTATIME);
+        }
+
+        let mut mousepos = (0.0f64, 0.0f64);
+        glfwGetCursorPos(window, &mut mousepos.0, &mut mousepos.1);
+
+        if glfwGetKey(window, KEY_DOWN) == PRESS
+            || glfwGetKey(window, KEY_LEFT) == PRESS
+            || glfwGetKey(window, KEY_RIGHT) == PRESS
+            || glfwGetKey(window, KEY_UP) == PRESS
+        {
+            let xpos = mousepos.0 as f32;
+            let ypos = mousepos.1 as f32;
+
+            if FIRST_MOUSE {
+                LAST_X = xpos;
+                LAST_Y = ypos;
+                FIRST_MOUSE = false;
+            }
+
+            let xoffset = xpos - LAST_X;
+            let yoffset = LAST_Y - ypos;
+
+            let sensitivity = CAMERA.get_sensitivity() * 90f32;
+
+            let incrX = sensitivity * {
+                if glfwGetKey(window, KEY_LEFT) == PRESS {
+                    1f32
+                } else if glfwGetKey(window, KEY_RIGHT) == PRESS {
+                    -1f32
+                } else {
+                    0f32
+                }
+            };
+
+            let incrY = sensitivity * {
+                if glfwGetKey(window, KEY_UP) == PRESS {
+                    1f32
+                } else if glfwGetKey(window, KEY_DOWN) == PRESS {
+                    -1f32
+                } else {
+                    0f32
+                }
+            };
+
+            LAST_X = xpos + incrX;
+            LAST_Y = ypos + incrY;
+
+            CAMERA.process_mouse(xoffset, yoffset);
         }
     }
 }
