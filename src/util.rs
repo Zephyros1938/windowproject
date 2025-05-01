@@ -41,7 +41,7 @@ impl BinaryReader {
     pub fn get_uint8(&mut self) -> u8 {
         let mut buf = [0u8; 1];
         self.f.seek(SeekFrom::Start(self.position)).unwrap();
-        self.f.read_exact(&mut buf).unwrap();
+        self.f.read(&mut buf).unwrap();
         self.position += 1;
         buf[0]
     }
@@ -76,8 +76,8 @@ impl BinaryReader {
         self.get_int16()
     }
 
-    pub fn get_ufword(&mut self) -> i32 {
-        self.get_int32()
+    pub fn get_ufword(&mut self) -> u16 {
+        self.get_uint16()
     }
 
     pub fn get_offset16(&mut self) -> u16 {
@@ -99,7 +99,7 @@ impl BinaryReader {
     pub fn get_string(&mut self, length: usize) -> String {
         let mut buf = vec![0u8; length];
         self.f.seek(SeekFrom::Start(self.position)).unwrap();
-        self.f.read_exact(&mut buf).unwrap();
+        self.f.read(&mut buf).unwrap();
         self.position += length as u64;
         String::from_utf8_lossy(&buf).into_owned()
     }

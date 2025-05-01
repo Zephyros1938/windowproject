@@ -34,8 +34,8 @@ static mut CAMERA: cpp_camera = cpp_camera { camera: None };
 fn main() -> LinuxExitCode {
     unsafe {
         util::init_logging();
-        gui::Font::load_ttf("fonts/Arial.ttf").unwrap();
-        return LinuxExitCode::OK;
+        let ttf_arial = gui::TTF::new("fonts/Arial.ttf");
+        // return LinuxExitCode::OK;
         if glfwInit() == 0 {
             error!("GLFW failed to initialize!");
             panic!("GLFW failed to initialize!");
